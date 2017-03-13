@@ -46,7 +46,7 @@ console.log(person2.name) // name
 
 让我们用一张图表示构造函数和实例原型之间的关系：
 
-![原型图1](images/prototype1.png)
+![原型图1](Images/prototype1.png)
 
 在这张图中我们用Object.prototype表示实例原型
 
@@ -68,7 +68,7 @@ console.log(person.__proto__ === Person.prototype); //true
 
 于是我们更新下关系图：
 
-![原型图2](images/prototype2.png)
+![原型图2](Images/prototype2.png)
 
 既然实例对象和构造函数都可以指向原型，那么原型是否有属性指向构造函数或者实例呢？
 
@@ -87,7 +87,7 @@ console.log(Person === Person.prototype.constructor); //true
 
 所以再更新下关系图：
 
-![原型图3](images/prototype3.png)
+![原型图3](Images/prototype3.png)
 
 综上我们已经得出：
 
@@ -144,7 +144,7 @@ console.log(obj.name) // name
 
 所以原型对象是通过Object构造函数生成的，结合之前所讲,实例的\_\_proto\_\_指向构造函数的prototype,所以我们再更新下关系图：
 
-![关系图4](images/prototype4.png)
+![关系图4](Images/prototype4.png)
 
 ## 原型链
 
@@ -154,7 +154,7 @@ null，嗯，就是null,所以查到Object.prototype就可以停止查找了
 
 所以最后一张关系图就是
 
-![关系图5](images/prototype5.png)
+![关系图5](Images/prototype5.png)
 
 顺便还要说一下，图中由相互关联的原型组成的链状结构就是原型链，也就是蓝色的这条线。
 
