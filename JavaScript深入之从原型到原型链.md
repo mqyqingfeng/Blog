@@ -46,7 +46,7 @@ console.log(person2.name) // name
 
 让我们用一张图表示构造函数和实例原型之间的关系：
 
-![原型图1](Images/prototype1.png)
+![原型图1](images/prototype1.png)
 
 在这张图中我们用Object.prototype表示实例原型
 
@@ -68,7 +68,7 @@ console.log(person.__proto__ === Person.prototype); //true
 
 于是我们更新下关系图：
 
-![原型图2](Images/prototype2.png)
+![原型图2](images/prototype2.png)
 
 既然实例对象和构造函数都可以指向原型，那么原型是否有属性指向构造函数或者实例呢？
 
@@ -87,7 +87,7 @@ console.log(Person === Person.prototype.constructor); //true
 
 所以再更新下关系图：
 
-![原型图3](Images/prototype3.png)
+![原型图3](images/prototype3.png)
 
 综上我们已经得出：
 
