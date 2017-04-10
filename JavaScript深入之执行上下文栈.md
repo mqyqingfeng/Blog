@@ -1,4 +1,4 @@
-# JavaScript深入之执行上下文
+# JavaScript深入之执行上下文栈
 
 ## 顺序执行？
 
