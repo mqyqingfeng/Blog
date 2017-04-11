@@ -1,8 +1,10 @@
 # JavaScript深入之变量对象
 
-在《JavaScript深入之执行上下文栈》中讲到，当JavaScript代码执行一段可执行代码(executable code)时，会创建对应的执行上下文(execution context)。
+## 前言
 
-对于每个执行上下文，都有三个重要属性
+在上篇[《JavaScript深入之执行上下文栈》](https://github.com/mqyqingfeng/Blog/blob/master/JavaScript%E6%B7%B1%E5%85%A5%E4%B9%8B%E6%89%A7%E8%A1%8C%E4%B8%8A%E4%B8%8B%E6%96%87%E6%A0%88.md)中讲到，当JavaScript代码执行一段可执行代码(executable code)时，会创建对应的执行上下文(execution context)。
+
+对于每个执行上下文，都有三个重要属性：
 
 * 变量对象(Variable object，VO)
 * 作用域链(Scope chain)
@@ -24,18 +26,18 @@
 
 例如，当JavaScript 代码引用 parseInt() 函数时，它引用的是全局对象的 parseInt 属性。全局对象是作用域链的头，还意味着在顶层 JavaScript 代码中声明的所有变量都将成为全局对象的属性。
 
-如果看的不是很懂的话，让我再来介绍下全局对象，让我们用global表示全局对象
+如果看的不是很懂的话，让我再来介绍下全局对象:
 
-1.全局对象是由Object构造函数实例化的一个对象
-
-```js
-console.log(this instanceof Object);
-```
-
-2. 可以通过this引用，在客户端JavaScript中，全局对象就是Window对象
+1.可以通过this引用，在客户端JavaScript中，全局对象就是Window对象
 
 ```js
 console.log(this);
+```
+
+2.全局对象是由Object构造函数实例化的一个对象
+
+```js
+console.log(this instanceof Object);
 ```
 
 3.预定义了一堆，嗯，一大堆函数和属性
@@ -59,7 +61,7 @@ console.log(this.a);
 var a = 1;
 console.log(window.a);
 
-window.b = 2;
+this.window.b = 2;
 console.log(this.b)
 ```
 
@@ -152,6 +154,8 @@ AO = {
 在进入执行上下文时会给变量对象添加形参、函数声明、变量声明等初始的属性值，
 在代码执行阶段，会再次修改属性值
 
+## 思考题
+
 最后让我们看几个例子：
 
 1.
@@ -173,7 +177,8 @@ bar();
 第一段会报错：Uncaught ReferenceError: a is not defined
 第二段会打印1
 
-这是因为函数中的"a"并没有通过var关键字声明，所有不会被存放在AO中，
+这是因为函数中的"a"并没有通过var关键字声明，所有不会被存放在AO中
+
 第一段执行console的时候，AO的值是：
 ```js
 AO = {
