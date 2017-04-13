@@ -1,5 +1,7 @@
 # JavaScript深入之this
 
+## 前言
+
 在《JavaScript深入之执行上下文栈》中讲到，当JavaScript代码执行一段可执行代码(executable code)时，会创建对应的执行上下文(execution context)。
 
 对于每个执行上下文，都有三个重要属性
@@ -12,7 +14,7 @@
 
 ……
 
-因为要涉及到ECMASciript规范。
+因为我们要从ECMASciript5规范开始讲起。
 
 先奉上ECMAScript 5.1规范地址：
 
@@ -21,6 +23,8 @@
 中文版：[http://yanhaijing.com/es5/#115](http://yanhaijing.com/es5/#115)
 
 让我们开始简单的了解规范吧！
+
+## Types
 
 首先是第8章Types：
 
@@ -34,11 +38,13 @@
 
 ECMAScript的类型分为语言类型和规范类型。
 
-ECMAScript语言类型是jser直接使用ECMAScript可以操作的。其实就是我们常说的Undefined, Null, Boolean, String, Number, 和 Object。
+ECMAScript语言类型是开发者直接使用ECMAScript可以操作的。其实就是我们常说的Undefined, Null, Boolean, String, Number, 和 Object。
 
 而规范类型相当于meta-values，是用来用算法描述ECMAScript语言结构和ECMAScript语言类型的。规范类型包括：Reference, List, Completion, Property Descriptor, Property Identifier, Lexical Environment, 和 Environment Record。
 
-没懂？没关系，我们重点看Reference
+没懂？没关系，我们重点看其中的Reference类型。
+
+## Reference
 
 那什么又是Reference？
 
@@ -72,7 +78,7 @@ ECMAScript语言类型是jser直接使用ECMAScript可以操作的。其实就�
 
 reference name是字符串。
 
-那base value 和 referenced name到底是什么呢？
+可是这些到底是什么呢？
 
 让我们简洁的理解base value是属性所在的对象或者就是EnvironmentRecord，referenced name就是属性的名称
 
@@ -122,6 +128,8 @@ var fooBarReference = {
 
 简单的理解：base value是object，就返回true
 
+## GetValue
+
 除此之外，紧接着规范中就讲了一个GetValue方法，在8.7.1章 
 
 简单模拟GetValue的使用：
@@ -138,9 +146,11 @@ var fooReference = {
 GetValue(fooReference) // 1;
 ```
 
-GetValue返回对象属性真正的值，但是要注意，调用GetValue，返回的将是具体的值，而不再是一个Reference，这个很重要。
+GetValue返回对象属性真正的值，但是要注意，调用GetValue，**返回的将是具体的值，而不再是一个Reference**，这个很重要。
 
 那为什么要讲References呢？
+
+## 如何确定this的值
 
 看规范11.2.3 Function Calls。
 
@@ -216,7 +226,7 @@ foo.bar(); // MemberExpression是foo.bar
 
 所以简单理解MemberExpression其实就是()左边的部分
 
-接下来就是判断MemberExpression的结果是不是Reference，这时候就要看规范是如何处理各种MemberExpression，看规范是不是会返回一个Reference类型。
+接下来就是判断MemberExpression的结果是不是Reference，这时候就要看规范是如何处理各种MemberExpression，看规范规定这些操作是不是会返回一个Reference类型。
 
 举最后一个例子：
 
@@ -272,6 +282,7 @@ var Reference = {
 剩下的就很快了：
 
 看试验2，使用了()包住了foo.bar
+
 查看规范11.1.6 The Grouping Operator 
 
 >Return the result of evaluating Expression. This may be of type Reference.
@@ -289,6 +300,7 @@ var Reference = {
 因为使用了GetValue，所以返回的不是reference类型，this为undefined
 
 看试验4，逻辑云算法
+
 查看规范11.11 Binary Logical Operators：
 
 计算第二步：
@@ -304,7 +316,8 @@ var Reference = {
 
 因为使用了GetValue，所以返回的不是reference类型，this为undefined
 
-在非严格模式下，this的值为undefined的时候，其值会被隐式转换为全局对象。
+
+但是注意在非严格模式下，this的值为undefined的时候，其值会被隐式转换为全局对象。
 
 所以最后一个例子的结果是：
 
@@ -359,8 +372,13 @@ MemberExpression是foo，解析标识符
 
 所以最后this的值是undefined
 
+## 多说一句
 
+尽管我们不可能去确定每一个this的指向都从规范的角度去思考，久而久之，我们就会总结各种情形来告诉大家这种情形下this的指向，但是能从规范的角度去看待this的指向，绝对是一个不一样的角度，该文还是有些晦涩难懂，希望大神指正！
 
+## 更多
+
+JavaScript深入系列的其他文章可以在 [https://github.com/mqyqingfeng/Blog](https://github.com/mqyqingfeng/Blog) 查看
 
 
 
