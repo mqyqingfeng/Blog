@@ -125,7 +125,7 @@ AO = {
     },
     a: 1,
     b: undefined,
-    c: reference to function c(),
+    c: reference to function c(){},
     d: undefined
 }
 ```
@@ -134,7 +134,7 @@ AO = {
 
 在代码执行阶段，会顺序执行代码，根据代码，修改变量对象的值
 
-还是上面的例子，当代码执行时，这时候的AO是：
+还是上面的例子，当代码执行完后，这时候的AO是：
 
 ```js
 AO = {
@@ -144,8 +144,8 @@ AO = {
     },
     a: 1,
     b: 3,
-    c: reference to function c(),
-    d: undefined
+    c: reference to function c(){},
+    d: reference to FunctionExpression "d"
 }
 ```
 
@@ -157,7 +157,7 @@ AO = {
 
 3. 在进入执行上下文时会给变量对象添加形参、函数声明、变量声明等初始的属性值
 
-4. 在代码执行阶段，会再次修改属性值
+4. 在代码执行阶段，会再次修改变量对象的属性值
 
 ## 思考题
 
@@ -215,6 +215,12 @@ var foo = 1;
 
 这是因为在进入执行上下文时，首先会处理函数声明，其次会处理变量声明，如果如果变量名称跟已经声明的形式参数或函数相同，则变量声明不会干扰已经存在的这类属性。
 
-## 更多
+## 本文相关链接
 
-JavaScript深入系列的更多文章可以在 [https://github.com/mqyqingfeng/Blog](https://github.com/mqyqingfeng/Blog) 查看
+[《JavaScript深入之执行上下文栈》](https://github.com/mqyqingfeng/Blog/blob/master/JavaScript%E6%B7%B1%E5%85%A5%E4%B9%8B%E6%89%A7%E8%A1%8C%E4%B8%8A%E4%B8%8B%E6%96%87%E6%A0%88.md)
+
+## 深入系列
+
+JavaScript深入系列预计写十五篇左右，旨在帮大家捋顺JavaScript底层知识，重点讲解如原型、作用域、执行上下文、变量对象、this、闭包、按值传递、call、apply、bind、new、继承等难点概念，与罗列它们的用法不同，这个系列更注重通过写demo，捋过程、模拟实现，结合ES规范等方法来讲解。
+
+所有文章和demo都可以在github上[https://github.com/mqyqingfeng/Blog](https://github.com/mqyqingfeng/Blog)找到。如果有错误或者不严谨的地方，请务必给予指正，十分感谢。如果喜欢或者有所启发，欢迎star，对作者也是一种鼓励。
