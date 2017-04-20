@@ -181,6 +181,8 @@ person.constructor === Person.prototype.constructor
 
 最后是关于继承，前面我们讲到“每一个对象都会从原型"继承"属性”,实际上，继承是一个十分具有迷惑性的说法，引用《你不知道的JavaScript》中的话，就是:继承意味着复制操作，然而JavaScript默认并不会复制对象的属性，相反，JavaScript只是在两个对象之间创建一个关联，这样，一个对象就可以通过委托访问另一个对象的属性和函数，所以与其叫继承，委托的说法反而更准确些。
 
-## 更多
+## 深入系列
 
-JavaScript深入系列的更多文章可以在 [https://github.com/mqyqingfeng/Blog](https://github.com/mqyqingfeng/Blog) 查看
+JavaScript深入系列预计写十五篇左右，旨在帮大家捋顺JavaScript底层知识，重点讲解如原型、作用域、执行上下文、变量对象、this、闭包、按值传递、call、apply、bind、new、继承等难点概念，与罗列它们的用法不同，这个系列更注重通过写demo，捋过程、模拟实现，结合ES规范等方法来讲解。
+
+所有文章和demo都可以在github上[https://github.com/mqyqingfeng/Blog](https://github.com/mqyqingfeng/Blog)找到。如果有错误或者不严谨的地方，请务必给予指正，十分感谢。如果喜欢或者有所启发，欢迎star，对作者也是一种鼓励。
