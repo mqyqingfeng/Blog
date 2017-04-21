@@ -22,7 +22,7 @@
 
 中文版：[http://yanhaijing.com/es5/#115](http://yanhaijing.com/es5/#115)
 
-让我们开始简单的了解规范吧！
+让我们开始了解规范吧！
 
 ## Types
 
@@ -374,11 +374,13 @@ MemberExpression是foo，解析标识符
 
 ## 多说一句
 
-尽管我们不可能去确定每一个this的指向都从规范的角度去思考，久而久之，我们就会总结各种情形来告诉大家这种情形下this的指向，但是能从规范的角度去看待this的指向，绝对是一个不一样的角度，该文还是有些晦涩难懂，希望大神指正！
+尽管我们不可能去确定每一个this的指向都从规范的角度去思考，久而久之，我们就会总结各种情形来告诉大家这种情形下this的指向，但是能从规范的角度去看待this的指向，绝对是一个不一样的角度，该文有不严谨的地方，还请大神指正！
 
-## 更多
+## 深入系列
 
-JavaScript深入系列的其他文章可以在 [https://github.com/mqyqingfeng/Blog](https://github.com/mqyqingfeng/Blog) 查看
+JavaScript深入系列预计写十五篇左右，旨在帮大家捋顺JavaScript底层知识，重点讲解如原型、作用域、执行上下文、变量对象、this、闭包、按值传递、call、apply、bind、new、继承等难点概念，与罗列它们的用法不同，这个系列更注重通过写demo，捋过程、模拟实现，结合ES规范等方法来讲解。
+
+所有文章和demo都可以在github上[https://github.com/mqyqingfeng/Blog](https://github.com/mqyqingfeng/Blog)找到。如果有错误或者不严谨的地方，请务必给予指正，十分感谢。如果喜欢或者有所启发，欢迎star，对作者也是一种鼓励。
 
 
 
