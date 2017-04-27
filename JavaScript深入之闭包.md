@@ -1,6 +1,6 @@
 # JavaScript深入之闭包
 
-## 闭包的定义
+## 定义
 
 MDN对闭包的定义为：
 
@@ -48,7 +48,7 @@ ECMAScript中，闭包指的是：
 
 接下来就讲讲实践上的闭包。
 
-## 闭包的效果分析
+## 分析
 
 让我们先写个例子，例子依然来自《JavaScript权威指南》，稍微做点改动：
 
@@ -95,9 +95,9 @@ fContext = {
 }
 ```
 
-对的，就是这个作用域链，f函数依然可以读取到checkscopeContext.AO的值，说明即使checkscopeContext被销毁了，但是checkscopeContext.AO依然还活在内存中！！！对的，它越狱了！！！
+对的，就是因为这个作用域链，f函数依然可以读取到checkscopeContext.AO的值，说明即使checkscopeContext被销毁了，但是checkscopeContext.AO依然活在f函数的作用域链中，既然活着，自然是占着内存嘛~
 
-所以，函数+能够访问的自由变量构成了闭包，而JavaScript是通过让父上下文的AO在父上下文被销毁的时候，依然活在内存中，实现了闭包！
+所以，函数+能够访问的自由变量构成了闭包，而JavaScript是通过让父上下文的AO在父上下文被销毁的时候，依然活在子上下文的作用链中，实现了闭包。
 
 所以，让我们再看一遍实践角度上闭包的定义：
 
@@ -208,6 +208,22 @@ data[0]Context的AO并没有i值，所以会沿着作用域链从匿名函数Con
 
 data[1]和data[2]是一样的道理。
 
-## 更多
+## 相关链接
 
-JavaScript深入系列的更多文章可以在 [https://github.com/mqyqingfeng/Blog](https://github.com/mqyqingfeng/Blog) 查看
+如果想了解执行上下文的具体变化，不妨循序渐进，阅读这五篇：
+
+[《JavaScript深入之执行上下文栈》](https://github.com/mqyqingfeng/Blog/issues/4)
+
+[《JavaScript深入之变量对象》](https://github.com/mqyqingfeng/Blog/issues/5)
+
+[《JavaScript深入之作用域链》](https://github.com/mqyqingfeng/Blog/issues/6)
+
+[《JavaScript深入之从ECMAScript规范解读this》](https://github.com/mqyqingfeng/Blog/issues/7)
+
+[《JavaScript深入之执行上下文》](https://github.com/mqyqingfeng/Blog/issues/8)
+
+## 深入系列
+
+JavaScript深入系列预计写十五篇左右，旨在帮大家捋顺JavaScript底层知识，重点讲解如原型、作用域、执行上下文、变量对象、this、闭包、按值传递、call、apply、bind、new、继承等难点概念，与罗列它们的用法不同，这个系列更注重通过写demo，捋过程、模拟实现，结合ES规范等方法来讲解。
+
+所有文章和demo都可以在github上[https://github.com/mqyqingfeng/Blog](https://github.com/mqyqingfeng/Blog)找到。如果有错误或者不严谨的地方，请务必给予指正，十分感谢。如果喜欢或者有所启发，欢迎star，对作者也是一种鼓励。

@@ -9,4 +9,5 @@
 5. [JavaScript深入之作用域链](https://github.com/mqyqingfeng/Blog/issues/6)
 6. [JavaScript深入之从ECMAScript规范解读this](https://github.com/mqyqingfeng/Blog/issues/7)
 7. [JavaScript深入之执行上下文](https://github.com/mqyqingfeng/Blog/issues/8)
+8. [JavaScript深入之闭包](https://github.com/mqyqingfeng/Blog/issues/9)
 
