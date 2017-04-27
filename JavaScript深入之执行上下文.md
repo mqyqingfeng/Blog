@@ -164,13 +164,13 @@ checkscope()();
 
 ## 相关链接
 
-[《JavaScript深入之执行上下文栈》](https://github.com/mqyqingfeng/Blog/blob/master/JavaScript%E6%B7%B1%E5%85%A5%E4%B9%8B%E6%89%A7%E8%A1%8C%E4%B8%8A%E4%B8%8B%E6%96%87%E6%A0%88.md)
+[《JavaScript深入之执行上下文栈》](https://github.com/mqyqingfeng/Blog/issues/4)
 
-[《JavaScript深入之变量对象》](https://github.com/mqyqingfeng/Blog/blob/master/JavaScript%E6%B7%B1%E5%85%A5%E4%B9%8B%E5%8F%98%E9%87%8F%E5%AF%B9%E8%B1%A1.md)
+[《JavaScript深入之变量对象》](https://github.com/mqyqingfeng/Blog/issues/5)
 
-[《JavaScript深入之作用域链》](https://github.com/mqyqingfeng/Blog/blob/master/JavaScript%E6%B7%B1%E5%85%A5%E4%B9%8B%E4%BD%9C%E7%94%A8%E5%9F%9F%E9%93%BE.md)
+[《JavaScript深入之作用域链》](https://github.com/mqyqingfeng/Blog/issues/6)
 
-[《JavaScript深入之从ECMAScript规范解读this》](https://github.com/mqyqingfeng/Blog/blob/master/JavaScript%E6%B7%B1%E5%85%A5%E4%B9%8B%E4%BB%8EECMAScript%E8%A7%84%E8%8C%83%E8%A7%A3%E8%AF%BBthis.md)
+[《JavaScript深入之从ECMAScript规范解读this》](https://github.com/mqyqingfeng/Blog/issues/7)
 
 ## 深入系列
 

@@ -14,13 +14,13 @@
 
 ## 作用域链
 
-在[《JavaScript深入之变量对象》](https://github.com/mqyqingfeng/Blog/blob/master/JavaScript%E6%B7%B1%E5%85%A5%E4%B9%8B%E5%8F%98%E9%87%8F%E5%AF%B9%E8%B1%A1.md)中讲到，当查找变量的时候，会先从当前上下文的变量对象中查找，如果没有找到，就会从父级(词法层面上的父级)执行上下文的变量对象中查找，一直找到全局上下文的变量对象，也就是全局对象。这样由多个执行上下文的变量对象构成的链表就叫做作用域链。
+在[《JavaScript深入之变量对象》](https://github.com/mqyqingfeng/Blog/issues/5)中讲到，当查找变量的时候，会先从当前上下文的变量对象中查找，如果没有找到，就会从父级(词法层面上的父级)执行上下文的变量对象中查找，一直找到全局上下文的变量对象，也就是全局对象。这样由多个执行上下文的变量对象构成的链表就叫做作用域链。
 
 下面，让我们以一个函数的创建和激活两个时期来讲解作用域链是如何创建和变化的。
 
 ## 函数创建
 
-在[《JavaScript深入之词法作用域和动态作用域》](https://github.com/mqyqingfeng/Blog/blob/master/JavaScript深入之词法作用域和动态作用域.md)中讲到，函数的作用域在函数定义的时候就决定了。
+在[《JavaScript深入之词法作用域和动态作用域》](https://github.com/mqyqingfeng/Blog/issues/3)中讲到，函数的作用域在函数定义的时候就决定了。
 
 这是因为函数有一个内部属性[[scope]]，当函数创建的时候，就会保存所有父变量对象到其中，你可以理解[[scope]]就是所有父变量对象的层级链。(注意：[[scope]]并不代表完整的作用域链！)
 
@@ -136,11 +136,11 @@ checkscopeContext = {
 
 ## 本文相关链接
 
-[《JavaScript深入之执行上下文栈》](https://github.com/mqyqingfeng/Blog/blob/master/JavaScript%E6%B7%B1%E5%85%A5%E4%B9%8B%E6%89%A7%E8%A1%8C%E4%B8%8A%E4%B8%8B%E6%96%87%E6%A0%88.md)
+[《JavaScript深入之执行上下文栈》](https://github.com/mqyqingfeng/Blog/issues/4)
 
-[《JavaScript深入之变量对象》](https://github.com/mqyqingfeng/Blog/blob/master/JavaScript%E6%B7%B1%E5%85%A5%E4%B9%8B%E5%8F%98%E9%87%8F%E5%AF%B9%E8%B1%A1.md)
+[《JavaScript深入之变量对象》](https://github.com/mqyqingfeng/Blog/issues/5)
 
-[《JavaScript深入之词法作用域和动态作用域》](https://github.com/mqyqingfeng/Blog/blob/master/JavaScript深入之词法作用域和动态作用域.md)
+[《JavaScript深入之词法作用域和动态作用域》](https://github.com/mqyqingfeng/Blog/issues/3)
 
 ## 深入系列
 
