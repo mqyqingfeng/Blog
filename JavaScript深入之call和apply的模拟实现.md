@@ -1,8 +1,10 @@
 # JavaScript深入之call和apply的模拟实现
 
-先一句话介绍call：
+## call
 
-call()方法在使用一个指定的this值和若干个指定的参数值的前提下调用某个函数或方法。(来自于MDN)
+一句话介绍call：
+
+>call()方法在使用一个指定的this值和若干个指定的参数值的前提下调用某个函数或方法。
 
 举个例子：
 
@@ -23,9 +25,11 @@ bar.call(foo); // 1
 1. call改变了this的指向，指向到foo
 2. bar函数执行了
 
-那么该怎么模拟实现到这步呢？
+## 模拟实现第一步
 
-设想我们当调用call的时候，把foo对象改造成如下：
+那么我们该怎么模拟实现这两个效果呢？
+
+试想当调用call的时候，把foo对象改造成如下：
 
 ```js
 var foo = {
@@ -38,11 +42,11 @@ var foo = {
 foo.bar(); // 1
 ```
 
-这个时候this的执行就改成了foo，是不是很简单呢？
+这个时候this就指向了foo，是不是很简单呢？
 
-但是这样却给foo添加了一个属性，这可不行呐！
+但是这样却给foo对象本身添加了一个属性，这可不行呐！
 
-不过不用担心，我们用delete再删除它不就好了~
+不过也不用担心，我们用delete再删除它不就好了~
 
 所以我们模拟的步骤可以分为：
 
@@ -52,17 +56,21 @@ foo.bar(); // 1
 
 以上个例子为例，就是：
 
-1. foo.fn = bar
-2. foo.fn()
-3. delete foo.fn
+```js
+// 第一步
+foo.fn = bar
+// 第二步
+foo.fn()
+// 第三步
+delete foo.fn
+```
 
-fn是对象的属性名，因为反正最后要删除它，所以起成什么都无所谓。
+fn是对象的属性名，反正最后也要删除它，所以起成什么都无所谓。
 
-好像很简单的样子
-
-来让我们写个第一版的代码：
+根据这个思路，我们可以尝试着去写第一版的 **call2** 函数：
 
 ```js
+// 第一版
 Function.prototype.call2 = function(context) {
     // 首先要获取调用call的函数，用this可以获取
     context.fn = this;
@@ -82,17 +90,11 @@ function bar() {
 bar.call2(foo); // 1
 ```
 
-正好可以打印1哎！
+正好可以打印1哎！是不是很开心！(～￣▽￣)～
 
-是不是很开心~~~
+## 模拟实现第二步
 
-(～￣▽￣)～
-
-那我们来解决第二个问题
-
-call函数还能给定参数执行函数
-
-举个例子：
+最一开始也讲了，call函数还能给定参数执行函数。举个例子：
 
 ```js
 var foo = {
@@ -112,11 +114,9 @@ bar.call(foo, 'kevin', 18);
 
 ```
 
-好像也很好实现，嗯……
+注意：传入的参数并不确定，这可咋办？
 
-可是后面的参数不确定哎，可能传很多个参数，这可咋办？
-
-不急，我们从arguments对象中取值，取出第二个到最后一个参数，然后放到一个数组里
+不急，我们可以从Arguments对象中取值，取出第二个到最后一个参数，然后放到一个数组里。
 
 比如这样：
 
@@ -137,19 +137,16 @@ for(var i = 1, len = arguments.length; i < len; i++) {
 // 执行后 args为 [foo, 'kevin', 18]
 ```
 
-这个问题也解决了，我们接着要把这个数组放到要执行的函数的参数里面去
+不定长的参数问题解决了，我们接着要把这个参数数组放到要执行的函数的参数里面去。
 
+```js
+// 将数组里的元素作为多个参数放进函数的形参里
 context.fn(args.join(','))
+// (O_o)??
+// 这个方法肯定是不行的啦！！！
+```
 
-(O_o)??
-
-肯定不行的啦！！！
-
-也许有人想到用ES6的方法，不过call是ES3的方法，我们为了模拟实现一个ES3的方法，要用到ES6的方法，好像……，嗯，也可以啦
-
-但是我们这次用eval方法拼成一个函数
-
-类似于这样：
+也许有人想到用ES6的方法，不过call是ES3的方法，我们为了模拟实现一个ES3的方法，要用到ES6的方法，好像……，嗯，也可以啦。但是我们这次用eval方法拼成一个函数，类似于这样：
 
 ```js
 eval('context.fn(' + args +')')
@@ -167,7 +164,7 @@ Function.prototype.call2 = function(context) {
     for(var i = 1, len = arguments.length; i < len; i++) {
         args.push('arguments[' + i + ']');
     }
-    eval('context.fn(' + args.join(',') +')');
+    eval('context.fn(' + args +')');
     delete context.fn;
 }
 
@@ -190,9 +187,11 @@ bar.call2(foo, 'kevin', 18);
 
 (๑•̀ㅂ•́)و✧
 
-接下来，代码已经完成80%了，还有两个小点要注意：
+## 模拟实现第三步
 
-1.this指向可以传null，当为null的时候，视为指向window
+模拟代码已经完成80%，还有两个小点要注意：
+
+**1.this参数可以传null，当为null的时候，视为指向window**
 
 举个例子：
 
@@ -207,9 +206,11 @@ function bar() {
 bar.call(null); // 1
 ```
 
-2. 函数是可以有返回值的！
+虽然这个例子本身不使用call，结果依然一样。
 
-再举个例子：
+**2.函数是可以有返回值的！**
+
+举个例子：
 
 ```js
 
@@ -281,7 +282,9 @@ console.log(bar.call2(obj, 'kevin', 18));
 
 到此，我们完成了call的模拟实现，给自己一个赞 ｂ（￣▽￣）ｄ
 
-apply的实现跟call类似，在这里直接给代码，代码来自于@郑航的实现：
+## apply的模拟实现
+
+apply的实现跟call类似，在这里直接给代码，代码来自于知乎@郑航的实现：
 
 ```js
 Function.prototype.apply = function (context, arr) {
@@ -304,3 +307,15 @@ Function.prototype.apply = function (context, arr) {
     return result;
 }
 ```
+
+## 相关链接
+
+[知乎问题 不能使用call,apply,bind，如何用js实现call或者apply的功能？](https://www.zhihu.com/question/35787390)
+
+## 深入系列
+
+JavaScript深入系列目录地址：[https://github.com/mqyqingfeng/Blog](https://github.com/mqyqingfeng/Blog)。
+
+JavaScript深入系列预计写十五篇左右，旨在帮大家捋顺JavaScript底层知识，重点讲解如原型、作用域、执行上下文、变量对象、this、闭包、按值传递、call、apply、bind、new、继承等难点概念。
+
+如果有错误或者不严谨的地方，请务必给予指正，十分感谢。如果喜欢或者有所启发，欢迎star，对作者也是一种鼓励。
