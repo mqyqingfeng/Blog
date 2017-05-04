@@ -17,6 +17,7 @@ JavaScript深入系列预计写十五篇，现在正在发布中
 9. [JavaScript深入之参数按值传递](https://github.com/mqyqingfeng/Blog/issues/10)
 10. [JavaScript深入之call和apply的模拟实现](https://github.com/mqyqingfeng/Blog/issues/11)
 11. [JavaScript深入之bind的模拟实现](https://github.com/mqyqingfeng/Blog/issues/12)
+12. [JavaScript深入之new的模拟实现](https://github.com/mqyqingfeng/Blog/issues/13)
 
 ## 注意
 
