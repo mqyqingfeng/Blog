@@ -1,5 +1,7 @@
 # JavaScript深入之new的模拟实现
 
+## new
+
 一句话介绍new:
 
 >The new operator creates an instance of a user-defined object type or of one of the built-in object types that has a constructor function.
@@ -10,7 +12,7 @@
 
 new运算符创建了一个用户自定义对象类型或者一个内置对象类型的实例，该实例具有一个constructor函数。
 
-也许有点晦涩，我们在模拟new之前，先看看new实现了哪些功能。
+也许有点难懂，我们在模拟new之前，先看看new实现了哪些功能。
 
 举个例子：
 
@@ -39,8 +41,6 @@ person.sayName(); // kevin
 
 ```
 
-例子写的可能有些不恰当，但是看效果~
-
 我们可以看到：
 
 实例person可以
@@ -49,7 +49,7 @@ person.sayName(); // kevin
 
 那接下来，我们可以尝试着去模拟一下了。
 
-因为new是关键字，所以无法直接更改new的效果，所以我们写一个函数，叫做objectFactory，来实现new的效果
+因为new是关键字，所以无法直接更改new的效果，所以我们写一个函数，叫做objectFactory，来实现new的效果。
 
 用的时候是这样的：
 
@@ -63,7 +63,15 @@ var person = objectFactory(Person, ……)
 
 ```
 
-我们尝试着写第一版：
+## 初步实现
+
+分析：
+
+因为new的结果是一个新对象，所以在模拟实现的时候，我们也要建立一个新对象，假设这个对象叫obj，因为obj会具有Person构造函数里的属性，想想经典继承的例子，我们可以使用Person.apply(obj, arguments)来给obj添加新的属性。
+
+在JavaScript深入系列第一篇中，我们便讲了原型与原型链，我们知道实例的\_\_proto\_\_属性会指向构造函数的prototype，也正是因为建立起这样的关系，实例可以访问原型上的属性。
+
+现在，我们可以尝试着写第一版：
 
 ```js
 // 第一版代码
@@ -92,6 +100,7 @@ function objectFactory() {
 
 如果对原型链这部分不是很清楚，可以看《JavaScript深入之从原型到原型链》
 如果对apply这部分不是很清楚，可以看《JavaScript深入之call和apply的模拟实现》
+如果对经典继承不是很清楚，可以看《JavaScript深入之继承》，但是还未发布，哈哈
 
 复制以下的代码，到浏览器中，我们可以做一下测试：
 
@@ -135,6 +144,8 @@ person.sayName(); // kevin
 
 []~(￣▽￣)~**
 
+## 返回值效果实现
+
 接下来我们再来看一种情况，假如构造函数有返回值，举个例子：
 
 ```js
@@ -159,7 +170,7 @@ console.log(person.age) // undefined
 
 ```
 
-在这个例子中，构造函数返回了一个对象，在实例person中只能访问返回的对象中的属性
+在这个例子中，构造函数返回了一个对象，在实例person中只能访问返回的对象中的属性。
 
 而且还要注意一点，在这里我们返回了一个对象，假如我们只是返回一个基本类型的值呢？
 
@@ -207,5 +218,18 @@ function objectFactory() {
 };
 ```
 
-实际上这篇文章只是希望大家通过模拟new的实现来了解new的原理，模拟也有一些细节的地方没有注意，比如构造函数返回了一个null……
+## 相关链接
 
+[《JavaScript深入之从原型到原型链》](https://github.com/mqyqingfeng/Blog/issues/2)
+
+[《JavaScript深入之call和apply的模拟实现》](https://github.com/mqyqingfeng/Blog/issues/11)
+
+《JavaScript深入之继承》尚未发布
+
+## 深入系列
+
+JavaScript深入系列目录地址：[https://github.com/mqyqingfeng/Blog](https://github.com/mqyqingfeng/Blog)。
+
+JavaScript深入系列预计写十五篇左右，旨在帮大家捋顺JavaScript底层知识，重点讲解如原型、作用域、执行上下文、变量对象、this、闭包、按值传递、call、apply、bind、new、继承等难点概念。
+
+如果有错误或者不严谨的地方，请务必给予指正，十分感谢。如果喜欢或者有所启发，欢迎star，对作者也是一种鼓励。

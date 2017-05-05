@@ -1,5 +1,7 @@
 # JavaScript深入之类数组对象与arguments
 
+## 类数组对象
+
 所谓的类数组对象:
 
 >拥有一个 length 属性和若干索引属性的对象
@@ -57,13 +59,15 @@ for(var i = 0, len = arrayLike.length; i < len; i++) {
 arrayLike.push('4');
 ```
 
-但是上述代码会报错: arrayLike.push is not a function
+然而上述代码会报错: arrayLike.push is not a function
 
 所以终归还是类数组呐……
 
-那如果类数组就是想用数组的方法怎么办呢？
+## 调用数组方法
 
-既然无法直接调用，那就用Function.call间接调用：
+如果类数组就是任性的想用数组的方法怎么办呢？
+
+既然无法直接调用，我们可以用Function.call间接调用：
 
 ```js
 var arrayLike = {0: 'name', 1: 'age', 2: 'sex', length: 3 }
@@ -79,7 +83,9 @@ Array.prototype.map.call(arrayLike, function(item){
 // ["NAME", "AGE", "SEX"]
 ```
 
-在上面的例子中已经提到了一种类数组转数组的方法，再补充两个：
+## 类数组转对象
+
+在上面的例子中已经提到了一种类数组转数组的方法，再补充三个：
 
 ```js
 var arrayLike = {0: 'name', 1: 'age', 2: 'sex', length: 3 }
@@ -89,11 +95,15 @@ Array.prototype.slice.call(arrayLike); // ["name", "age", "sex"]
 Array.prototype.splice.call(arrayLike, 0); // ["name", "age", "sex"] 
 // 3. ES6 Array.from
 Array.from(arrayLike); // ["name", "age", "sex"] 
+// 4. apply
+Array.prototype.concat.apply([], arguments)
 ```
 
 那么为什么会讲到类数组对象呢？以及类数组有什么应用吗？
 
 要说到类数组对象，Arguments对象就是一个类数组对象。在客户端JavaScript中，一些DOM方法(document.getElementsByTagName())也返回类数组对象。
+
+## Arguments对象
 
 接下来重点讲讲Arguments对象。
 
@@ -111,31 +121,71 @@ foo('name', 'age', 'sex')
 
 打印结果如下：
 
-![arguments](Images/arguments.png)
+![arguments](../Images/arguments.png)
 
-我们可以看到除了类数组的索引属性和length属性之外，还有一个callee属性，指向了当前正在执行的函数，通过它可以引用匿名函数自身。
+我们可以看到除了类数组的索引属性和length属性之外，还有一个callee属性，接下来我们一个一个介绍。
+
+## length属性
+
+Arguments对象的length属性，表示实参的长度，举个例子：
+
+```js
+function foo(b, c, d){
+    console.log("实参的长度为：" + arguments.length)
+}
+
+console.log("形参的长度为：" + foo.length)
+
+foo(1)
+
+// 形参的长度为：3
+// 实参的长度为：1
+```
+
+## callee属性
+
+Arguments对象的callee属性，通过它可以调用函数自身。
+
+讲个闭包经典面试题使用callee的解决方法：
+
+```js
+var data = [];
+
+for (var i = 0; i < 3; i++) {
+    (data[i] = function () {
+       console.log(arguments.callee.i) 
+    }).i = i;
+}
+
+data[0]();
+data[1]();
+data[2]();
+
+// 0
+// 1
+// 2
+```
 
 接下来讲讲arguments对象的几个注意要点：
 
-1.arguments转数组
-
-上面讲的方法都可以
-
-2. 修改arguments
+## arguments和对应参数的绑定
 
 ```js
 function foo(name, age, sex, hobbit) {
 
     console.log(name, arguments[0]); // name name
 
+    // 改变形参
     name = 'new name';
 
     console.log(name, arguments[0]); // new name new name
 
+    // 改变arguments
     arguments[1] = 'new age';
 
     console.log(age, arguments[1]); // new age new age
 
+    // 测试未传入的是否会绑定
     console.log(sex); // undefined
 
     sex = 'new sex';
@@ -155,7 +205,9 @@ foo('name', 'age')
 
 除此之外，以上是在非严格模式下，如果是在严格模式下，实参和arguments是不会共享的。
 
-3.将参数从一个函数传递到另一个函数
+## 传递参数
+
+将参数从一个函数传递到另一个函数
 
 ```js
 function foo() {
@@ -166,7 +218,9 @@ function bar(a, b, c) {
 }
 ```
 
-4. ES6使用...运算符
+## 强大的ES6
+
+使用ES6的...运算符，我们可以轻松转成数组。
 
 ```js
 function func(...arguments) {
@@ -175,3 +229,25 @@ function func(...arguments) {
 
 func(1, 2, 3);
 ```
+
+## 应用
+
+arguments的应用其实很多，在下个系列，也就是JavaScript专题系列中，我们会在jQuery的extend实现、函数柯里化、递归等场景看见arguments的身影。这篇文章就不具体展开了。
+
+如果要总结这些场景的话，暂时能想到的包括：
+
+1. 参数不定长
+2. 函数柯里化
+3. 递归调用
+4. 函数重载
+...
+
+欢迎留言回复。
+
+## 深入系列
+
+JavaScript深入系列目录地址：[https://github.com/mqyqingfeng/Blog](https://github.com/mqyqingfeng/Blog)。
+
+JavaScript深入系列预计写十五篇左右，旨在帮大家捋顺JavaScript底层知识，重点讲解如原型、作用域、执行上下文、变量对象、this、闭包、按值传递、call、apply、bind、new、继承等难点概念。
+
+如果有错误或者不严谨的地方，请务必给予指正，十分感谢。如果喜欢或者有所启发，欢迎star，对作者也是一种鼓励。
