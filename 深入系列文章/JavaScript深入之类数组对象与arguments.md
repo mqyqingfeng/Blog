@@ -1,5 +1,7 @@
 # JavaScript深入之类数组对象与arguments
 
+>JavaScript深入系列第十三篇，讲解类数组对象与对象之间的相似与差异以及arguments的注意要点
+
 ## 类数组对象
 
 所谓的类数组对象:
@@ -121,7 +123,7 @@ foo('name', 'age', 'sex')
 
 打印结果如下：
 
-![arguments](../Images/arguments.png)
+![arguments](https://github.com/mqyqingfeng/Blog/raw/master/Images/arguments.png)
 
 我们可以看到除了类数组的索引属性和length属性之外，还有一个callee属性，接下来我们一个一个介绍。
 
