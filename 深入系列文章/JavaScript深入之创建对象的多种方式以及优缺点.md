@@ -1,12 +1,14 @@
-# JavaScript深入之创建对象
+# JavaScript深入之创建对象的多种方式以及优缺点
+
+## 写在前面
 
 这篇文章讲解创建对象的各种方式，以及优缺点。
 
 但是注意：
 
-这篇文章更像是笔记，因为《JavaScript高级程序设计》写得真是太好了！
+这篇文章更像是笔记，因为《JavaScript高级程序设计》真是写得太好了！
 
-1.工厂模式
+## 1. 工厂模式
 
 ```js
 function createPerson(name) {
@@ -26,7 +28,7 @@ var person1 = createPerson('kevin');
 
 缺点：对象无法识别，因为原型都指向Object
 
-2.构造函数模式
+## 2. 构造函数模式
 
 ```js
 function Person(name) {
@@ -42,9 +44,10 @@ var person1 = new Person('kevin');
 ```
 
 优点：实例可以识别为一个特定的类型
+
 缺点：每次创建实例每个方法都要被创建一次
 
-2.1构造函数模式优化
+## 2.1 构造函数模式优化
 
 ```js
 function Person(name) {
@@ -62,9 +65,10 @@ var person1 = new Person('kevin');
 ```
 
 优点：解决了每个方法都要被重新创建的问题
+
 缺点：这叫啥封装……
 
-3.原型模式
+## 3. 原型模式
 
 ```js
 function Person(name) {
@@ -80,9 +84,10 @@ var person1 = new Person();
 ```
 
 优点：方法不会重新创建
+
 缺点：1. 所有的属性和方法都共享 2. 不能初始化参数
 
-3.1原型模式优化
+## 3.1 原型模式优化
 
 ```js
 function Person(name) {
@@ -100,9 +105,10 @@ var person1 = new Person();
 ```
 
 优点：封装性好了一点
+
 缺点：重写了原型，丢失了constructor属性
 
-3.2原型模式优化
+## 3.2 原型模式优化
 
 ```js
 function Person(name) {
@@ -121,9 +127,12 @@ var person1 = new Person();
 ```
 
 优点：实例可以通过constructor属性找到所属构造函数
+
 缺点：原型模式该有的缺点还是有
 
-4.组合模式 (构造函数模式与原型模式双剑合璧)
+## 4. 组合模式
+
+构造函数模式与原型模式双剑合璧。
 
 ```js
 function Person(name) {
@@ -142,7 +151,9 @@ var person1 = new Person();
 
 优点：该共享的共享，该私有的私有，使用最广泛的方式
 
-4.1 动态原型模式
+缺点：有的人就是希望全部写在一起，即更好的封装性
+
+## 4.1 动态原型模式
 
 ```js
 function Person(name) {
@@ -177,22 +188,26 @@ function Person(name) {
 var person1 = new Person('kevin');
 var person2 = new Person('daisy');
 
-person1.getName();
 // 报错 并没有该方法
-person2.getName();
+person1.getName();
+
 // 注释掉上面的代码，这句是可以执行的。
+person2.getName();
 
 ```
 
-为了解释这个问题，假设已经开始执行创建person1。
+为了解释这个问题，假设开始执行`var person1 = new Person('kevin')`。
+
+如果对new和apply的底层执行过程不是很熟悉，可以阅读底部相关链接中的文章。
 
 我们回顾下new的实现步骤：
 
 1. 首先新建一个对象
 2. 然后将对象的原型指向Person.prototype
 3. 然后Person.apply(obj)
+4. 返回这个对象
 
-注意这个时候，再回顾下apply的实现步骤，会执行obj.Person方法，这个时候就会执行if语句内的部分，然后重写了原型，而person1依然指向了以前的原型，而不是重写后的原型。而之前的原型是没有getName方法的，所以就报错了！
+注意这个时候，回顾下apply的实现步骤，会执行obj.Person方法，这个时候就会执行if语句内的内容，注意构造函数的prototype属性指向了实例的原型，使用字面量方式直接覆盖Person.prototype，并不会更改实例的原型的值，person1依然是指向了以前的原型，而不是Person.prototype。而之前的原型是没有getName方法的，所以就报错了！
 
 如果你就是想用字面量方式写代码，可以尝试下这种：
 
@@ -219,9 +234,7 @@ person2.getName();  // daisy
 
 ```
 
-5. 其他模式
-
-5.1 寄生构造函数模式
+### 5.1 寄生构造函数模式
 
 ```js
 function Person(name) {
@@ -241,7 +254,8 @@ console.log(person1 instanceof Person) // false
 console.log(person1 instanceof Object)  // true
 ```
 
-寄生构造函数模式，我个人认为应该这样读： 寄生-构造函数-模式，也就是说寄生在构造函数的一种方法。
+寄生构造函数模式，我个人认为应该这样读： 
+寄生-构造函数-模式，也就是说寄生在构造函数的一种方法。
 
 也就是说打着构造函数的幌子挂羊头卖狗肉，你看创建的实例使用instanceof都无法指向构造函数！
 
@@ -292,7 +306,7 @@ console.log(colors2.toPipedString()); // red2|blue2|green2
     values.push.apply(values, arguments);
 ```
 
-5.2 稳妥构造函数模式
+## 5.2 稳妥构造函数模式
 
 ```js
 function person(name){
@@ -326,43 +340,18 @@ console.log(person1.name); // daisy
 
 稳妥构造函数模式也跟工厂模式一样，无法识别对象所属类型。
 
+## 相关链接
 
-```js
-function Person(age) {
-    var obj = new Object();
-    obj.age = age;
-    obj.name = 'kevin';
-    obj.sayName = function () {
-        console.log(this.name);
-    }
-    return obj;
-}
+[《JavaScript深入之从原型到原型链》](https://github.com/mqyqingfeng/Blog/issues/2)
 
+[《JavaScript深入之new的模拟实现》](https://github.com/mqyqingfeng/Blog/issues/13)
 
-var person = new Person('18');
+[《JavaScript深入之call和apply的模拟实现》](https://github.com/mqyqingfeng/Blog/issues/11)
 
-console.log(person instanceof Person)
-console.log(person instanceof Object)
-```
+## 深入系列
 
+JavaScript深入系列目录地址：[https://github.com/mqyqingfeng/Blog](https://github.com/mqyqingfeng/Blog)。
 
-```js
-function Person(age) {
-}
+JavaScript深入系列预计写十五篇左右，旨在帮大家捋顺JavaScript底层知识，重点讲解如原型、作用域、执行上下文、变量对象、this、闭包、按值传递、call、apply、bind、new、继承等难点概念。
 
-var person1 = new Person();
-
-person1.say();
-
-Person.prototype.say = function() {
-    console.log('hi');
-}
-
-
-
-
-var person = new Person('18');
-
-console.log(person instanceof Person)
-console.log(person instanceof Object)
-```
+如果有错误或者不严谨的地方，请务必给予指正，十分感谢。如果喜欢或者有所启发，欢迎star，对作者也是一种鼓励。
