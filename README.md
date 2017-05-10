@@ -19,6 +19,7 @@ JavaScript深入系列预计写十五篇，现在正在发布中
 11. [JavaScript深入之bind的模拟实现](https://github.com/mqyqingfeng/Blog/issues/12)
 12. [JavaScript深入之new的模拟实现](https://github.com/mqyqingfeng/Blog/issues/13)
 13. [JavaScript深入之类数组对象与arguments](https://github.com/mqyqingfeng/Blog/issues/14)
+14. [JavaScript深入之创建对象的多种方式以及优缺点](https://github.com/mqyqingfeng/Blog/issues/15)
 
 ## 注意
 
