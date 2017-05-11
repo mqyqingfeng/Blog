@@ -313,7 +313,7 @@ console.log(colors2.toPipedString()); // red2|blue2|green2
 ```js
 function person(name){
     var o = new Object();
-    o.getName = function(){
+    o.sayName = function(){
         console.log(name);
     };
     return o;
