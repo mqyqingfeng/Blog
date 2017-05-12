@@ -1,5 +1,7 @@
-# JavaScript深入之继承
+# JavaScript深入之继承的多种方式和优缺点
 
+> JavaScript深入系列第十五篇，讲解JavaScript各种继承方式和优缺点。
+ 
 ## 写在前面
 
 本文讲解JavaScript各种继承方式和优缺点。
