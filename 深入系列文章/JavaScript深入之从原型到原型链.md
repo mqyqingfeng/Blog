@@ -70,7 +70,7 @@ console.log(person.__proto__ === Person.prototype); // true
 
 ## constructor
 
-指向实例倒是没有，因为一个构造函数可以生成多个实例，但是原型指向构造函数倒是有的，这就要讲到第三个属性：construcotr，每个原型都有一个 constructor 属性指向关联的构造函数。
+指向实例倒是没有，因为一个构造函数可以生成多个实例，但是原型指向构造函数倒是有的，这就要讲到第三个属性：constructor﻿，每个原型都有一个 constructor 属性指向关联的构造函数。
 
 为了验证这一点，我们可以尝试：
 
@@ -117,14 +117,14 @@ Person.prototype.name = 'Kevin';
 
 var person = new Person();
 
-person.name = 'Dasiy';
-console.log(person.name) // Dasiy
+person.name = 'Daisy';
+console.log(person.name) // Daisy
 
 delete person.name;
 console.log(person.name) // Kevin
 ```
 
-在这个例子中，我们给实例对象 person 添加了 name 属性，当我们打印 person.name 的时候，结果自然为 Dasiy。
+在这个例子中，我们给实例对象 person 添加了 name 属性，当我们打印 person.name 的时候，结果自然为 Daisy。
 
 但是当我们删除了 person 的 name 属性时，读取 person.name，从 person 对象中找不到 name 属性就会从 person 的原型也就是 person.\_\_proto\_\_ ，也就是 Person.prototype中查找，幸运的是我们找到了  name 属性，结果为 Kevin。
 
