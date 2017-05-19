@@ -2,7 +2,7 @@
 
 ## 定义
 
-MDN对闭包的定义为：
+MDN 对闭包的定义为：
 
 >闭包是指那些能够访问自由变量的函数。
 
@@ -17,7 +17,6 @@ MDN对闭包的定义为：
 举个例子：
 
 ```js
-
 var a = 1;
 
 function foo() {
@@ -27,13 +26,13 @@ function foo() {
 foo();
 ```
 
-foo函数可以访问变量a，但是a既不是foo函数的局部变量，也不是foo函数的参数，所以a就是自由变量。
+foo 函数可以访问变量 a，但是 a 既不是 foo 函数的局部变量，也不是 foo 函数的参数，所以 a 就是自由变量。
 
-那么，函数foo + foo函数访问的自由变量a 不就是构成了一个闭包嘛……
+那么，函数 foo + foo 函数访问的自由变量 a 不就是构成了一个闭包嘛……
 
-还真是！
+还真是这样的！
 
-所以在《JavaScript权威指南》中就讲到：从技术的角度讲，所有的JavaScript函数都是闭包；
+所以在《JavaScript权威指南》中就讲到：从技术的角度讲，所有的JavaScript函数都是闭包。
 
 咦，这怎么跟我们平时看到的讲到的闭包不一样呢！？
 
@@ -46,14 +45,13 @@ ECMAScript中，闭包指的是：
     1. 即使创建它的上下文已经销毁，它仍然存在（比如，内部函数从父函数中返回）
     2. 在代码中引用了自由变量
 
-接下来就讲讲实践上的闭包。
+接下来就来讲讲实践上的闭包。
 
 ## 分析
 
-让我们先写个例子，例子依然来自《JavaScript权威指南》，稍微做点改动：
+让我们先写个例子，例子依然是来自《JavaScript权威指南》，稍微做点改动：
 
 ```js
-
 var scope = "global scope";
 function checkscope(){
     var scope = "local scope";
@@ -65,29 +63,32 @@ function checkscope(){
 
 var foo = checkscope();
 foo();
-
 ```
 
-首先让我们回忆一下执行上下文栈的变化情况，这个在《JavaScript深入之执行上下文》中有非常详细的分析。
+首先我们要分析一下这段代码中执行上下文栈和执行上下文的变化情况。
+
+另一个与这段代码相似的例子，在[《JavaScript深入之执行上下文》](https://github.com/mqyqingfeng/Blog/issues/8)中有着非常详细的分析。如果看不懂以下的执行过程，建议先阅读这篇文章。
+
+这里直接给出简要的执行过程：
 
 1. 进入全局代码，创建全局执行上下文，全局执行上下文压入执行上下文栈
 2. 全局执行上下文初始化
-3. 执行checkscope函数，创建checkscope函数执行上下文，checkscope执行上下文被压入执行上下文栈
-4. checkscope执行上下文初始化，创建变量对象、作用域链、this等
-5. checkscope函数执行完毕，checkscope执行上下文从执行上下文栈中弹出
-6. 执行f函数，创建f函数执行上下文，f执行上下文被压入执行上下文栈
-7. f执行上下文初始化，创建变量对象、作用域链、this等
-8. f函数执行完毕，f函数上下文从执行上下文栈中弹出
+3. 执行 checkscope 函数，创建 checkscope 函数执行上下文，checkscope 执行上下文被压入执行上下文栈
+4. checkscope 执行上下文初始化，创建变量对象、作用域链、this等
+5. checkscope 函数执行完毕，checkscope 执行上下文从执行上下文栈中弹出
+6. 执行 f 函数，创建 f 函数执行上下文，f 执行上下文被压入执行上下文栈
+7. f 执行上下文初始化，创建变量对象、作用域链、this等
+8. f 函数执行完毕，f 函数上下文从执行上下文栈中弹出
 
 了解到这个过程，我们应该思考一个问题，那就是：
 
-当f函数执行的时候，checkscope函数上下文已经被销毁了啊(即从执行上下文栈中被弹出)，怎么还会读取到checkscope作用域下的scope值呢？
+当 f 函数执行的时候，checkscope 函数上下文已经被销毁了啊(即从执行上下文栈中被弹出)，怎么还会读取到 checkscope 作用域下的 scope 值呢？
 
-以上的代码，要是转换成PHP，就会报错，因为在PHP中，f函数只能读取到自己作用域和全局作用域里的值，所以读不到checkscope下的scope值。(这段我问的PHP同事……)
+以上的代码，要是转换成 PHP，就会报错，因为在 PHP 中，f 函数只能读取到自己作用域和全局作用域里的值，所以读不到 checkscope 下的 scope 值。(这段我问的PHP同事……)
 
-然而JavaScript却是可以的！
+然而 JavaScript 却是可以的！
 
-当我们了解了具体的执行过程后，我们知道f执行上下文维护了一个作用域链：
+当我们了解了具体的执行过程后，我们知道 f 执行上下文维护了一个作用域链：
 
 ```js
 fContext = {
@@ -95,18 +96,22 @@ fContext = {
 }
 ```
 
-对的，就是因为这个作用域链，f函数依然可以读取到checkscopeContext.AO的值，说明即使checkscopeContext被销毁了，但是checkscopeContext.AO依然活在内存中，f函数依然可以通过f函数的作用域链找到它。而为什么checkscopeContext.AO没有被销毁，正是因为f函数引用了checkscopeContext.AO中的值，又正是因为JS实现了在子上下文引用父上下文的变量的时候，不会销毁这些变量的效果实现了闭包这个概念！
+对的，就是因为这个作用域链，f 函数依然可以读取到 checkscopeContext.AO 的值，说明当 f 函数引用了 checkscopeContext.AO 中的值的时候，即使 checkscopeContext 被销毁了，但是 JavaScript 依然会让 checkscopeContext.AO 活在内存中，f 函数依然可以通过 f 函数的作用域链找到它，正是因为 JavaScript 做到了这一点，从而实现了闭包这个概念。
 
-虽然有点绕，但是一定要多读几遍。
-
-所以，最后在让我们再看一遍实践角度上闭包的定义：
+所以，让我们再看一遍实践角度上闭包的定义：
 
 1. 即使创建它的上下文已经销毁，它仍然存在（比如，内部函数从父函数中返回）
 2. 在代码中引用了自由变量
 
+在这里再补充一个《JavaScript权威指南》英文原版对闭包的定义:
+
+> This combination of a function object and a scope (a set of variable bindings) in which the function’s variables are resolved is called a closure in the computer science literature.
+
+闭包在计算机科学中也只是一个普通的概念，大家不要去想得太复杂。
+
 ## 必刷题
 
-接下来，看这道刷题必刷，变着法必考的闭包题：
+接下来，看这道刷题必刷，面试必考的闭包题：
 
 ```js
 var data = [];
@@ -122,9 +127,9 @@ data[1]();
 data[2]();
 ```
 
-答案是都是3，让我们分析一下原因：
+答案是都是 3，让我们分析一下原因：
 
-当执行到data[0]函数之前，此时全局上下文的VO为：
+当执行到 data[0] 函数之前，此时全局上下文的 VO 为：
 
 ```js
 globalContext = {
@@ -135,7 +140,7 @@ globalContext = {
 }
 ```
 
-当执行data[0]函数的时候，data[0]函数的作用域链为：
+当执行 data[0] 函数的时候，data[0] 函数的作用域链为：
 
 ```js
 data[0]Context = {
@@ -143,9 +148,9 @@ data[0]Context = {
 }
 ```
 
-data[0]Context的AO并没有i值，所以会从globalContext.VO中查找，i为3，所以打印的结果就是3。
+data[0]Context 的 AO 并没有 i 值，所以会从 globalContext.VO 中查找，i 为 3，所以打印的结果就是 3。
 
-data[1]和data[2]是一样的道理。
+data[1] 和 data[2] 是一样的道理。
 
 所以让我们改成闭包看看：
 
@@ -165,7 +170,7 @@ data[1]();
 data[2]();
 ```
 
-当执行到data[0]函数之前，此时全局上下文的VO为：
+当执行到 data[0] 函数之前，此时全局上下文的 VO 为：
 
 ```js
 globalContext = {
@@ -178,7 +183,7 @@ globalContext = {
 
 跟没改之前一模一样。
 
-当执行data[0]函数的时候，data[0]函数的作用域链发生了改变：
+当执行 data[0] 函数的时候，data[0] 函数的作用域链发生了改变：
 
 ```js
 data[0]Context = {
@@ -200,13 +205,19 @@ data[0]Context = {
 }
 ```
 
-data[0]Context的AO并没有i值，所以会沿着作用域链从匿名函数Context.AO中查找，这时候就会找i为0，找到了就不会往globalContext.VO中查找了，即使globalContext.VO也有i的值(值为3)，所以打印的结果就是0。
+data[0]Context 的 AO 并没有 i 值，所以会沿着作用域链从匿名函数 Context.AO 中查找，这时候就会找 i 为 0，找到了就不会往 globalContext.VO 中查找了，即使 globalContext.VO 也有 i 的值(值为3)，所以打印的结果就是0。
 
-data[1]和data[2]是一样的道理。
+data[1] 和 data[2] 是一样的道理。
+
+## 下一篇文章
+
+[JavaScript深入之参数按值传递](https://github.com/mqyqingfeng/Blog/issues/10)
 
 ## 相关链接
 
-如果想了解执行上下文的具体变化，不妨循序渐进，阅读这五篇：
+如果想了解执行上下文的具体变化，不妨循序渐进，阅读这六篇：
+
+[《JavaScript深入之词法作用域和动态作用域》](https://github.com/mqyqingfeng/Blog/issues/3)
 
 [《JavaScript深入之执行上下文栈》](https://github.com/mqyqingfeng/Blog/issues/4)
 
