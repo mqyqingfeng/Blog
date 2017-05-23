@@ -284,7 +284,7 @@ console.log(bar.call2(obj, 'kevin', 18));
 
 ## apply的模拟实现
 
-apply 的实现跟 call 类似，在这里直接给代码，代码来自于知乎@郑航的实现：
+apply 的实现跟 call 类似，在这里直接给代码，代码来自于知乎 @郑航的实现：
 
 ```js
 Function.prototype.apply = function (context, arr) {
@@ -314,7 +314,7 @@ Function.prototype.apply = function (context, arr) {
 
 ## 重要参考
 
-[知乎问题 不能使用call,apply,bind，如何用js实现call或者apply的功能？](https://www.zhihu.com/question/35787390)
+[知乎问题 不能使用call、apply、bind，如何用 js 实现 call 或者 apply 的功能？](https://www.zhihu.com/question/35787390)
 
 ## 深入系列
 
