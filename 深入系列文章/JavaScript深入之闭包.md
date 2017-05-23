@@ -191,13 +191,13 @@ data[0]Context = {
 }
 ```
 
-匿名函数执行上下文的AO为：
+匿名函数执行上下文的 AO 为：
 
 ```js
 匿名函数Context = {
     AO: {
         arguments: {
-            0: 1,
+            0: 0,
             length: 1
         },
         i: 0
@@ -205,7 +205,7 @@ data[0]Context = {
 }
 ```
 
-data[0]Context 的 AO 并没有 i 值，所以会沿着作用域链从匿名函数 Context.AO 中查找，这时候就会找 i 为 0，找到了就不会往 globalContext.VO 中查找了，即使 globalContext.VO 也有 i 的值(值为3)，所以打印的结果就是0。
+data[0]Context 的 AO 并没有 i 值，所以会沿着作用域链从匿名函数 Context.AO 中查找，这时候就会找 i 为 0，找到了就不会往 globalContext.VO 中查找了，即使 globalContext.VO 也有 i 的值(值为3)，所以打印的结果就是 0。
 
 data[1] 和 data[2] 是一样的道理。
 
