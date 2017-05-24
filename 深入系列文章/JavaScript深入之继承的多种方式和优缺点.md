@@ -6,9 +6,9 @@
 
 本文讲解JavaScript各种继承方式和优缺点。
 
-注意：
+但是注意：
 
-跟《JavaScript深入之创建对象》一样，更像是笔记，哎，再让我感叹一句：《JavaScript高级程序设计》写得真是太好了！
+这篇文章更像是笔记，哎，再让我感叹一句：《JavaScript高级程序设计》写得真是太好了！
 
 ## 1.原型链继承
 
@@ -56,7 +56,6 @@ console.log(child1.names); // ["kevin", "daisy", "yayu"]
 var child2 = new Child();
 
 console.log(child2.names); // ["kevin", "daisy", "yayu"]
-
 ```
 
 2.在创建 Child 的实例时，不能向Parent传参
@@ -107,7 +106,6 @@ console.log(child1.name); // kevin
 var child2 = new Child('daisy');
 
 console.log(child2.name); // daisy
-
 ```
 
 缺点：
@@ -151,7 +149,6 @@ var child2 = new Child('daisy', '20');
 console.log(child2.name); // daisy
 console.log(child2.age); // 20
 console.log(child2.colors); // ["red", "blue", "green"]
-
 ```
 
 优点：融合原型链继承和构造函数的优点，是 JavaScript 中最常用的继承模式。
@@ -311,7 +308,7 @@ prototype(Child, Parent);
 
 引用《JavaScript高级程序设计》中对寄生组合式继承的夸赞就是：
 
-这种方式的高效率体现它只调用了一次Parent构造函数，并且因此避免了在 Parent.prototype 上面创建不必要的、多余的属性。与此同时，原型链还能保持不变；因此，还能够正常使用 instanceof 和 isPrototypeOf。开发人员普遍认为寄生组合式继承是引用类型最理想的继承范式。
+这种方式的高效率体现它只调用了一次 Parent 构造函数，并且因此避免了在 Parent.prototype 上面创建不必要的、多余的属性。与此同时，原型链还能保持不变；因此，还能够正常使用 instanceof 和 isPrototypeOf。开发人员普遍认为寄生组合式继承是引用类型最理想的继承范式。
 
 ## 相关链接
 
@@ -330,7 +327,3 @@ JavaScript深入系列目录地址：[https://github.com/mqyqingfeng/Blog](https
 JavaScript深入系列预计写十五篇左右，旨在帮大家捋顺JavaScript底层知识，重点讲解如原型、作用域、执行上下文、变量对象、this、闭包、按值传递、call、apply、bind、new、继承等难点概念。
 
 如果有错误或者不严谨的地方，请务必给予指正，十分感谢。如果喜欢或者有所启发，欢迎star，对作者也是一种鼓励。
-
-
-
-
