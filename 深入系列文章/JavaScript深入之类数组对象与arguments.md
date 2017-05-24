@@ -23,7 +23,7 @@ var arrayLike = {
 
 即便如此，为什么叫做类数组对象呢？
 
-那让我们从读写、获取长度、遍历三个方面看看这两个对象
+那让我们从读写、获取长度、遍历三个方面看看这两个对象。
 
 ## 读写
 
@@ -69,7 +69,7 @@ arrayLike.push('4');
 
 如果类数组就是任性的想用数组的方法怎么办呢？
 
-既然无法直接调用，我们可以用Function.call间接调用：
+既然无法直接调用，我们可以用 Function.call 间接调用：
 
 ```js
 var arrayLike = {0: 'name', 1: 'age', 2: 'sex', length: 3 }
@@ -98,18 +98,18 @@ Array.prototype.splice.call(arrayLike, 0); // ["name", "age", "sex"]
 // 3. ES6 Array.from
 Array.from(arrayLike); // ["name", "age", "sex"] 
 // 4. apply
-Array.prototype.concat.apply([], arguments)
+Array.prototype.concat.apply([], arrayLike)
 ```
 
 那么为什么会讲到类数组对象呢？以及类数组有什么应用吗？
 
-要说到类数组对象，Arguments对象就是一个类数组对象。在客户端JavaScript中，一些DOM方法(document.getElementsByTagName())也返回类数组对象。
+要说到类数组对象，Arguments 对象就是一个类数组对象。在客户端 JavaScript 中，一些 DOM 方法(document.getElementsByTagName()等)也返回类数组对象。
 
 ## Arguments对象
 
-接下来重点讲讲Arguments对象。
+接下来重点讲讲 Arguments 对象。
 
-Arguments对象只定义在函数体内，包括了函数的参数和其他属性。
+Arguments 对象只定义在函数体中，包括了函数的参数和其他属性。在函数体中，arguments 指代该函数的 Arguments 对象。
 
 举个例子：
 
@@ -146,9 +146,9 @@ foo(1)
 
 ## callee属性
 
-Arguments对象的callee属性，通过它可以调用函数自身。
+Arguments 对象的 callee 属性，通过它可以调用函数自身。
 
-讲个闭包经典面试题使用callee的解决方法：
+讲个闭包经典面试题使用 callee 的解决方法：
 
 ```js
 var data = [];
@@ -168,9 +168,9 @@ data[2]();
 // 2
 ```
 
-接下来讲讲arguments对象的几个注意要点：
+接下来讲讲 arguments 对象的几个注意要点：
 
-## arguments和对应参数的绑定
+## arguments 和对应参数的绑定
 
 ```js
 function foo(name, age, sex, hobbit) {
@@ -203,26 +203,29 @@ function foo(name, age, sex, hobbit) {
 foo('name', 'age')
 ```
 
-传入的参数，实参和arguments的值会共享，当没有传入时，实参与arguments值不会共享
+传入的参数，实参和 arguments 的值会共享，当没有传入时，实参与 arguments 值不会共享
 
-除此之外，以上是在非严格模式下，如果是在严格模式下，实参和arguments是不会共享的。
+除此之外，以上是在非严格模式下，如果是在严格模式下，实参和 arguments 是不会共享的。
 
 ## 传递参数
 
 将参数从一个函数传递到另一个函数
 
 ```js
+// 使用 apply 将 foo 的参数传递给 bar
 function foo() {
     bar.apply(this, arguments);
 }
 function bar(a, b, c) {
-    // logic
+   console.log(a, b, c);
 }
+
+foo(1, 2, 3)
 ```
 
 ## 强大的ES6
 
-使用ES6的...运算符，我们可以轻松转成数组。
+使用ES6的 ... 运算符，我们可以轻松转成数组。
 
 ```js
 function func(...arguments) {
@@ -234,7 +237,7 @@ func(1, 2, 3);
 
 ## 应用
 
-arguments的应用其实很多，在下个系列，也就是JavaScript专题系列中，我们会在jQuery的extend实现、函数柯里化、递归等场景看见arguments的身影。这篇文章就不具体展开了。
+arguments的应用其实很多，在下个系列，也就是 JavaScript 专题系列中，我们会在 jQuery 的 extend 实现、函数柯里化、递归等场景看见 arguments 的身影。这篇文章就不具体展开了。
 
 如果要总结这些场景的话，暂时能想到的包括：
 
@@ -245,6 +248,10 @@ arguments的应用其实很多，在下个系列，也就是JavaScript专题系�
 ...
 
 欢迎留言回复。
+
+## 下一篇文章
+
+[JavaScript深入之创建对象的多种方式以及优缺点](https://github.com/mqyqingfeng/Blog/issues/15)
 
 ## 深入系列
 
