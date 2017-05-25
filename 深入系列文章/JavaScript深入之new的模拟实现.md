@@ -1,5 +1,7 @@
 # JavaScript深入之new的模拟实现
 
+> JavaScript深入系列第十二篇，通过new的模拟实现，带大家揭开使用new获得构造函数实例的真相
+
 ## new
 
 一句话介绍 new:

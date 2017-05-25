@@ -1,5 +1,7 @@
 # JavaScript深入之call和apply的模拟实现
 
+>JavaScript深入系列第十篇，通过call和apply的模拟实现，带你揭开call和apply改变this的真相
+
 ## call
 
 一句话介绍 call：

@@ -1,5 +1,7 @@
 # JavaScript深入之bind的模拟实现
 
+> JavaScript深入系列第十一篇，通过bind函数的模拟实现，带大家真正了解bind的特性
+
 ## bind
 
 一句话介绍 bind:

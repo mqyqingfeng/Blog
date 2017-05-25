@@ -1,5 +1,7 @@
 # JavaScript深入之从ECMAScript规范解读this
 
+>JavaScript深入系列第六篇，本篇我们追根溯源，从ECMAScript5规范解读this在函数调用时到底是如何确定的。
+
 ## 前言
 
 在[《JavaScript深入之执行上下文栈》](https://github.com/mqyqingfeng/Blog/issues/4)中讲到，当JavaScript代码执行一段可执行代码(executable code)时，会创建对应的执行上下文(execution context)。

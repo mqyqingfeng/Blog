@@ -1,6 +1,6 @@
 # JavaScript深入之类数组对象与arguments
 
->JavaScript深入系列第十三篇，讲解类数组对象与对象之间的相似与差异以及arguments的注意要点
+>JavaScript深入系列第十三篇，讲解类数组对象与对象的相似与差异以及arguments的注意要点
 
 ## 类数组对象
 
