@@ -22,7 +22,7 @@
 
 ## 全局上下文
 
-我们先了解一个概念，叫全局对象。在 [W3C school](http://www.w3school.com.cn/jsref/jsref_obj_global.asp) 中也有介绍：
+我们先了解一个概念，叫全局对象。在 [W3School](http://www.w3school.com.cn/jsref/jsref_obj_global.asp) 中也有介绍：
 
 >全局对象是预定义的对象，作为 JavaScript 的全局函数和全局属性的占位符。通过使用全局对象，可以访问所有其他所有预定义的对象、函数和属性。
 
