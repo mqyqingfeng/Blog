@@ -4,7 +4,7 @@
 
 JavaScript深入系列已完结。
 
-JavaScript专题系列准备发布中……
+JavaScript专题系列正在发布中……
 
 ## 系列总结篇
 
@@ -26,7 +26,11 @@ JavaScript专题系列准备发布中……
 12. [JavaScript深入之new的模拟实现](https://github.com/mqyqingfeng/Blog/issues/13)
 13. [JavaScript深入之类数组对象与arguments](https://github.com/mqyqingfeng/Blog/issues/14)
 14. [JavaScript深入之创建对象的多种方式以及优缺点](https://github.com/mqyqingfeng/Blog/issues/15)
-14. [JavaScript深入之继承的多种方式以及优缺点](https://github.com/mqyqingfeng/Blog/issues/16)
+15. [JavaScript深入之继承的多种方式以及优缺点](https://github.com/mqyqingfeng/Blog/issues/16)
+
+## 专题系列目录
+
+1. [JavaScript专题之跟着underscore学防抖](https://github.com/mqyqingfeng/Blog/issues/22)
 
 ## 注意
 
