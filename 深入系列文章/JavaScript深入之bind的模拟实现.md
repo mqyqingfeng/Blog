@@ -137,16 +137,16 @@ Function.prototype.bind2 = function (context) {
     var self = this;
     var args = Array.prototype.slice.call(arguments, 1);
 
-    var fbound = function () {
-
+    var fBound = function () {
         var bindArgs = Array.prototype.slice.call(arguments);
-        // 当作为构造函数时，this 指向实例，self 指向绑定函数，因为下面一句 `fbound.prototype = this.prototype;`，已经修改了 fbound.prototype 为 绑定函数的 prototype，此时结果为 true，当结果为 true 的时候，this 指向实例。
-        // 当作为普通函数时，this 指向 window，self 指向绑定函数，此时结果为 false，当结果为 false 的时候，this 指向绑定的 context。
-        self.apply(this instanceof self ? this : context, args.concat(bindArgs));
+        // 当作为构造函数时，this 指向实例，此时结果为 true，将绑定函数的 this 指向该实例，可以让实例获得来自绑定函数的值
+        // 以上面的是 demo 为例，如果改成 `this instanceof fBound ? null : context`，实例只是一个空对象，将 null 改成 this ，实例会具有 habit 属性
+        // 当作为普通函数时，this 指向 window，此时结果为 false，将绑定函数的 this 指向 context
+        self.apply(this instanceof fBound ? this : context, args.concat(bindArgs));
     }
-    // 修改返回函数的 prototype 为绑定函数的 prototype，实例就可以继承函数的原型中的值
-    fbound.prototype = this.prototype;
-    return fbound;
+    // 修改返回函数的 prototype 为绑定函数的 prototype，实例就可以继承绑定函数的原型中的值
+    fBound.prototype = this.prototype;
+    return fBound;
 }
 
 ```
@@ -155,7 +155,7 @@ Function.prototype.bind2 = function (context) {
 
 ## 构造函数效果的优化实现
 
-但是在这个写法中，我们直接将 fbound.prototype = this.prototype，我们直接修改 fbound.prototype 的时候，也会直接修改函数的 prototype。这个时候，我们可以通过一个空函数来进行中转：
+但是在这个写法中，我们直接将 fBound.prototype = this.prototype，我们直接修改 fBound.prototype 的时候，也会直接修改绑定函数的 prototype。这个时候，我们可以通过一个空函数来进行中转：
 
 ```js
 // 第四版
@@ -166,14 +166,14 @@ Function.prototype.bind2 = function (context) {
 
     var fNOP = function () {};
 
-    var fbound = function () {
+    var fBound = function () {
         var bindArgs = Array.prototype.slice.call(arguments);
-        self.apply(this instanceof self ? this : context, args.concat(bindArgs));
+        self.apply(this instanceof fNOP ? this : context, args.concat(bindArgs));
     }
-    fNOP.prototype = this.prototype;
-    fbound.prototype = new fNOP();
-    return fbound;
 
+    fNOP.prototype = this.prototype;
+    fBound.prototype = new fNOP();
+    return fBound;
 }
 ```
 
@@ -235,7 +235,7 @@ Function.prototype.bind = Function.prototype.bind || function () {
 };
 ```
 
-当然最好是用[es5-shim](https://github.com/es-shims/es5-shim)啦。
+当然最好是用 [es5-shim](https://github.com/es-shims/es5-shim) 啦。
 
 ## 最终代码
 
@@ -250,17 +250,17 @@ Function.prototype.bind2 = function (context) {
 
     var self = this;
     var args = Array.prototype.slice.call(arguments, 1);
+
     var fNOP = function () {};
 
-    var fbound = function () {
-        self.apply(this instanceof self ? this : context, args.concat(Array.prototype.slice.call(arguments)));
+    var fBound = function () {
+        var bindArgs = Array.prototype.slice.call(arguments);
+        self.apply(this instanceof fNOP ? this : context, args.concat(bindArgs));
     }
 
     fNOP.prototype = this.prototype;
-    fbound.prototype = new fNOP();
-
-    return fbound;
-
+    fBound.prototype = new fNOP();
+    return fBound;
 }
 ```
 
