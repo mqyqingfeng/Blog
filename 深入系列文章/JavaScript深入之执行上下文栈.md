@@ -60,7 +60,7 @@ foo(); // foo2
 
 其实很简单，就三种，全局代码、函数代码、eval代码。
 
-举个例子，当执行到一个函数的时候，就会进行准备工作，这里的“准备工作”，让我们用个更专业一点的说法，就叫做"执行上下文(execution contexts)"。
+举个例子，当执行到一个函数的时候，就会进行准备工作，这里的“准备工作”，让我们用个更专业一点的说法，就叫做"执行上下文(execution context)"。
 
 ## 执行上下文栈
 
@@ -71,15 +71,15 @@ foo(); // foo2
 为了模拟执行上下文栈的行为，让我们定义执行上下文栈是一个数组：
 
 ```js
-    ECStack = [];
+ECStack = [];
 ```
 
 试想当 JavaScript 开始要解释执行代码的时候，最先遇到的就是全局代码，所以初始化的时候首先就会向执行上下文栈压入一个全局执行上下文，我们用 globalContext 表示它，并且只有当整个应用程序结束的时候，ECStack 才会被清空，所以 ECStack 最底部永远有个 globalContext：
 
 ```js
-    ECStack = [
-        globalContext
-    ];
+ECStack = [
+    globalContext
+];
 ```
 
 现在 JavaScript 遇到下面的这段代码了：
