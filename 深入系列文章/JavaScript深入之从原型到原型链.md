@@ -150,15 +150,23 @@ console.log(obj.name) // Kevin
 
 那 Object.prototype 的原型呢？
 
-null，不信我们可以打印：
+null，我们可以打印：
 
 ```js
 console.log(Object.prototype.__proto__ === null) // true
 ```
 
-所以查到属性的时候查到 Object.prototype 就可以停止查找了。
+然而 null 究竟代表了什么呢？
 
-所以最后一张关系图就是
+引用阮一峰老师的 [《undefined与null的区别》](http://www.ruanyifeng.com/blog/2014/03/undefined-vs-null.html) 就是：
+
+> null 表示“没有对象”，即该处不应该有值。
+
+所以 Object.prototype.\_\_proto\_\_ 的值为 null 跟 Object.prototype 没有原型，其实表达了一个意思。
+
+所以查找属性的时候查到 Object.prototype 就可以停止查找了。
+
+最后一张关系图也可以更新为：
 
 ![原型链示意图](https://github.com/mqyqingfeng/Blog/raw/master/Images/prototype5.png)
 
