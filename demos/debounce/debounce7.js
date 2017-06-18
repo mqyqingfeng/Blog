@@ -37,7 +37,7 @@ function debounce(func, wait, immediate) {
 		}
 		else {
 			timeout = setTimeout(function(){
-				result = func.apply(context, args)
+				func.apply(context, args)
 			}, wait);
 		}
 

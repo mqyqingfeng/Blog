@@ -165,44 +165,56 @@ function debounce(func, wait) {
 }
 ```
 
-## 返回值
-
-再注意一个小点，getUserAction 函数可能是有返回值的，所以我们也要返回函数的执行结果
-
-```js
-// 第四版
-function debounce(func, wait) {
-    var timeout, result;
-
-    return function () {
-        var context = this;
-        var args = arguments;
-
-        clearTimeout(timeout)
-        timeout = setTimeout(function(){
-            result = func.apply(context, args)
-        }, wait);
-
-        return result;
-    }
-}
-```
-
-到此为止，我们修复了三个小问题：
+到此为止，我们修复了两个小问题：
 
 1. this 指向
 2. event 对象
-3. 返回值
 
 ## 立刻执行
 
-这个时候，代码已经很是完善，但是为了让这个函数更加完善，我们接下来思考一个新的需求。
+这个时候，代码已经很是完善了，但是为了让这个函数更加完善，我们接下来思考一个新的需求。
 
 这个需求就是：
 
 我不希望非要等到事件停止触发后才执行，我希望立刻执行函数，然后等到停止触发 n 秒后，才可以重新触发执行。
 
 想想这个需求也是很有道理的嘛，那我们加个 immediate 参数判断是否是立刻执行。
+
+```js
+// 第四版
+function debounce(func, wait, immediate) {
+
+    var timeout, result;
+
+    return function () {
+        var context = this;
+        var args = arguments;
+
+        if (timeout) clearTimeout(timeout);
+        if (immediate) {
+            // 如果已经执行过，不再执行
+            var callNow = !timeout;
+            timeout = setTimeout(function(){
+                timeout = null;
+            }, wait)
+            if (callNow) func.apply(context, args)
+        }
+        else {
+            timeout = setTimeout(function(){
+                func.apply(context, args)
+            }, wait);
+        }
+    }
+}
+```
+
+再来看看使用效果：
+
+![debounce 第四版](https://github.com/mqyqingfeng/Blog/raw/master/Images/debounce/debounce-4.gif)
+
+## 返回值
+
+此时注意一点，就是 getUserAction 函数可能是有返回值的，所以我们也要返回函数的执行结果，但是当 immediate 为 false 的时候，因为使用了 setTimeout ，我们将 func.apply(context, args) 的返回值赋给变量，最后再 return 的时候，值将会一直是 undefined，所以我们只在 immediate 为 true 的时候返回函数的执行结果。 
 
 ```js
 // 第五版
@@ -225,18 +237,13 @@ function debounce(func, wait, immediate) {
         }
         else {
             timeout = setTimeout(function(){
-                result = func.apply(context, args)
+                func.apply(context, args)
             }, wait);
         }
-
         return result;
     }
 }
 ```
-
-再来看看使用效果：
-
-![debounce 第五版](https://github.com/mqyqingfeng/Blog/raw/master/Images/debounce/debounce-5.gif)
 
 ## 取消
 
@@ -265,7 +272,7 @@ function debounce(func, wait, immediate) {
         }
         else {
             timeout = setTimeout(function(){
-                result = func.apply(context, args)
+                func.apply(context, args)
             }, wait);
         }
         return result;
