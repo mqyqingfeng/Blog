@@ -312,7 +312,9 @@ document.getElementById("button").addEventListener('click', function(){
 
 至此我们已经完整实现了一个 underscore 中的 debounce 函数，恭喜，撒花！
 
-完整的代码可以在 [Github 博客仓库](https://github.com/mqyqingfeng/Blog/tree/master/demos/debounce)中找到
+## 演示代码
+
+相关的代码可以在 [Github 博客仓库](https://github.com/mqyqingfeng/Blog/tree/master/demos/debounce) 中找到
 
 ## 专题系列
 
@@ -320,4 +322,4 @@ JavaScript专题系列目录地址：[https://github.com/mqyqingfeng/Blog](https
 
 JavaScript专题系列预计写二十篇左右，主要研究日常开发中一些功能点的实现，比如防抖、节流、去重、类型判断、拷贝、最值、扁平、柯里、递归、乱序、排序等，特点是研(chao)究(xi) underscore 和 jQuery 的实现方式。
 
-如果有错误或者不严谨的地方，请务必给予指正，十分感谢。如果喜欢或者有所启发，欢迎star，对作者也是一种鼓励。
+如果有错误或者不严谨的地方，请务必给予指正，十分感谢。如果喜欢或者有所启发，欢迎 star，对作者也是一种鼓励。
