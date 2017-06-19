@@ -31,6 +31,7 @@ JavaScript专题系列正在发布中……
 ## 专题系列目录
 
 1. [JavaScript专题之跟着underscore学防抖](https://github.com/mqyqingfeng/Blog/issues/22)
+2. [JavaScript专题之跟着underscore学节流](https://github.com/mqyqingfeng/Blog/issues/26)
 
 ## 注意
 
