@@ -137,7 +137,7 @@ function throttle(func, wait) {
 
 效果演示如下：
 
-![throttle3](images/throttle/throttle3.gif)
+![throttle3](https://github.com/mqyqingfeng/Blog/raw/master/Images/throttle/throttle3.gif)
 
 我们可以看到：鼠标移入，事件立刻执行，晃了 3s，事件再一次执行，当数字变成 3 的时候，也就是 6s 后，我们立刻移出鼠标，停止触发事件，9s 的时候，依然会再执行一次事件。
 
