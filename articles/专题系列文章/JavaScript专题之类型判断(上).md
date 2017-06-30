@@ -233,7 +233,7 @@ var isArray = Array.isArray || function( obj ) {
 
 到此，类型判断的上篇就结束了，我们已经可以判断日期、正则、错误类型啦，但是还有更复杂的判断比如 plainObject、空对象、Window对象、类数组对象等，路漫漫其修远兮，吾将上下而求索。
 
-哦， 对了，这个 type 函数抄的 jQuery，[点击查看jQuery type源码](https://github.com/jquery/jquery/blob/ac9e3016645078e1e42120822cfb2076151c8cbe/src/core.js#L269)。
+哦， 对了，这个 type 函数抄的 jQuery，[点击查看 type 源码](https://github.com/jquery/jquery/blob/ac9e3016645078e1e42120822cfb2076151c8cbe/src/core.js#L269)。
 
 ## 专题系列
 
