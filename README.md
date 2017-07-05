@@ -34,6 +34,7 @@ JavaScript专题系列正在发布中……
 2. [JavaScript专题之跟着underscore学节流](https://github.com/mqyqingfeng/Blog/issues/26)
 3. [JavaScript专题之数组去重](https://github.com/mqyqingfeng/Blog/issues/27)
 4. [JavaScript专题之类型判断(上)](https://github.com/mqyqingfeng/Blog/issues/28)
+5. [JavaScript专题之类型判断(下)](https://github.com/mqyqingfeng/Blog/issues/30)
 
 ## 注意
 
