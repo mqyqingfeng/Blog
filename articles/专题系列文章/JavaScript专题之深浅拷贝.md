@@ -79,7 +79,7 @@ console.log(new_arr);
 
 我们会发现 new_arr 变成了：
 
-![不能拷贝函数](images/copy/copy1.png)
+![不能拷贝函数](https://github.com/mqyqingfeng/Blog/raw/master/Images/copy/copy1.png)
 
 ## 浅拷贝的实现
 
