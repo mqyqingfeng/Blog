@@ -415,11 +415,27 @@ function extend() {
 
 ## 思考题
 
-如果觉得看明白了上面的代码，想想下面这个 demo 的结果：
+如果觉得看明白了上面的代码，想想下面两个 demo 的结果：
 
 ```js
-var d = extend(true, [4, 5, 6, 7, 8, 9], [1, 2, 3]);
-console.log(d) // ???
+var a = extend(true, [4, 5, 6, 7, 8, 9], [1, 2, 3]);
+console.log(a) // ???
+```
+
+```js
+var obj1 = {
+    value: {
+        3: 1
+    }
+}
+
+var obj2 = {
+    value: [5, 6, 7],
+
+}
+
+var b = extend(true, obj1, obj2) // ???
+var c = extend(true, obj2, obj1) // ???
 ```
 
 ## 专题系列
