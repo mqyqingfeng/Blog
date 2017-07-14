@@ -36,6 +36,7 @@ JavaScript专题系列正在发布中……
 4. [JavaScript专题之类型判断(上)](https://github.com/mqyqingfeng/Blog/issues/28)
 5. [JavaScript专题之类型判断(下)](https://github.com/mqyqingfeng/Blog/issues/30)
 6. [JavaScript专题之深浅拷贝](https://github.com/mqyqingfeng/Blog/issues/32)
+7. [JavaScript专题之从零实现jQuery的extend](https://github.com/mqyqingfeng/Blog/issues/33)
 
 ## 注意
 
