@@ -41,6 +41,7 @@ JavaScript专题系列正在发布中……
 9. [JavaScript专题之数组扁平化](https://github.com/mqyqingfeng/Blog/issues/36)
 10. [JavaScript专题之学underscore在数组中查找指定元素](https://github.com/mqyqingfeng/Blog/issues/37)
 11. [JavaScript专题之jQuery通用遍历方法each的实现](https://github.com/mqyqingfeng/Blog/issues/40)
+12. [JavaScript专题之如何判断两个对象相等](https://github.com/mqyqingfeng/Blog/issues/41)
 
 ## 注意
 
