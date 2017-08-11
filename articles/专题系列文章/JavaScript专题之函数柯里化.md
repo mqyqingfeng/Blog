@@ -1,4 +1,4 @@
-# JavaScript专题之函数的柯里化
+# JavaScript专题之函数柯里化
 
 ## 定义
 
