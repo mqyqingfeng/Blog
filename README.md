@@ -43,6 +43,7 @@ JavaScript专题系列正在发布中……
 11. [JavaScript专题之jQuery通用遍历方法each的实现](https://github.com/mqyqingfeng/Blog/issues/40)
 12. [JavaScript专题之如何判断两个对象相等](https://github.com/mqyqingfeng/Blog/issues/41)
 13. [JavaScript专题之函数柯里化](https://github.com/mqyqingfeng/Blog/issues/42)
+14. [JavaScript专题之偏函数](https://github.com/mqyqingfeng/Blog/issues/43)
 
 ## 注意
 
