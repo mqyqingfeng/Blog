@@ -45,6 +45,7 @@ JavaScript专题系列正在发布中……
 13. [JavaScript专题之函数柯里化](https://github.com/mqyqingfeng/Blog/issues/42)
 14. [JavaScript专题之偏函数](https://github.com/mqyqingfeng/Blog/issues/43)
 15. [JavaScript专题之惰性函数](https://github.com/mqyqingfeng/Blog/issues/44)
+16. [JavaScript专题之函数组合](https://github.com/mqyqingfeng/Blog/issues/45)
 
 ## 注意
 
