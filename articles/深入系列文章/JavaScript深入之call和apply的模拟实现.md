@@ -136,7 +136,7 @@ for(var i = 1, len = arguments.length; i < len; i++) {
     args.push('arguments[' + i + ']');
 }
 
-// 执行后 args为 [foo, 'kevin', 18]
+// 执行后 args为 ["arguments[1]", "arguments[2]", "arguments[3]"]
 ```
 
 不定长的参数问题解决了，我们接着要把这个参数数组放到要执行的函数的参数里面去。
