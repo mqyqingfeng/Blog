@@ -47,6 +47,7 @@ JavaScript专题系列正在发布中……
 15. [JavaScript专题之惰性函数](https://github.com/mqyqingfeng/Blog/issues/44)
 16. [JavaScript专题之函数组合](https://github.com/mqyqingfeng/Blog/issues/45)
 17. [JavaScript专题之函数记忆](https://github.com/mqyqingfeng/Blog/issues/46)
+18. [JavaScript专题之递归](https://github.com/mqyqingfeng/Blog/issues/49)
 
 ## 注意
 
