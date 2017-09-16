@@ -253,9 +253,7 @@ console.timeEnd('eachWithCall')
 
 each 函数和 eachWithCall 函数唯一的区别就是 eachWithCall 调用了 call，从结果我们可以推测出，call 会导致性能损失，但也正是 call 的存在，我们才能将 this 指向循环中当前的元素。
 
-比较 each 和 for 循环，倒不是为了证明什么，只是想说明：
-
-有舍有得。
+有舍有得吧。
 
 ## 专题系列
 
