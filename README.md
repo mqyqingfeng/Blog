@@ -48,6 +48,7 @@ JavaScript专题系列正在发布中……
 16. [JavaScript专题之函数组合](https://github.com/mqyqingfeng/Blog/issues/45)
 17. [JavaScript专题之函数记忆](https://github.com/mqyqingfeng/Blog/issues/46)
 18. [JavaScript专题之递归](https://github.com/mqyqingfeng/Blog/issues/49)
+19. [JavaScript专题之乱序](https://github.com/mqyqingfeng/Blog/issues/51)
 
 ## 注意
 
