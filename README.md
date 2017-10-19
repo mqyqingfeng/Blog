@@ -4,7 +4,9 @@
 
 JavaScript深入系列已完结。
 
-JavaScript专题系列正在发布中……
+JavaScript专题系列已完结。
+
+待发布专题系列完结篇~
 
 ## 系列总结篇
 
@@ -49,6 +51,7 @@ JavaScript专题系列正在发布中……
 17. [JavaScript专题之函数记忆](https://github.com/mqyqingfeng/Blog/issues/46)
 18. [JavaScript专题之递归](https://github.com/mqyqingfeng/Blog/issues/49)
 19. [JavaScript专题之乱序](https://github.com/mqyqingfeng/Blog/issues/51)
+20. [JavaScript专题之解读 v8 排序源码](https://github.com/mqyqingfeng/Blog/issues/52)
 
 ## 注意
 
