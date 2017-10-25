@@ -8,6 +8,15 @@ JavaScript专题系列已完结。
 
 待发布专题系列完结篇~
 
+## 专栏
+
+* [掘金主页](https://juejin.im/user/58e4b9b261ff4b006b3227f4)
+* [segmentfault主页](https://segmentfault.com/u/yayu/articles)
+
+## 其他
+
+* [知乎](https://www.zhihu.com/people/qing-feng-yi-yang/activities)
+
 ## 系列总结篇
 
 [JavaScript深入系列15篇正式完结！](https://github.com/mqyqingfeng/Blog/issues/17)
