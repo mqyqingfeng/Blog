@@ -6,7 +6,7 @@ JavaScript深入系列已完结。
 
 JavaScript专题系列已完结。
 
-待发布专题系列完结篇~
+underscore 系列正在准备中......
 
 ## 专栏
 
@@ -20,6 +20,7 @@ JavaScript专题系列已完结。
 ## 系列总结篇
 
 [JavaScript深入系列15篇正式完结！](https://github.com/mqyqingfeng/Blog/issues/17)
+[JavaScript专题系列20篇正式完结！](https://github.com/mqyqingfeng/Blog/issues/53)
 
 ## 深入系列目录
 
