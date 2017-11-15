@@ -63,6 +63,10 @@ underscore 系列正在准备中......
 19. [JavaScript专题之乱序](https://github.com/mqyqingfeng/Blog/issues/51)
 20. [JavaScript专题之解读 v8 排序源码](https://github.com/mqyqingfeng/Blog/issues/52)
 
+## underscore系列目录
+
+1. [underscore系列之如何写自己的underscore](https://github.com/mqyqingfeng/Blog/issues/56)
+
 ## 注意
 
 深入系列文章部分是有先后顺序的，按照目录结构顺序阅读效果最好。
