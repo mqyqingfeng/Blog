@@ -39,10 +39,26 @@ bindFoo(); // 1
 Function.prototype.bind2 = function (context) {
     var self = this;
     return function () {
-        self.apply(context);
+        return self.apply(context);
     }
 
 }
+```
+
+此外，之所以 `return self.apply(context)`，是考虑到绑定函数可能是有返回值的，依然是这个例子：
+
+```js
+var foo = {
+    value: 1
+};
+
+function bar() {
+    return this.value;
+}
+
+var bindFoo = bar.bind(foo);
+
+console.log(bindFoo()); // 1
 ```
 
 ## 传参的模拟实现
@@ -83,7 +99,7 @@ Function.prototype.bind2 = function (context) {
     return function () {
         // 这个时候的arguments是指bind返回的函数传入的参数
         var bindArgs = Array.prototype.slice.call(arguments);
-        self.apply(context, args.concat(bindArgs));
+        return self.apply(context, args.concat(bindArgs));
     }
 
 }
@@ -142,7 +158,7 @@ Function.prototype.bind2 = function (context) {
         // 当作为构造函数时，this 指向实例，此时结果为 true，将绑定函数的 this 指向该实例，可以让实例获得来自绑定函数的值
         // 以上面的是 demo 为例，如果改成 `this instanceof fBound ? null : context`，实例只是一个空对象，将 null 改成 this ，实例会具有 habit 属性
         // 当作为普通函数时，this 指向 window，此时结果为 false，将绑定函数的 this 指向 context
-        self.apply(this instanceof fBound ? this : context, args.concat(bindArgs));
+        return self.apply(this instanceof fBound ? this : context, args.concat(bindArgs));
     }
     // 修改返回函数的 prototype 为绑定函数的 prototype，实例就可以继承绑定函数的原型中的值
     fBound.prototype = this.prototype;
@@ -168,7 +184,7 @@ Function.prototype.bind2 = function (context) {
 
     var fBound = function () {
         var bindArgs = Array.prototype.slice.call(arguments);
-        self.apply(this instanceof fNOP ? this : context, args.concat(bindArgs));
+        return self.apply(this instanceof fNOP ? this : context, args.concat(bindArgs));
     }
 
     fNOP.prototype = this.prototype;
@@ -255,7 +271,7 @@ Function.prototype.bind2 = function (context) {
 
     var fBound = function () {
         var bindArgs = Array.prototype.slice.call(arguments);
-        self.apply(this instanceof fNOP ? this : context, args.concat(bindArgs));
+        return self.apply(this instanceof fNOP ? this : context, args.concat(bindArgs));
     }
 
     fNOP.prototype = this.prototype;
