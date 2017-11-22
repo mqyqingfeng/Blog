@@ -93,7 +93,7 @@ var obj = {
     value: 2,
     addOne: addOne
 }
-obj.addOne(); // ???
+obj.addOne(2); // ???
 // 使用 bind 时，结果为 4
 // 使用 partial 时，结果为 5
 ```
