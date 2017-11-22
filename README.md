@@ -66,6 +66,7 @@ underscore 系列正在准备中......
 ## underscore系列目录
 
 1. [underscore系列之如何写自己的underscore](https://github.com/mqyqingfeng/Blog/issues/56)
+2. [underscore 系列之链式调用](https://github.com/mqyqingfeng/Blog/issues/57)
 
 ## 注意
 
