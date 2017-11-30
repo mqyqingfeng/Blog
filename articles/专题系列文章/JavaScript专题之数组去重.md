@@ -235,6 +235,22 @@ function unique(array) {
 console.log(unique(array)); // [1, 2, "1"]
 ```
 
+然而，即便如此，我们依然无法正确区分出两个对象，比如 {value: 1} 和 {value: 2}，因为 `typeof item + item` 的结果都会是 `object[object Object]`，不过我们可以使用 JSON.stringify 将对象序列化：
+
+```js
+var array = [{value: 1}, {value: 1}, {value: 2}];
+
+function unique(array) {
+    var obj = {};
+    return array.filter(function(item, index, array){
+        console.log(typeof item + JSON.stringify(item))
+        return obj.hasOwnProperty(typeof item + JSON.stringify(item)) ? false : (obj[typeof item + JSON.stringify(item)] = true)
+    })
+}
+
+console.log(unique(array)); // [{value: 1}, {value: 2}]
+```
+
 ## ES6
 
 随着 ES6 的到来，去重的方法又有了进展，比如我们可以使用 Set 和 Map 数据结构，以 Set 为例，ES6 提供了新的数据结构 Set。它类似于数组，但是成员的值都是唯一的，没有重复的值。
