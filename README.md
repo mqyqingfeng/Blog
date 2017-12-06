@@ -68,6 +68,7 @@ underscore 系列正在准备中......
 1. [underscore 系列之如何写自己的 underscore](https://github.com/mqyqingfeng/Blog/issues/56)
 2. [underscore 系列之链式调用](https://github.com/mqyqingfeng/Blog/issues/57)
 3. [underscore 系列之内部函数 cb 和 optimizeCb](https://github.com/mqyqingfeng/Blog/issues/58)
+4. [underscore 系列之内部函数 restArgs](https://github.com/mqyqingfeng/Blog/issues/60)
 
 ## 注意
 
