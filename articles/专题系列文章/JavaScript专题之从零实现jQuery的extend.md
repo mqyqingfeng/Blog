@@ -58,7 +58,7 @@ console.log($.extend(obj1, obj2, obj3));
 ```js
 // 第一版
 function extend() {
-    var name, options, src, copy;
+    var name, options, copy;
     var length = arguments.length;
     var i = 1;
     var target = arguments[0];
@@ -67,7 +67,6 @@ function extend() {
         options = arguments[i];
         if (options != null) {
             for (name in options) {
-                src = target[name];
                 copy = options[name];
                 if (copy !== undefined){
                     target[name] = copy;
