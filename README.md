@@ -6,7 +6,7 @@ JavaScript深入系列已完结。
 
 JavaScript专题系列已完结。
 
-underscore 系列正在准备中......
+underscore 系列正在发布中......
 
 ## 专栏
 
@@ -16,11 +16,6 @@ underscore 系列正在准备中......
 ## 其他
 
 * [知乎](https://www.zhihu.com/people/qing-feng-yi-yang/activities)
-
-## 系列总结篇
-
-* [JavaScript深入系列15篇正式完结！](https://github.com/mqyqingfeng/Blog/issues/17)
-* [JavaScript专题系列20篇正式完结！](https://github.com/mqyqingfeng/Blog/issues/53)
 
 ## 深入系列目录
 
@@ -39,6 +34,7 @@ underscore 系列正在准备中......
 13. [JavaScript深入之类数组对象与arguments](https://github.com/mqyqingfeng/Blog/issues/14)
 14. [JavaScript深入之创建对象的多种方式以及优缺点](https://github.com/mqyqingfeng/Blog/issues/15)
 15. [JavaScript深入之继承的多种方式以及优缺点](https://github.com/mqyqingfeng/Blog/issues/16)
+16. [JavaScript深入系列15篇正式完结！](https://github.com/mqyqingfeng/Blog/issues/17)
 
 ## 专题系列目录
 
@@ -62,6 +58,7 @@ underscore 系列正在准备中......
 18. [JavaScript专题之递归](https://github.com/mqyqingfeng/Blog/issues/49)
 19. [JavaScript专题之乱序](https://github.com/mqyqingfeng/Blog/issues/51)
 20. [JavaScript专题之解读 v8 排序源码](https://github.com/mqyqingfeng/Blog/issues/52)
+21. [JavaScript专题系列20篇正式完结！](https://github.com/mqyqingfeng/Blog/issues/53)
 
 ## underscore 系列目录
 
@@ -70,6 +67,7 @@ underscore 系列正在准备中......
 3. [underscore 系列之内部函数 cb 和 optimizeCb](https://github.com/mqyqingfeng/Blog/issues/58)
 4. [underscore 系列之内部函数 restArgs](https://github.com/mqyqingfeng/Blog/issues/60)
 5. [underscore 系列之防冲突与 Utility Functions](https://github.com/mqyqingfeng/Blog/issues/62)
+6. [underscore 系列之实现一个模板引擎(上)](https://github.com/mqyqingfeng/Blog/issues/63)
 
 ## 注意
 
