@@ -13,7 +13,7 @@ container.onmousemove = debounce(getUserAction, 1000, true);
 // 第四版
 function debounce(func, wait, immediate) {
 
-	var timeout, result;
+	var timeout;
 
 	return function () {
 		var context = this;
