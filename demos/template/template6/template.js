@@ -1,5 +1,5 @@
 /**
- * 模板引擎第五版
+ * 模板引擎第六版
  */
 
 var settings = {
@@ -23,7 +23,7 @@ var escapeRegExp = /\\|'|\r|\n|\u2028|\u2029/g;
 
 var template = function(text) {
 
-    var source = "var __p='';\n";
+    var source = "var __t, __p='';\n";
     source = source + "with(obj){\n"
     source = source + "__p+='";
 
@@ -32,7 +32,7 @@ var template = function(text) {
         return '\\' + escapes[match];
     })
     .replace(settings.interpolate, function(match, interpolate){
-        return "'+\n" + interpolate + "+\n'"
+        return "'+\n((__t=(" + interpolate + "))==null?'':__t)+\n'"
     })
     .replace(settings.evaluate, function(match, evaluate){
         return "';\n " + evaluate + "\n__p+='"
@@ -51,7 +51,7 @@ var results = document.getElementById("container");
 
 var data = {
     users: [
-        { "name": "Byron", "url": "http://localhost" },
+        { "url": "http://localhost" },
         { "name": "Casper", "url": "http://localhost" },
         { "name": "Frank", "url": "http://localhost" }
     ]

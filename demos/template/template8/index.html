@@ -8,9 +8,13 @@
 <body>
 	<div id="container"></div>
     <script type="text/html" id="user_tmpl">
-        <% for ( var i = 0; i < users.length; i++ ) { %>
-            <li><a href="<%=users[i].url%>"><%=users[i].name%></a></li>
-        <% } %>
+        <%for ( var i = 0; i < users.length; i++ ) { %>
+            <li>
+                <a href="<%=users[i].url%>">
+                    <%=users[i].name%>
+                </a>
+            </li>
+            <% } %>
     </script>
     <script src="template.js"></script>
 </body>
