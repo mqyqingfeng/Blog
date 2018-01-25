@@ -68,6 +68,7 @@ underscore 系列正在发布中......
 4. [underscore 系列之内部函数 restArgs](https://github.com/mqyqingfeng/Blog/issues/60)
 5. [underscore 系列之防冲突与 Utility Functions](https://github.com/mqyqingfeng/Blog/issues/62)
 6. [underscore 系列之实现一个模板引擎(上)](https://github.com/mqyqingfeng/Blog/issues/63)
+6. [underscore 系列之实现一个模板引擎(下)](https://github.com/mqyqingfeng/Blog/issues/70)
 
 ## 注意
 
