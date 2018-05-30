@@ -75,6 +75,7 @@ underscore 系列 8 篇已完结。
 ## ES6 系列
 
 1. [ES6 系列之 let 和 const](https://github.com/mqyqingfeng/Blog/issues/82)
+2. [ES6 系列之模板字符串](https://github.com/mqyqingfeng/Blog/issues/84)
 
 ## 注意
 
