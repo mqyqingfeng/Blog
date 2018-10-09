@@ -82,6 +82,10 @@ underscore 系列 8 篇已完结。
 6. [ES6 系列之模拟实现一个 Set 数据结构](https://github.com/mqyqingfeng/Blog/issues/91)
 7. [ES6 系列之 WeakMap](https://github.com/mqyqingfeng/Blog/issues/92)
 
+## 友情链接
+
+1. [如何轻松拿到淘宝前端 offer](https://juejin.im/post/5bbc54a2e51d450e5a7445b4)
+
 ## 注意
 
 深入系列文章部分是有先后顺序的，按照目录结构顺序阅读效果最好。
