@@ -82,6 +82,7 @@ underscore 系列 8 篇已完结。
 6. [ES6 系列之模拟实现一个 Set 数据结构](https://github.com/mqyqingfeng/Blog/issues/91)
 7. [ES6 系列之 WeakMap](https://github.com/mqyqingfeng/Blog/issues/92)
 8. [ES6 系列之我们来聊聊 Promise](https://github.com/mqyqingfeng/Blog/issues/98)
+9. [ES6 系列之 Generator 的自动执行](https://github.com/mqyqingfeng/Blog/issues/99)
 
 ## 友情链接
 
