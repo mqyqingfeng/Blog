@@ -86,6 +86,7 @@ underscore 系列 8 篇已完结。
 10. [ES6 系列之我们来聊聊 Async](https://github.com/mqyqingfeng/Blog/issues/100)
 11. [ES6 系列之异步处理实战](https://github.com/mqyqingfeng/Blog/issues/101)
 12. [ES6 系列之 Babel 将 Generator 编译成了什么样子](https://github.com/mqyqingfeng/Blog/issues/102)
+13. [ES6 系列之 Babel 将 Async 编译成了什么样子](https://github.com/mqyqingfeng/Blog/issues/103)
 
 ## 友情链接
 
