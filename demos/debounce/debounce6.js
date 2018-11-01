@@ -37,7 +37,8 @@ function getUserAction() {
     return '111'
 };
 
+var result = debounce(getUserAction, 1000, true)
 container.onmousemove = function(){
-    var result = debounce(getUserAction, 1000, true)();
-    console.log(result)
+    var res = result();
+    console.log(res)
 }

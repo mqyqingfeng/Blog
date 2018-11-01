@@ -2,11 +2,11 @@
 
 ## 进度
 
-JavaScript深入系列已完结。
+JavaScript深入系列 15 篇已完结。
 
-JavaScript专题系列已完结。
+JavaScript专题系列 20 篇已完结。
 
-underscore 系列正在发布中......
+underscore 系列 8 篇已完结。
 
 ## 专栏
 
@@ -68,7 +68,29 @@ underscore 系列正在发布中......
 4. [underscore 系列之内部函数 restArgs](https://github.com/mqyqingfeng/Blog/issues/60)
 5. [underscore 系列之防冲突与 Utility Functions](https://github.com/mqyqingfeng/Blog/issues/62)
 6. [underscore 系列之实现一个模板引擎(上)](https://github.com/mqyqingfeng/Blog/issues/63)
-6. [underscore 系列之实现一个模板引擎(下)](https://github.com/mqyqingfeng/Blog/issues/70)
+7. [underscore 系列之实现一个模板引擎(下)](https://github.com/mqyqingfeng/Blog/issues/70)
+8. [underscore 系列之字符实体与 _.escape](https://github.com/mqyqingfeng/Blog/issues/77)
+9. [underscore 的源码该如何阅读？](https://github.com/mqyqingfeng/Blog/issues/79)
+
+## ES6 系列目录
+
+1. [ES6 系列之 let 和 const](https://github.com/mqyqingfeng/Blog/issues/82)
+2. [ES6 系列之模板字符串](https://github.com/mqyqingfeng/Blog/issues/84)
+3. [ES6 系列之箭头函数](https://github.com/mqyqingfeng/Blog/issues/85)
+4. [ES6 系列之模拟实现 Symbol 类型](https://github.com/mqyqingfeng/Blog/issues/87)
+5. [ES6 系列之迭代器与 for of](https://github.com/mqyqingfeng/Blog/issues/90)
+6. [ES6 系列之模拟实现一个 Set 数据结构](https://github.com/mqyqingfeng/Blog/issues/91)
+7. [ES6 系列之 WeakMap](https://github.com/mqyqingfeng/Blog/issues/92)
+8. [ES6 系列之我们来聊聊 Promise](https://github.com/mqyqingfeng/Blog/issues/98)
+9. [ES6 系列之 Generator 的自动执行](https://github.com/mqyqingfeng/Blog/issues/99)
+10. [ES6 系列之我们来聊聊 Async](https://github.com/mqyqingfeng/Blog/issues/100)
+11. [ES6 系列之异步处理实战](https://github.com/mqyqingfeng/Blog/issues/101)
+12. [ES6 系列之 Babel 将 Generator 编译成了什么样子](https://github.com/mqyqingfeng/Blog/issues/102)
+13. [ES6 系列之 Babel 将 Async 编译成了什么样子](https://github.com/mqyqingfeng/Blog/issues/103)
+
+## 友情链接
+
+1. [如何轻松拿到淘宝前端 offer](https://juejin.im/post/5bbc54a2e51d450e5a7445b4)
 
 ## 注意
 
