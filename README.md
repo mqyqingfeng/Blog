@@ -12,10 +12,7 @@ underscore 系列 8 篇已完结。
 
 * [掘金主页](https://juejin.im/user/58e4b9b261ff4b006b3227f4)
 * [segmentfault主页](https://segmentfault.com/u/yayu/articles)
-
-## 其他
-
-* [知乎](https://www.zhihu.com/people/qing-feng-yi-yang/activities)
+* [知乎专栏](https://zhuanlan.zhihu.com/c_1042806379215601664)
 
 ## 深入系列目录
 
@@ -87,6 +84,7 @@ underscore 系列 8 篇已完结。
 11. [ES6 系列之异步处理实战](https://github.com/mqyqingfeng/Blog/issues/101)
 12. [ES6 系列之 Babel 将 Generator 编译成了什么样子](https://github.com/mqyqingfeng/Blog/issues/102)
 13. [ES6 系列之 Babel 将 Async 编译成了什么样子](https://github.com/mqyqingfeng/Blog/issues/103)
+14. [ES6 系列之 Babel 是如何编译 Class 的(上)](https://github.com/mqyqingfeng/Blog/issues/105)
 
 ## 友情链接
 
