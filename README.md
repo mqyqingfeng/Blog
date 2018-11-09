@@ -8,6 +8,8 @@ JavaScript专题系列 20 篇已完结。
 
 underscore 系列 8 篇已完结。
 
+ES6 系列正在发布中……
+
 ## 专栏
 
 * [掘金主页](https://juejin.im/user/58e4b9b261ff4b006b3227f4)
@@ -86,6 +88,7 @@ underscore 系列 8 篇已完结。
 13. [ES6 系列之 Babel 将 Async 编译成了什么样子](https://github.com/mqyqingfeng/Blog/issues/103)
 13. [ES6 系列之 Babel 是如何编译 Class 的(上)](https://github.com/mqyqingfeng/Blog/issues/105)
 14. [ES6 系列之 Babel 是如何编译 Class 的(下)](https://github.com/mqyqingfeng/Blog/issues/106)
+15. [ES6 系列之 defineProperty 与 proxy](https://github.com/mqyqingfeng/Blog/issues/107)
 
 ## 友情链接
 
