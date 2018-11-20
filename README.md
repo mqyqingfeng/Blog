@@ -86,11 +86,12 @@ ES6 系列正在发布中……
 11. [ES6 系列之异步处理实战](https://github.com/mqyqingfeng/Blog/issues/101)
 12. [ES6 系列之 Babel 将 Generator 编译成了什么样子](https://github.com/mqyqingfeng/Blog/issues/102)
 13. [ES6 系列之 Babel 将 Async 编译成了什么样子](https://github.com/mqyqingfeng/Blog/issues/103)
-13. [ES6 系列之 Babel 是如何编译 Class 的(上)](https://github.com/mqyqingfeng/Blog/issues/105)
-14. [ES6 系列之 Babel 是如何编译 Class 的(下)](https://github.com/mqyqingfeng/Blog/issues/106)
-15. [ES6 系列之 defineProperty 与 proxy](https://github.com/mqyqingfeng/Blog/issues/107)
-16. [ES6 系列之模块加载方案](https://github.com/mqyqingfeng/Blog/issues/108)
-17. [ES6 系列之我们来聊聊装饰器](https://github.com/mqyqingfeng/Blog/issues/109)
+14. [ES6 系列之 Babel 是如何编译 Class 的(上)](https://github.com/mqyqingfeng/Blog/issues/105)
+15. [ES6 系列之 Babel 是如何编译 Class 的(下)](https://github.com/mqyqingfeng/Blog/issues/106)
+16. [ES6 系列之 defineProperty 与 proxy](https://github.com/mqyqingfeng/Blog/issues/107)
+17. [ES6 系列之模块加载方案](https://github.com/mqyqingfeng/Blog/issues/108)
+18. [ES6 系列之我们来聊聊装饰器](https://github.com/mqyqingfeng/Blog/issues/109)
+19. [ES6 系列之私有变量的实现](https://github.com/mqyqingfeng/Blog/issues/110)
 
 ## 友情链接
 
