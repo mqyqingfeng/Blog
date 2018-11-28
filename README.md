@@ -92,6 +92,7 @@ ES6 系列正在发布中……
 17. [ES6 系列之模块加载方案](https://github.com/mqyqingfeng/Blog/issues/108)
 18. [ES6 系列之我们来聊聊装饰器](https://github.com/mqyqingfeng/Blog/issues/109)
 19. [ES6 系列之私有变量的实现](https://github.com/mqyqingfeng/Blog/issues/110)
+20. [ES6 完全使用手册](https://github.com/mqyqingfeng/Blog/issues/111)
 
 ## 友情链接
 
