@@ -1,8 +1,10 @@
 # 冴羽的博客
 
-## 求简历
+## 淘宝春招
 
-当前社招中，欢迎来投淘宝技术部，有兴趣联系我, 微信同 Github ID
+要不要扫码加入阿里前端内推交流群，与学长学姐聊聊在淘系做技术是怎样的体验，获得简历和面试指导，让求职更顺利，更有机会与团队Leader一对一沟通交流
+
+<img src="https://gw.alicdn.com/tfs/TB1VKJsvVP7gK0jSZFjXXc5aXXa-674-896.jpg" width="337" height="448" />
 
 ## 进度
 
