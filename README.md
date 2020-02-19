@@ -2,9 +2,9 @@
 
 ## 淘宝春招
 
-要不要扫码加入阿里前端内推交流群，与学长学姐聊聊在淘系做技术是怎样的体验，获得简历和面试指导，让求职更顺利，更有机会与团队Leader一对一沟通交流
+21 年毕业的同学，要不要加这个群看一看，淘系前端的日常生活呀、简历面试指导呀，内推呀都可以
 
-<img src="https://gw.alicdn.com/tfs/TB1Mw4uv9f2gK0jSZFPXXXsopXa-674-896.jpg" width="337" height="448" />
+<img src="https://gw.alicdn.com/tfs/TB1TzhUv.T1gK0jSZFhXXaAtVXa-674-896.jpg" width="337" height="448" />
 
 ## 进度
 
