@@ -6,6 +6,8 @@
 
 <img src="https://gw.alicdn.com/tfs/TB1TzhUv.T1gK0jSZFhXXaAtVXa-674-896.jpg" width="337" height="448" />
 
+如果加满了，可以添加微信：Silence761647716 (备注来源：冴羽)
+
 ## 进度
 
 JavaScript深入系列 15 篇已完结。
