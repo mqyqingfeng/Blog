@@ -6,7 +6,7 @@
 
 <img src="https://gw.alicdn.com/tfs/TB1TzhUv.T1gK0jSZFhXXaAtVXa-674-896.jpg" width="337" height="448" />
 
-如果加满了，可以添加微信：Silence761647716 (备注来源：冴羽) (注意这个微信号不是我的哈，我的是 mqyqingfeng)
+现在群已经加满了，可以添加微信：Silence761647716 (备注来源：冴羽) (注意这个微信号不是我的哈，我的是 mqyqingfeng)
 
 ## 进度
 
