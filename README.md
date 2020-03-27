@@ -42,7 +42,8 @@ ES6 系列正在发布中……
 14. [JavaScript深入之创建对象的多种方式以及优缺点](https://github.com/mqyqingfeng/Blog/issues/15)
 15. [JavaScript深入之继承的多种方式以及优缺点](https://github.com/mqyqingfeng/Blog/issues/16)
 16. [JavaScript深入系列15篇正式完结！](https://github.com/mqyqingfeng/Blog/issues/17)
-17. [JavaScript 深入之浮点数精度](https://github.com/mqyqingfeng/Blog/issues/155)
+17. [JavaScript深入之浮点数精度](https://github.com/mqyqingfeng/Blog/issues/155)
+18. [JavaScript深入之头疼的类型转换(上)](https://github.com/mqyqingfeng/Blog/issues/159)
 
 ## 专题系列目录
 
