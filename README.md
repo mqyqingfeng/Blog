@@ -18,7 +18,8 @@ ES6 系列正在发布中……
 
 * [掘金主页](https://juejin.im/user/58e4b9b261ff4b006b3227f4)
 * [segmentfault主页](https://segmentfault.com/u/yayu/articles)
-* 新开了 [知乎专栏](https://zhuanlan.zhihu.com/c_1042806379215601664)，欢迎关注
+* [知乎专栏](https://zhuanlan.zhihu.com/c_1042806379215601664)
+* 新开公众号 搜索「yayujs」 或者 「冴羽的JavaScript博客」
 
 ## 浏览器相关
 
