@@ -49,6 +49,7 @@ React 系列还在懒惰中……
 16. [JavaScript深入系列15篇正式完结！](https://github.com/mqyqingfeng/Blog/issues/17)
 17. [JavaScript深入之浮点数精度](https://github.com/mqyqingfeng/Blog/issues/155)
 18. [JavaScript深入之头疼的类型转换(上)](https://github.com/mqyqingfeng/Blog/issues/159)
+19. [JavaScript深入之头疼的类型转换(下)](https://github.com/mqyqingfeng/Blog/issues/164)
 
 ## 专题系列目录
 
