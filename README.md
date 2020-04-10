@@ -74,6 +74,7 @@ React 系列还在懒惰中……
 19. [JavaScript专题之乱序](https://github.com/mqyqingfeng/Blog/issues/51)
 20. [JavaScript专题之解读 v8 排序源码](https://github.com/mqyqingfeng/Blog/issues/52)
 21. [JavaScript专题系列20篇正式完结！](https://github.com/mqyqingfeng/Blog/issues/53)
+22. [JavaScript专题之花式表示26个字母](https://github.com/mqyqingfeng/Blog/issues/166)
 
 ## underscore 系列目录
 
