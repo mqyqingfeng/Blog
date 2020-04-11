@@ -114,6 +114,7 @@ React 系列还在懒惰中……
 ## 友情链接
 
 1. [如何轻松拿到淘宝前端 offer](https://juejin.im/post/5bbc54a2e51d450e5a7445b4)
+2. [ 前端开发 & 学习总结记录](https://github.com/giscafer/front-end-manual)
 
 ## 注意
 
