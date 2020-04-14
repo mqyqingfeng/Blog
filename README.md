@@ -29,6 +29,10 @@ React 系列还在懒惰中……
 
 1. [浏览器系列之 Cookie 和 SameSite 属性](https://github.com/mqyqingfeng/Blog/issues/157)
 
+## 面试相关
+
+1. [淘系校招负责人元彦直播答疑文字实录](https://github.com/mqyqingfeng/Blog/issues/167)
+
 ## 深入系列目录
 
 1. [JavaScirpt深入之从原型到原型链](https://github.com/mqyqingfeng/Blog/issues/2)
@@ -110,10 +114,6 @@ React 系列还在懒惰中……
 18. [ES6 系列之我们来聊聊装饰器](https://github.com/mqyqingfeng/Blog/issues/109)
 19. [ES6 系列之私有变量的实现](https://github.com/mqyqingfeng/Blog/issues/110)
 20. [ES6 完全使用手册](https://github.com/mqyqingfeng/Blog/issues/111)
-
-## 友情链接
-
-1. [如何轻松拿到淘宝前端 offer](https://juejin.im/post/5bbc54a2e51d450e5a7445b4)
 
 ## 注意
 
