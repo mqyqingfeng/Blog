@@ -34,6 +34,7 @@ React 系列还在懒惰中……
 1. [淘系前端校招负责人元彦直播答疑文字实录](https://github.com/mqyqingfeng/Blog/issues/167)
 2. [业务前端的困境](https://github.com/mqyqingfeng/Blog/issues/172)
 3. [前端，社招，面淘宝，指南](https://github.com/mqyqingfeng/Blog/issues/198)
+4. [前端，校招，面淘宝，指南](https://github.com/mqyqingfeng/Blog/issues/200)
 
 ## 深入系列目录
 
