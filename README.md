@@ -38,7 +38,7 @@ React 系列还在懒惰中……
 
 ## 深入系列目录
 
-1. [JavaScirpt深入之从原型到原型链](https://github.com/mqyqingfeng/Blog/issues/2)
+1. [JavaScript深入之从原型到原型链](https://github.com/mqyqingfeng/Blog/issues/2)
 2. [JavaScript深入之词法作用域和动态作用域](https://github.com/mqyqingfeng/Blog/issues/3)
 3. [JavaScript深入之执行上下文栈](https://github.com/mqyqingfeng/Blog/issues/4)
 4. [JavaScript深入之变量对象](https://github.com/mqyqingfeng/Blog/issues/5)
