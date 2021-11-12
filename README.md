@@ -10,16 +10,25 @@ underscore 系列 8 篇已完结。
 
 ES6 系列 20 篇已完结。
 
-现在写起了各种单篇……
-
-React 系列还在懒惰中……
-
 ## 专栏
 
+* 公众号 搜索「冴羽的JavaScript博客」或者「yayujs」 
 * [掘金主页](https://juejin.im/user/58e4b9b261ff4b006b3227f4)
-* [segmentfault主页](https://segmentfault.com/u/yayu/articles)
+* [Segmentfault主页](https://segmentfault.com/u/yayu/articles)
 * [知乎专栏](https://zhuanlan.zhihu.com/c_1042806379215601664)
-* 新开公众号 搜索「yayujs」 或者 「冴羽的JavaScript博客」
+* [语雀](https://www.yuque.com/qingyu-fasl3/od8gmv)
+
+## 交流
+
+如果有什么问题，欢迎找我交流，微信：mqyqingfeng
+
+## 关于 Issues 图片加载失败的问题
+
+由于图片采用的是 Github 的图床，因为某些不知名的原因，故导致加载失败，如果可以的话，请科学上网
+
+## TypeScript 相关
+
+1. [TypeScript 之 Narrowing](https://github.com/mqyqingfeng/Blog/issues/218)
 
 ## 浏览器相关
 
