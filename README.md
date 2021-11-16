@@ -2,13 +2,9 @@
 
 ## 进度
 
-JavaScript深入系列 15 篇已完结。
+JavaScript深入系列 15 篇已完结。JavaScript专题系列 20 篇已完结。underscore 系列 8 篇已完结。ES6 系列 20 篇已完结。
 
-JavaScript专题系列 20 篇已完结。
-
-underscore 系列 8 篇已完结。
-
-ES6 系列 20 篇已完结。
+TypeScript 系列正在更新中。
 
 ## 专栏
 
@@ -29,6 +25,7 @@ ES6 系列 20 篇已完结。
 ## TypeScript 相关
 
 1. [TypeScript 之 Narrowing](https://github.com/mqyqingfeng/Blog/issues/218)
+2. [TypeScript 之 More on Functions](https://github.com/mqyqingfeng/Blog/issues/220)
 
 ## 浏览器相关
 
