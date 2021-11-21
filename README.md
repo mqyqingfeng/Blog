@@ -8,7 +8,7 @@
 
 <img src="https://cdn.jsdelivr.net/gh/mqyqingfeng/picture/qrcode_for_gh_bd1a3dc9eafd_258.jpg" width="120">
 
-只推送自己的原创文章
+值得关注的理由：同步推送，只推送自己的原创文章
 
 ## 专栏
 
@@ -21,24 +21,24 @@
 
 微信：mqyqingfeng
 
-## TypeScript 相关
+## TypeScript 系列
 
 1. [TypeScript 之 Narrowing](https://github.com/mqyqingfeng/Blog/issues/218)
 2. [TypeScript 之 More on Functions](https://github.com/mqyqingfeng/Blog/issues/220)
 3. [TypeScript 之 Object Type](https://github.com/mqyqingfeng/Blog/issues/221)
 
-## 浏览器相关
+## 浏览器系列
 
 1. [浏览器系列之 Cookie 和 SameSite 属性](https://github.com/mqyqingfeng/Blog/issues/157)
 
-## 面试相关
+## 面试系列
 
 1. [淘系前端校招负责人元彦直播答疑文字实录](https://github.com/mqyqingfeng/Blog/issues/167)
 2. [业务前端的困境](https://github.com/mqyqingfeng/Blog/issues/172)
 3. [前端，社招，面淘宝，指南](https://github.com/mqyqingfeng/Blog/issues/198)
 4. [前端，校招，面淘宝，指南](https://github.com/mqyqingfeng/Blog/issues/200)
 
-## 深入系列目录
+## 深入系列
 
 1. [JavaScript深入之从原型到原型链](https://github.com/mqyqingfeng/Blog/issues/2)
 2. [JavaScript深入之词法作用域和动态作用域](https://github.com/mqyqingfeng/Blog/issues/3)
@@ -60,7 +60,7 @@
 18. [JavaScript深入之头疼的类型转换(上)](https://github.com/mqyqingfeng/Blog/issues/159)
 19. [JavaScript深入之头疼的类型转换(下)](https://github.com/mqyqingfeng/Blog/issues/164)
 
-## 专题系列目录
+## 专题系列
 
 1. [JavaScript专题之跟着underscore学防抖](https://github.com/mqyqingfeng/Blog/issues/22)
 2. [JavaScript专题之跟着underscore学节流](https://github.com/mqyqingfeng/Blog/issues/26)
@@ -85,7 +85,7 @@
 21. [JavaScript专题系列20篇正式完结！](https://github.com/mqyqingfeng/Blog/issues/53)
 22. [JavaScript专题之花式表示26个字母](https://github.com/mqyqingfeng/Blog/issues/166)
 
-## underscore 系列目录
+## underscore 系列
 
 1. [underscore 系列之如何写自己的 underscore](https://github.com/mqyqingfeng/Blog/issues/56)
 2. [underscore 系列之链式调用](https://github.com/mqyqingfeng/Blog/issues/57)
@@ -97,7 +97,7 @@
 8. [underscore 系列之字符实体与 _.escape](https://github.com/mqyqingfeng/Blog/issues/77)
 9. [underscore 的源码该如何阅读？](https://github.com/mqyqingfeng/Blog/issues/79)
 
-## ES6 系列目录
+## ES6 系列
 
 1. [ES6 系列之 let 和 const](https://github.com/mqyqingfeng/Blog/issues/82)
 2. [ES6 系列之模板字符串](https://github.com/mqyqingfeng/Blog/issues/84)
