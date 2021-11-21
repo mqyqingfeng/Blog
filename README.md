@@ -1,31 +1,31 @@
 # 冴羽的博客
 
-## 进度
+## 最新
 
-JavaScript深入系列 15 篇已完结。JavaScript专题系列 20 篇已完结。underscore 系列 8 篇已完结。ES6 系列 20 篇已完结。
+2021年11月19日 更新 TypeScript 系列文章
 
-TypeScript 系列正在更新中。
+## 公众号
+
+<img src="https://cdn.jsdelivr.net/gh/mqyqingfeng/picture/qrcode_for_gh_bd1a3dc9eafd_258.jpg" width="120">
+
+只推送自己的原创文章
 
 ## 专栏
 
-* 公众号 搜索「冴羽的JavaScript博客」或者「yayujs」 
-* [掘金主页](https://juejin.im/user/58e4b9b261ff4b006b3227f4)
-* [Segmentfault主页](https://segmentfault.com/u/yayu/articles)
-* [知乎专栏](https://zhuanlan.zhihu.com/c_1042806379215601664)
+* [掘金](https://juejin.im/user/58e4b9b261ff4b006b3227f4)
+* [思否](https://segmentfault.com/u/yayu/articles)
+* [知乎](https://zhuanlan.zhihu.com/c_1042806379215601664)
 * [语雀](https://www.yuque.com/qingyu-fasl3/od8gmv)
 
 ## 交流
 
-如果有什么问题，欢迎找我交流，微信：mqyqingfeng
-
-## 关于 Issues 图片加载失败的问题
-
-由于图片采用的是 Github 的图床，因为某些不知名的原因，故导致加载失败，如果可以的话，请科学上网
+微信：mqyqingfeng
 
 ## TypeScript 相关
 
 1. [TypeScript 之 Narrowing](https://github.com/mqyqingfeng/Blog/issues/218)
 2. [TypeScript 之 More on Functions](https://github.com/mqyqingfeng/Blog/issues/220)
+3. [TypeScript 之 Object Type](https://github.com/mqyqingfeng/Blog/issues/221)
 
 ## 浏览器相关
 
