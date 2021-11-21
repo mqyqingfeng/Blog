@@ -19,7 +19,7 @@
 
 ## 交流
 
-微信：mqyqingfeng
+微信：[mqyqingfeng](https://cdn.jsdelivr.net/gh/mqyqingfeng/picture/IMG_3516.JPG)
 
 ## TypeScript 系列
 
