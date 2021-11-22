@@ -25,7 +25,7 @@
 
 1. [TypeScript 之 Narrowing](https://github.com/mqyqingfeng/Blog/issues/218)
 2. [TypeScript 之 More on Functions](https://github.com/mqyqingfeng/Blog/issues/220)
-3. [TypeScript 之 Object Type](https://github.com/mqyqingfeng/Blog/issues/221)'
+3. [TypeScript 之 Object Type](https://github.com/mqyqingfeng/Blog/issues/221)
 4. [TypeScript 之 Generics](https://github.com/mqyqingfeng/Blog/issues/222)
 
 ## 浏览器系列
