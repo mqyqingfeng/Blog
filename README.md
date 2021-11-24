@@ -2,7 +2,7 @@
 
 ## 最新
 
-2021年11月22日 更新 TypeScript 系列文章
+2021年11月23日 更新 TypeScript 系列文章
 
 ## 公众号
 
@@ -27,6 +27,7 @@
 2. [TypeScript 之 More on Functions](https://github.com/mqyqingfeng/Blog/issues/220)
 3. [TypeScript 之 Object Type](https://github.com/mqyqingfeng/Blog/issues/221)
 4. [TypeScript 之 Generics](https://github.com/mqyqingfeng/Blog/issues/222)
+5. [TypeScript 之 Keyof Type Operator](https://github.com/mqyqingfeng/Blog/issues/223)
 
 ## 浏览器系列
 
