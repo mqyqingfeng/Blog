@@ -2,13 +2,13 @@
 
 ## 最新
 
-2021年11月23日 更新 TypeScript 系列文章
+2021年11月24日 更新 TypeScript 系列文章
 
 ## 公众号
 
 <img src="https://cdn.jsdelivr.net/gh/mqyqingfeng/picture/qrcode_for_gh_bd1a3dc9eafd_258.jpg" width="120">
 
-值得关注的理由：同步推送，只推送自己的原创文章
+值得关注的理由：同步推送、只发个人原创文章、加我进交流群
 
 ## 专栏
 
@@ -28,6 +28,7 @@
 3. [TypeScript 之 Object Type](https://github.com/mqyqingfeng/Blog/issues/221)
 4. [TypeScript 之 Generics](https://github.com/mqyqingfeng/Blog/issues/222)
 5. [TypeScript 之 Keyof Type Operator](https://github.com/mqyqingfeng/Blog/issues/223)
+6. [TypeScript 之 Typeof Type Operator](https://github.com/mqyqingfeng/Blog/issues/224)
 
 ## 浏览器系列
 
