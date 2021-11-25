@@ -29,6 +29,7 @@
 4. [TypeScript 之 Generics](https://github.com/mqyqingfeng/Blog/issues/222)
 5. [TypeScript 之 Keyof Type Operator](https://github.com/mqyqingfeng/Blog/issues/223)
 6. [TypeScript 之 Typeof Type Operator](https://github.com/mqyqingfeng/Blog/issues/224)
+7. [TypeScript 之 Indexed Access Types](https://github.com/mqyqingfeng/Blog/issues/225)
 
 ## 浏览器系列
 
