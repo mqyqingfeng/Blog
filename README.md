@@ -8,7 +8,7 @@
 
 <img src="https://cdn.jsdelivr.net/gh/mqyqingfeng/picture/qrcode_for_gh_bd1a3dc9eafd_258.jpg" width="120">
 
-值得关注的理由：同步推送、只发个人原创文章、加我进交流群
+值得关注的理由：同步推送、只发个人原创文章、加我进冴羽唯一的读者交流群
 
 ## 专栏
 
