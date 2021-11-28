@@ -21,7 +21,7 @@
 
 微信：[mqyqingfeng](https://cdn.jsdelivr.net/gh/mqyqingfeng/picture/IMG_3516.JPG)
 
-## TypeScript 系列
+## TypeScript 官方文档翻译
 
 1. [TypeScript 之 Narrowing](https://github.com/mqyqingfeng/Blog/issues/218)
 2. [TypeScript 之 More on Functions](https://github.com/mqyqingfeng/Blog/issues/220)
