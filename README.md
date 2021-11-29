@@ -2,7 +2,7 @@
 
 ## 最新
 
-2021年11月25日 翻译 TypeScript4 最新官方文档
+2021年11月29日 翻译 TypeScript4 最新官方文档
 
 ## 公众号
 
@@ -21,7 +21,7 @@
 
 微信：[mqyqingfeng](https://cdn.jsdelivr.net/gh/mqyqingfeng/picture/IMG_3516.JPG)
 
-## TypeScript 官方文档翻译
+## TypeScript4 官方文档翻译
 
 1. [TypeScript 之 Narrowing](https://github.com/mqyqingfeng/Blog/issues/218)
 2. [TypeScript 之 More on Functions](https://github.com/mqyqingfeng/Blog/issues/220)
@@ -30,6 +30,7 @@
 5. [TypeScript 之 Keyof Type Operator](https://github.com/mqyqingfeng/Blog/issues/223)
 6. [TypeScript 之 Typeof Type Operator](https://github.com/mqyqingfeng/Blog/issues/224)
 7. [TypeScript 之 Indexed Access Types](https://github.com/mqyqingfeng/Blog/issues/225)
+8. [TypeScript 之 Conditional Types](https://github.com/mqyqingfeng/Blog/issues/226)
 
 ## 浏览器系列
 
