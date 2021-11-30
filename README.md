@@ -2,7 +2,7 @@
 
 ## 最新
 
-2021年11月29日 翻译 TypeScript4 最新官方文档
+2021年11月30日 翻译 TypeScript4 最新官方文档
 
 ## 公众号
 
@@ -16,6 +16,7 @@
 * [思否](https://segmentfault.com/u/yayu/articles)
 * [知乎](https://zhuanlan.zhihu.com/c_1042806379215601664)
 * [语雀](https://www.yuque.com/qingyu-fasl3/od8gmv)
+* [慕课](https://www.imooc.com/u/306841)
 
 ## 交流
 
@@ -23,14 +24,15 @@
 
 ## TypeScript4 官方文档翻译
 
-1. [TypeScript 之 Narrowing](https://github.com/mqyqingfeng/Blog/issues/218)
-2. [TypeScript 之 More on Functions](https://github.com/mqyqingfeng/Blog/issues/220)
-3. [TypeScript 之 Object Type](https://github.com/mqyqingfeng/Blog/issues/221)
-4. [TypeScript 之 Generics](https://github.com/mqyqingfeng/Blog/issues/222)
-5. [TypeScript 之 Keyof Type Operator](https://github.com/mqyqingfeng/Blog/issues/223)
-6. [TypeScript 之 Typeof Type Operator](https://github.com/mqyqingfeng/Blog/issues/224)
-7. [TypeScript 之 Indexed Access Types](https://github.com/mqyqingfeng/Blog/issues/225)
-8. [TypeScript 之 Conditional Types](https://github.com/mqyqingfeng/Blog/issues/226)
+1. [TypeScript之基础入门](https://github.com/mqyqingfeng/Blog/issues/227)
+1. [TypeScript之类型收窄](https://github.com/mqyqingfeng/Blog/issues/218)
+1. [TypeScript之函数](https://github.com/mqyqingfeng/Blog/issues/220)
+1. [TypeScript之对象类型](https://github.com/mqyqingfeng/Blog/issues/221)
+1. [TypeScript之泛型](https://github.com/mqyqingfeng/Blog/issues/222)
+1. [TypeScript之Keyof 操作符](https://github.com/mqyqingfeng/Blog/issues/223)
+1. [TypeScript之Typeof 操作符](https://github.com/mqyqingfeng/Blog/issues/224)
+1. [TypeScript之索引访问类型](https://github.com/mqyqingfeng/Blog/issues/225)
+1. [TypeScript之条件类型](https://github.com/mqyqingfeng/Blog/issues/226)
 
 ## 浏览器系列
 
