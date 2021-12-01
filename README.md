@@ -2,7 +2,7 @@
 
 ## 最新
 
-2021年11月30日 翻译 TypeScript4 最新官方文档
+2021年12月1日 翻译 TypeScript4 最新官方文档
 
 ## 公众号
 
@@ -25,14 +25,15 @@
 ## TypeScript4 官方文档翻译
 
 1. [TypeScript之基础入门](https://github.com/mqyqingfeng/Blog/issues/227)
-1. [TypeScript之类型收窄](https://github.com/mqyqingfeng/Blog/issues/218)
-1. [TypeScript之函数](https://github.com/mqyqingfeng/Blog/issues/220)
-1. [TypeScript之对象类型](https://github.com/mqyqingfeng/Blog/issues/221)
-1. [TypeScript之泛型](https://github.com/mqyqingfeng/Blog/issues/222)
-1. [TypeScript之Keyof 操作符](https://github.com/mqyqingfeng/Blog/issues/223)
-1. [TypeScript之Typeof 操作符](https://github.com/mqyqingfeng/Blog/issues/224)
-1. [TypeScript之索引访问类型](https://github.com/mqyqingfeng/Blog/issues/225)
-1. [TypeScript之条件类型](https://github.com/mqyqingfeng/Blog/issues/226)
+2. [TypeScript 之常见类型（上）](https://github.com/mqyqingfeng/Blog/issues/228)
+3. [TypeScript之类型收窄](https://github.com/mqyqingfeng/Blog/issues/218)
+4. [TypeScript之函数](https://github.com/mqyqingfeng/Blog/issues/220)
+5. [TypeScript之对象类型](https://github.com/mqyqingfeng/Blog/issues/221)
+6. [TypeScript之泛型](https://github.com/mqyqingfeng/Blog/issues/222)
+7. [TypeScript之Keyof 操作符](https://github.com/mqyqingfeng/Blog/issues/223)
+8. [TypeScript之Typeof 操作符](https://github.com/mqyqingfeng/Blog/issues/224)
+9. [TypeScript之索引访问类型](https://github.com/mqyqingfeng/Blog/issues/225)
+10. [TypeScript之条件类型](https://github.com/mqyqingfeng/Blog/issues/226)
 
 ## 浏览器系列
 
