@@ -35,7 +35,7 @@
 9. [TypeScript之Typeof 操作符](https://github.com/mqyqingfeng/Blog/issues/224)
 10. [TypeScript之索引访问类型](https://github.com/mqyqingfeng/Blog/issues/225)
 11. [TypeScript之条件类型](https://github.com/mqyqingfeng/Blog/issues/226)
-12. [TypeScript 之映射类型](https://github.com/mqyqingfeng/Blog/issues/230)
+12. [TypeScript之映射类型](https://github.com/mqyqingfeng/Blog/issues/230)
 
 ## 浏览器系列
 
