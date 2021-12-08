@@ -2,7 +2,7 @@
 
 ## 最新
 
-2021年12月7日 翻译 TypeScript4 最新官方文档
+2021年12月8日 翻译 TypeScript4 最新官方文档
 
 ## 公众号
 
@@ -37,6 +37,7 @@
 11. [TypeScript之条件类型](https://github.com/mqyqingfeng/Blog/issues/226)
 12. [TypeScript之映射类型](https://github.com/mqyqingfeng/Blog/issues/230)
 13. [TypeScript之模板字面量类型](https://github.com/mqyqingfeng/Blog/issues/231)
+14. [TypeScript之类（上）](https://github.com/mqyqingfeng/Blog/issues/232)
 
 ## 浏览器系列
 
