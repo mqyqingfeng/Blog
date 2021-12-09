@@ -39,6 +39,7 @@
 13. [TypeScript之模板字面量类型](https://github.com/mqyqingfeng/Blog/issues/231)
 14. [TypeScript之类（上）](https://github.com/mqyqingfeng/Blog/issues/232)
 15. [TypeScript之类（下）](https://github.com/mqyqingfeng/Blog/issues/233)
+16. [TypeScript之模块](https://github.com/mqyqingfeng/Blog/issues/234)
 
 ## 浏览器系列
 
