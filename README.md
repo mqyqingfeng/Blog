@@ -2,7 +2,7 @@
 
 ## 最新
 
-2021年12月8日 翻译 TypeScript4 最新官方文档
+2021年12月13日 翻译 TypeScript4 最新官方文档
 
 ## 公众号
 
@@ -40,6 +40,10 @@
 14. [TypeScript之类（上）](https://github.com/mqyqingfeng/Blog/issues/232)
 15. [TypeScript之类（下）](https://github.com/mqyqingfeng/Blog/issues/233)
 16. [TypeScript之模块](https://github.com/mqyqingfeng/Blog/issues/234)
+
+## 博客搭建
+
+1. [一篇带你用 VuePress + Github Pages 搭建博客](https://github.com/mqyqingfeng/Blog/issues/235)
 
 ## 浏览器系列
 
