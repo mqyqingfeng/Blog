@@ -2,7 +2,7 @@
 
 ## 最新
 
-2021年12月15日 翻译 TypeScript4 最新官方文档
+2021年12月17日 更新博客搭建相关
 
 ## 公众号
 
@@ -43,8 +43,9 @@
 
 ## 博客搭建
 
-1. [一篇带你用 VuePress + Github Pages 搭建博客](https://github.com/mqyqingfeng/Blog/issues/235)
-2. [一篇教你代码同步 Github 和 Gitee](https://github.com/mqyqingfeng/Blog/issues/236)
+1. [一篇带你用 VuePress + GitHub Pages 搭建博客](https://github.com/mqyqingfeng/Blog/issues/235)
+2. [一篇教你代码同步 GitHub 和 Gitee](https://github.com/mqyqingfeng/Blog/issues/236)
+3. [还不会用 GitHub Actions ？看看这篇](https://github.com/mqyqingfeng/Blog/issues/237)
 
 ## 浏览器系列
 
