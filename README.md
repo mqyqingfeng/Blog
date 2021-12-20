@@ -46,6 +46,7 @@
 1. [一篇带你用 VuePress + GitHub Pages 搭建博客](https://github.com/mqyqingfeng/Blog/issues/235)
 2. [一篇教你代码同步 GitHub 和 Gitee](https://github.com/mqyqingfeng/Blog/issues/236)
 3. [还不会用 GitHub Actions ？看看这篇](https://github.com/mqyqingfeng/Blog/issues/237)
+4. [Gitee 如何自动部署 Pages？还是用 GitHub Actions!](https://github.com/mqyqingfeng/Blog/issues/238)
 
 ## 浏览器系列
 
