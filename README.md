@@ -6,7 +6,7 @@
 
 ## 支持一下
 
-[创作不易，如果可以的话，希望能在掘金给我投一下票，今日可投 8 票](https://rank.juejin.cn/rank/2021/712139234359182?utm_campaign=annual_2021&utm_medium=self_web_share&utm_source=%E5%86%B4%E7%BE%BD)
+[创作不易，如果可以的话，希望能在掘金给我投一下票，今日可投 20 票](https://rank.juejin.cn/rank/2021/712139234359182?utm_campaign=annual_2021&utm_medium=self_web_share&utm_source=%E5%86%B4%E7%BE%BD)
 
 ## 公众号
 
