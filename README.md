@@ -4,10 +4,6 @@
 
 2021年12月21日 更新博客搭建相关
 
-## 支持一下
-
-[创作不易，如果对你有帮助的话，希望能在掘金给我投一下票，今日可投 28 票](https://rank.juejin.cn/rank/2021/712139234359182?utm_campaign=annual_2021&utm_medium=self_web_share&utm_source=%E5%86%B4%E7%BE%BD)
-
 ## 公众号
 
 <img src="https://cdn.jsdelivr.net/gh/mqyqingfeng/picture/qrcode_for_gh_bd1a3dc9eafd_258.jpg" width="120">
