@@ -2,7 +2,7 @@
 
 ## 最新
 
-2021年12月21日 更新博客搭建相关
+2022年1月3日 更新博客搭建相关文章
 
 ## 公众号
 
@@ -48,6 +48,7 @@
 3. [还不会用 GitHub Actions ？看看这篇](https://github.com/mqyqingfeng/Blog/issues/237)
 4. [Gitee 如何自动部署 Pages？还是用 GitHub Actions!](https://github.com/mqyqingfeng/Blog/issues/238)
 5. [一份前端够用的 Linux 命令](https://github.com/mqyqingfeng/Blog/issues/239)
+6. [一份简单够用的 Nginx Location 配置讲解](https://github.com/mqyqingfeng/Blog/issues/242)
 
 ## 浏览器系列
 
