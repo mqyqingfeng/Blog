@@ -22,7 +22,7 @@
 
 微信：[mqyqingfeng](https://cdn.jsdelivr.net/gh/mqyqingfeng/picture/IMG_3516.JPG)
 
-## TypeScript4 官方文档翻译
+## TypeScript4 官方文档翻译，收录在 [ts.yayujs.com](http://ts.yayujs.com/)
 
 1. [TypeScript之基础入门](https://github.com/mqyqingfeng/Blog/issues/227)
 2. [TypeScript之常见类型（上）](https://github.com/mqyqingfeng/Blog/issues/228)
