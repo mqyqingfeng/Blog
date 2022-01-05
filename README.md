@@ -40,7 +40,6 @@
 14. [TypeScript之类（上）](https://github.com/mqyqingfeng/Blog/issues/232)
 15. [TypeScript之类（下）](https://github.com/mqyqingfeng/Blog/issues/233)
 16. [TypeScript之模块](https://github.com/mqyqingfeng/Blog/issues/234)
-17. [一篇教你博客如何部署到自己的服务器](https://github.com/mqyqingfeng/Blog/issues/243)
 
 ## 博客搭建
 
@@ -50,6 +49,7 @@
 4. [Gitee 如何自动部署 Pages？还是用 GitHub Actions!](https://github.com/mqyqingfeng/Blog/issues/238)
 5. [一份前端够用的 Linux 命令](https://github.com/mqyqingfeng/Blog/issues/239)
 6. [一份简单够用的 Nginx Location 配置讲解](https://github.com/mqyqingfeng/Blog/issues/242)
+7. [一篇教你博客如何部署到自己的服务器](https://github.com/mqyqingfeng/Blog/issues/243)
 
 ## 浏览器系列
 
