@@ -2,7 +2,7 @@
 
 ## 最新
 
-2022年1月3日 更新博客搭建相关文章
+2022年1月5日 更新博客搭建相关文章
 
 ## 公众号
 
@@ -40,6 +40,7 @@
 14. [TypeScript之类（上）](https://github.com/mqyqingfeng/Blog/issues/232)
 15. [TypeScript之类（下）](https://github.com/mqyqingfeng/Blog/issues/233)
 16. [TypeScript之模块](https://github.com/mqyqingfeng/Blog/issues/234)
+17. [一篇教你博客如何部署到自己的服务器](https://github.com/mqyqingfeng/Blog/issues/243)
 
 ## 博客搭建
 
