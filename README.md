@@ -51,6 +51,7 @@
 6. [一份简单够用的 Nginx Location 配置讲解](https://github.com/mqyqingfeng/Blog/issues/242)
 7. [一篇教你博客如何部署到自己的服务器](https://github.com/mqyqingfeng/Blog/issues/243)
 8. [VuePress 博客优化之 last updated 最后更新时间如何设置](https://github.com/mqyqingfeng/Blog/issues/244)
+9. [VuePress 博客优化之添加数据统计功能](https://github.com/mqyqingfeng/Blog/issues/245)
 
 ## 浏览器系列
 
