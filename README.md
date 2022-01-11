@@ -2,7 +2,7 @@
 
 ## 最新
 
-2022年1月10日 更新博客搭建相关文章
+2022年1月11日 更新博客搭建相关文章
 
 ## 公众号
 
@@ -52,6 +52,7 @@
 7. [一篇教你博客如何部署到自己的服务器](https://github.com/mqyqingfeng/Blog/issues/243)
 8. [VuePress 博客优化之 last updated 最后更新时间如何设置](https://github.com/mqyqingfeng/Blog/issues/244)
 9. [VuePress 博客优化之添加数据统计功能](https://github.com/mqyqingfeng/Blog/issues/245)
+10.[VuePress 博客优化之开启 HTTPS](https://github.com/mqyqingfeng/Blog/issues/246) 
 
 ## 浏览器系列
 
