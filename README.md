@@ -2,7 +2,7 @@
 
 ## 最新
 
-2022年1月20日 更新博客搭建相关文章
+2022年1月21日 更新博客搭建相关文章
 
 ## 公众号
 
@@ -59,6 +59,7 @@
 14. [VuePress 博客优化之拓展 Markdown 语法](https://github.com/mqyqingfeng/Blog/issues/251) 
 15. [markdown-it 原理解析](https://github.com/mqyqingfeng/Blog/issues/252)
 16. [markdown-it 插件如何写（一）](https://github.com/mqyqingfeng/Blog/issues/253)
+17. [markdown-it 插件如何写（二）](https://github.com/mqyqingfeng/Blog/issues/254) 
 
 ## 浏览器系列
 
