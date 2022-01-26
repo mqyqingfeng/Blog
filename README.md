@@ -2,7 +2,7 @@
 
 ## 最新
 
-2022年1月25日 更新博客搭建相关文章
+2022年1月26日 更新博客搭建相关文章
 
 ## 公众号
 
@@ -62,6 +62,7 @@
 17. [markdown-it 插件如何写（二）](https://github.com/mqyqingfeng/Blog/issues/254) 
 18. [markdown-it 插件如何写（三）](https://github.com/mqyqingfeng/Blog/issues/255) 
 19. [有的时候我觉得我不会 Markdown](https://github.com/mqyqingfeng/Blog/issues/256)
+20. [VuePress 博客优化之中文锚点跳转问题](https://github.com/mqyqingfeng/Blog/issues/259)
 
 ## 浏览器系列
 
