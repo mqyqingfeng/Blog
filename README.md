@@ -2,7 +2,7 @@
 
 ## 最新
 
-2022年2月16日 更新博客搭建相关文章
+2022年2月17日 更新博客搭建相关文章
 
 ## 公众号
 
@@ -65,6 +65,7 @@
 20. [VuePress 博客优化之中文锚点跳转问题](https://github.com/mqyqingfeng/Blog/issues/259)
 21. [搭建 VuePress 博客，你可能会用到的一些插件](https://github.com/mqyqingfeng/Blog/issues/261)
 22. [VuePress 博客如何开启本地 HTTPS 访问](https://github.com/mqyqingfeng/Blog/issues/262) 
+23. [VuePress 博客优化之兼容 PWA](https://github.com/mqyqingfeng/Blog/issues/263) 
 
 ## 浏览器系列
 
