@@ -2,13 +2,15 @@
 
 ## 最新
 
-2022年2月17日 更新博客搭建相关文章
+2022 年 3 月 1 日 更新博客搭建相关文章
 
 ## 公众号
 
-<img src="https://cdn.jsdelivr.net/gh/mqyqingfeng/picture/qrcode_for_gh_bd1a3dc9eafd_258.jpg" width="120">
-
-值得关注的理由：同步推送、只发个人原创文章、加我进冴羽唯一的读者交流群
+|微信（冴羽本人）|公众号|
+|:----:|:----:|
+|<img src="https://user-images.githubusercontent.com/11458263/156172823-5af1316e-2a3e-4f48-9908-682a74adb540.jpeg" width="120">|<img src="https://cdn.jsdelivr.net/gh/mqyqingfeng/picture/qrcode_for_gh_bd1a3dc9eafd_258.jpg" width="120">|
+|mqyqingfeng|冴羽的 JavaScript 博客|
+|进冴羽的读者群|文章同步更新|
 
 ## 专栏
 
@@ -17,10 +19,6 @@
 * [知乎](https://zhuanlan.zhihu.com/c_1042806379215601664)
 * [语雀](https://www.yuque.com/qingyu-fasl3/od8gmv)
 * [慕课](https://www.imooc.com/u/306841)
-
-## 交流
-
-微信：[mqyqingfeng](https://cdn.jsdelivr.net/gh/mqyqingfeng/picture/IMG_3516.JPG)
 
 ## TypeScript4 官方文档翻译，收录在 [ts.yayujs.com](http://ts.yayujs.com/)
 
@@ -66,6 +64,7 @@
 21. [搭建 VuePress 博客，你可能会用到的一些插件](https://github.com/mqyqingfeng/Blog/issues/261)
 22. [VuePress 博客如何开启本地 HTTPS 访问](https://github.com/mqyqingfeng/Blog/issues/262) 
 23. [VuePress 博客优化之兼容 PWA](https://github.com/mqyqingfeng/Blog/issues/263) 
+24. [VuePress 博客优化之开启 Algolia 全文搜索](https://github.com/mqyqingfeng/Blog/issues/267) 
 
 ## 浏览器系列
 
