@@ -2,7 +2,7 @@
 
 ## 最新
 
-2022 年 3 月 1 日 更新博客搭建相关文章
+2022 年 3 月 2 日 更新博客搭建相关文章
 
 ## 公众号
 
@@ -65,6 +65,7 @@
 22. [VuePress 博客如何开启本地 HTTPS 访问](https://github.com/mqyqingfeng/Blog/issues/262) 
 23. [VuePress 博客优化之兼容 PWA](https://github.com/mqyqingfeng/Blog/issues/263) 
 24. [VuePress 博客优化之开启 Algolia 全文搜索](https://github.com/mqyqingfeng/Blog/issues/267) 
+25. [VuePress 博客优化之增加 Valine 评论功能](https://github.com/mqyqingfeng/Blog/issues/268)
 
 ## 浏览器系列
 
