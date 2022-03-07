@@ -67,7 +67,7 @@
 24. [VuePress 博客优化之开启 Algolia 全文搜索](https://github.com/mqyqingfeng/Blog/issues/267) 
 25. [VuePress 博客优化之增加 Valine 评论功能](https://github.com/mqyqingfeng/Blog/issues/268)
 26. [VuePress 博客优化之增加 Vssue 评论功能](https://github.com/mqyqingfeng/Blog/issues/270)
-27. [VuePress 博客之 SEO 优化（一）之 sitemap 与搜索引擎收录](https://github.com/mqyqingfeng/Blog/issues/272)
+27. [VuePress 博客之 SEO 优化（一）sitemap 与搜索引擎收录](https://github.com/mqyqingfeng/Blog/issues/272)
 
 ## 浏览器系列
 
