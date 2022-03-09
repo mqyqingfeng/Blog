@@ -2,7 +2,7 @@
 
 ## 最新
 
-2022 年 3 月 8 日 更新博客搭建相关文章
+2022 年 3 月 9 日 更新博客搭建相关文章
 
 ## 公众号
 
@@ -68,7 +68,8 @@
 25. [VuePress 博客优化之增加 Valine 评论功能](https://github.com/mqyqingfeng/Blog/issues/268)
 26. [VuePress 博客优化之增加 Vssue 评论功能](https://github.com/mqyqingfeng/Blog/issues/270)
 27. [VuePress 博客之 SEO 优化（一）sitemap 与搜索引擎收录](https://github.com/mqyqingfeng/Blog/issues/272)
-28. [VuePress 博客之 SEO 优化（二）之重定向](https://github.com/mqyqingfeng/Blog/issues/273)
+28. [VuePress 博客之 SEO 优化（二）重定向](https://github.com/mqyqingfeng/Blog/issues/273)
+29. [VuePress 博客之 SEO 优化（三）标题、链接优化](https://github.com/mqyqingfeng/Blog/issues/274)
 
 ## 浏览器系列
 
