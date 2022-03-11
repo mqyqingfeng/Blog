@@ -2,7 +2,7 @@
 
 ## 最新
 
-2022 年 3 月 10 日 更新博客搭建相关文章
+2022 年 3 月 11 日 更新博客搭建相关文章
 
 ## 公众号
 
@@ -71,6 +71,7 @@
 28. [VuePress 博客之 SEO 优化（二）重定向](https://github.com/mqyqingfeng/Blog/issues/273)
 29. [VuePress 博客之 SEO 优化（三）标题、链接优化](https://github.com/mqyqingfeng/Blog/issues/274)
 30. [VuePress 博客之 SEO 优化（四） Open Graph protocol](https://github.com/mqyqingfeng/Blog/issues/275)
+31. [VuePress 博客之 SEO 优化（五）添加 JSON-LD 数据](https://github.com/mqyqingfeng/Blog/issues/276)
 
 ## 浏览器系列
 
