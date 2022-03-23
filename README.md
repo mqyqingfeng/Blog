@@ -73,6 +73,7 @@
 30. [VuePress 博客之 SEO 优化（四） Open Graph protocol](https://github.com/mqyqingfeng/Blog/issues/275)
 31. [VuePress 博客之 SEO 优化（五）添加 JSON-LD 数据](https://github.com/mqyqingfeng/Blog/issues/276)
 32. [VuePress 博客之 SEO 优化（六）站长工具](https://github.com/mqyqingfeng/Blog/issues/277)
+33. [搭建 VuePress 站点必做的 10 个优化](https://github.com/mqyqingfeng/Blog/issues/278) 
 
 ## 浏览器系列
 
