@@ -12,6 +12,10 @@
 |mqyqingfeng|冴羽的 JavaScript 博客|
 |进冴羽的读者群|文章同步更新|
 
+## 提问
+
+非技术性的问题 https://www.yuque.com/yayu/ask/dzng83 与冴羽异步聊天
+
 ## 专栏
 
 * [掘金](https://juejin.im/user/58e4b9b261ff4b006b3227f4)
