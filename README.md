@@ -2,7 +2,7 @@
 
 ## 最新
 
-2022 年 3 月 22 日 更新博客搭建相关文章
+2022 年 3 月 29 日 更新博客搭建相关文章
 
 ## 公众号
 
@@ -78,6 +78,7 @@
 31. [VuePress 博客之 SEO 优化（五）添加 JSON-LD 数据](https://github.com/mqyqingfeng/Blog/issues/276)
 32. [VuePress 博客之 SEO 优化（六）站长工具](https://github.com/mqyqingfeng/Blog/issues/277)
 33. [搭建 VuePress 站点必做的 10 个优化](https://github.com/mqyqingfeng/Blog/issues/278) 
+34. [VuePress 博客搭建系列 33 篇正式完结！](https://github.com/mqyqingfeng/Blog/issues/279)
 
 ## 浏览器系列
 
