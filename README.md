@@ -2,7 +2,7 @@
 
 ## 最新
 
-2022 年 3 月 29 日 更新博客搭建相关文章
+2022 年 3 月 30 日 更新博客搭建相关文章
 
 ## 公众号
 
@@ -23,6 +23,10 @@
 * [知乎](https://zhuanlan.zhihu.com/c_1042806379215601664)
 * [语雀](https://www.yuque.com/qingyu-fasl3/od8gmv)
 * [慕课](https://www.imooc.com/u/306841)
+
+## 冴羽答读者问
+
+1. [30 岁了， 现在开始努力，晚吗？](https://github.com/mqyqingfeng/Blog/issues/280)
 
 ## TypeScript4 官方文档翻译，收录在 [ts.yayujs.com](http://ts.yayujs.com/)
 
