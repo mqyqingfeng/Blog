@@ -2,7 +2,7 @@
 
 ## 最新
 
-2022 年 3 月 30 日 更新博客搭建相关文章
+2022 年 4 月 6 日 更新博客搭建相关文章
 
 ## 公众号
 
@@ -27,6 +27,7 @@
 ## 冴羽答读者问
 
 1. [30 岁了， 现在开始努力，晚吗？](https://github.com/mqyqingfeng/Blog/issues/280)
+2. [何时能够像你一样优秀？](https://github.com/mqyqingfeng/Blog/issues/281) 
 
 ## TypeScript4 官方文档翻译，收录在 [ts.yayujs.com](http://ts.yayujs.com/)
 
