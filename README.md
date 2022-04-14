@@ -2,7 +2,7 @@
 
 ## 最新
 
-2022 年 4 月 12 日 更新冴羽答读者问系列
+2022 年 4 月 14 日 更新冴羽答读者问系列
 
 ## 公众号
 
@@ -11,10 +11,6 @@
 |<img src="https://user-images.githubusercontent.com/11458263/156172823-5af1316e-2a3e-4f48-9908-682a74adb540.jpeg" width="120">|<img src="https://cdn.jsdelivr.net/gh/mqyqingfeng/picture/qrcode_for_gh_bd1a3dc9eafd_258.jpg" width="120">|
 |mqyqingfeng|冴羽的 JavaScript 博客|
 |进冴羽的读者群|文章同步更新|
-
-## 提问
-
-非技术性的问题 https://www.yuque.com/yayu/ask/dzng83 与冴羽异步聊天
 
 ## 专栏
 
@@ -29,6 +25,7 @@
 1. [30 岁了， 现在开始努力，晚吗？](https://github.com/mqyqingfeng/Blog/issues/280)
 2. [何时能够像你一样优秀？](https://github.com/mqyqingfeng/Blog/issues/281) 
 3. [怎么才能像你一样写文章如喝水？](https://github.com/mqyqingfeng/Blog/issues/283)
+4. [怎么才能像你一样长到180？](https://github.com/mqyqingfeng/Blog/issues/284)
 
 ## TypeScript4 官方文档翻译，收录在 [ts.yayujs.com](http://ts.yayujs.com/)
 
