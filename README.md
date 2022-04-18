@@ -2,7 +2,7 @@
 
 ## 最新
 
-2022 年 4 月 14 日 更新冴羽答读者问系列
+2022 年 4 月 18 日 更新冴羽答读者问系列
 
 ## 公众号
 
@@ -26,6 +26,7 @@
 2. [何时能够像你一样优秀？](https://github.com/mqyqingfeng/Blog/issues/281) 
 3. [怎么才能像你一样写文章如喝水？](https://github.com/mqyqingfeng/Blog/issues/283)
 4. [怎么才能像你一样长到180？](https://github.com/mqyqingfeng/Blog/issues/284)
+5. [冴羽哥哥 额爱你](https://github.com/mqyqingfeng/Blog/issues/285)
 
 ## TypeScript4 官方文档翻译，收录在 [ts.yayujs.com](http://ts.yayujs.com/)
 
