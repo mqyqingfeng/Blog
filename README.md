@@ -2,7 +2,7 @@
 
 ## 最新
 
-2022 年 4 月 24 日 更新冴羽答读者问系列
+2022 年 4 月 26 日 更新冴羽答读者问系列
 
 ## 公众号
 
@@ -29,6 +29,7 @@
 5. [冴羽哥哥 额爱你](https://github.com/mqyqingfeng/Blog/issues/285)
 6. [啦啦啦啦啦啦](https://github.com/mqyqingfeng/Blog/issues/286) 
 7. [除代码外，就没别的优先级很高的爱好了吗？](https://github.com/mqyqingfeng/Blog/issues/287) 
+8. [钱和成长，哪个更重要？](https://github.com/mqyqingfeng/Blog/issues/288) 
 
 ## TypeScript4 官方文档翻译，收录在 [ts.yayujs.com](http://ts.yayujs.com/)
 
