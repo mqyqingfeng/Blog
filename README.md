@@ -30,6 +30,7 @@
 6. [啦啦啦啦啦啦](https://github.com/mqyqingfeng/Blog/issues/286) 
 7. [除代码外，就没别的优先级很高的爱好了吗？](https://github.com/mqyqingfeng/Blog/issues/287) 
 8. [钱和成长，哪个更重要？](https://github.com/mqyqingfeng/Blog/issues/288) 
+9. [悄悄过来蹭个回答](https://github.com/mqyqingfeng/Blog/issues/289) 
 
 ## TypeScript4 官方文档翻译，收录在 [ts.yayujs.com](http://ts.yayujs.com/)
 
