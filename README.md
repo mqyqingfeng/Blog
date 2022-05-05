@@ -2,7 +2,7 @@
 
 ## 最新
 
-2022 年 4 月 26 日 更新冴羽答读者问系列
+2022 年 5 月 5 日 更新冴羽答读者问系列
 
 ## 公众号
 
@@ -31,6 +31,7 @@
 7. [除代码外，就没别的优先级很高的爱好了吗？](https://github.com/mqyqingfeng/Blog/issues/287) 
 8. [钱和成长，哪个更重要？](https://github.com/mqyqingfeng/Blog/issues/288) 
 9. [悄悄过来蹭个回答](https://github.com/mqyqingfeng/Blog/issues/289) 
+10. [怎么才能不焦虑？](https://github.com/mqyqingfeng/Blog/issues/292) 
 
 ## TypeScript4 官方文档翻译，收录在 [ts.yayujs.com](http://ts.yayujs.com/)
 
