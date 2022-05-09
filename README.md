@@ -2,7 +2,7 @@
 
 ## 最新
 
-2022 年 5 月 5 日 更新冴羽答读者问系列
+2022 年 5 月 9 日 更新冴羽答读者问系列
 
 ## 公众号
 
@@ -32,6 +32,7 @@
 8. [钱和成长，哪个更重要？](https://github.com/mqyqingfeng/Blog/issues/288) 
 9. [悄悄过来蹭个回答](https://github.com/mqyqingfeng/Blog/issues/289) 
 10. [怎么才能不焦虑？](https://github.com/mqyqingfeng/Blog/issues/292) 
+11. [功利性学习的心态，你是否也会有？](https://github.com/mqyqingfeng/Blog/issues/293)
 
 ## TypeScript4 官方文档翻译，收录在 [ts.yayujs.com](http://ts.yayujs.com/)
 
