@@ -33,6 +33,7 @@
 9. [悄悄过来蹭个回答](https://github.com/mqyqingfeng/Blog/issues/289) 
 10. [怎么才能不焦虑？](https://github.com/mqyqingfeng/Blog/issues/292) 
 11. [功利性学习的心态，你是否也会有？](https://github.com/mqyqingfeng/Blog/issues/293)
+12. [人生低谷时，如何快速调整、重回正轨？](https://github.com/mqyqingfeng/Blog/issues/294)
 
 ## TypeScript4 官方文档翻译，收录在 [ts.yayujs.com](http://ts.yayujs.com/)
 
