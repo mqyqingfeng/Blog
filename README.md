@@ -2,7 +2,7 @@
 
 ## 最新
 
-2022 年 6 月 30 日 更新冴羽答读者问系列
+2022 年 7 月 15 日 更新冴羽答读者问系列
 
 ## 公众号
 
@@ -40,6 +40,7 @@
 16. [怎么平衡工作与生活？](https://github.com/mqyqingfeng/Blog/issues/298)
 17. [如果有机会，你会选择脱产学习深造吗？](https://github.com/mqyqingfeng/Blog/issues/299)
 18. [如何在工作中打造影响力，带动同事？](https://github.com/mqyqingfeng/Blog/issues/306)
+19. [如何学习更有计划性、提升更稳更快？](https://github.com/mqyqingfeng/Blog/issues/308)
 
 ## TypeScript4 官方文档翻译，收录在 [ts.yayujs.com](http://ts.yayujs.com/)
 
