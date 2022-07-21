@@ -2,7 +2,7 @@
 
 ## 最新
 
-2022 年 7 月 15 日 更新冴羽答读者问系列
+2022 年 7 月 21 日 更新冴羽答读者问系列
 
 ## 公众号
 
@@ -41,6 +41,7 @@
 17. [如果有机会，你会选择脱产学习深造吗？](https://github.com/mqyqingfeng/Blog/issues/299)
 18. [如何在工作中打造影响力，带动同事？](https://github.com/mqyqingfeng/Blog/issues/306)
 19. [如何学习更有计划性、提升更稳更快？](https://github.com/mqyqingfeng/Blog/issues/308)
+20. [过程比结果重要吗？](https://github.com/mqyqingfeng/Blog/issues/309)
 
 ## TypeScript4 官方文档翻译，收录在 [ts.yayujs.com](http://ts.yayujs.com/)
 
