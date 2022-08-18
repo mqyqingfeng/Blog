@@ -2,7 +2,7 @@
 
 ## 最新
 
-2022 年 7 月 26 日 更新冴羽答读者问系列
+2022 年 8 月 18 日 更新单篇文章
 
 ## 公众号
 
@@ -19,6 +19,10 @@
 * [知乎](https://zhuanlan.zhihu.com/c_1042806379215601664)
 * [语雀](https://www.yuque.com/qingyu-fasl3/od8gmv)
 * [慕课](https://www.imooc.com/u/306841)
+
+## 项目开发
+
+1. [聊聊 npm 的语义化版本（Semver）](https://github.com/mqyqingfeng/Blog/issues/312)
 
 ## 冴羽答读者问
 
