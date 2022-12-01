@@ -2,7 +2,7 @@
 
 ## 最新
 
-2022 年 8 月 18 日 更新单篇文章
+2022 年 12 月 1 日 更新 React 系列
 
 ## 公众号
 
@@ -10,7 +10,7 @@
 |:----:|:----:|
 |<img src="https://user-images.githubusercontent.com/11458263/156172823-5af1316e-2a3e-4f48-9908-682a74adb540.jpeg" width="120">|<img src="https://cdn.jsdelivr.net/gh/mqyqingfeng/picture/qrcode_for_gh_bd1a3dc9eafd_258.jpg" width="120">|
 |mqyqingfeng|冴羽的 JavaScript 博客|
-|进冴羽的读者群|文章同步更新|
+|[加入低调务实优秀中国好青年社群](https://www.yuque.com/yayu/nice-people/xou8qr)|文章同步更新|
 
 ## 专栏
 
@@ -19,6 +19,10 @@
 * [知乎](https://zhuanlan.zhihu.com/c_1042806379215601664)
 * [语雀](https://www.yuque.com/qingyu-fasl3/od8gmv)
 * [慕课](https://www.imooc.com/u/306841)
+
+## React 系列
+
+1. [React 之 createElement 源码解读](https://github.com/mqyqingfeng/Blog/issues/316)
 
 ## 项目开发
 
