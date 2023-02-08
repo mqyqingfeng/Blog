@@ -31,6 +31,10 @@
 
 1. [聊聊 npm 的语义化版本（Semver）](https://github.com/mqyqingfeng/Blog/issues/312)
 
+## 付费合集
+
+1. [冴羽 2023 开年分享文字稿（全文 3.8W 字）](https://mp.weixin.qq.com/s/3258P59o2egSA0jK7d7McQ)
+
 ## 冴羽答读者问
 
 1. [30 岁了， 现在开始努力，晚吗？](https://github.com/mqyqingfeng/Blog/issues/280)
