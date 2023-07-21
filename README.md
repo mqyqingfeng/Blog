@@ -33,7 +33,7 @@
 
 ## 个人成长
 
-1. [如何让自己快速成长？来听听冴羽的这些分享！（音视频版）]([https://mp.weixin.qq.com/s/3258P59o2egSA0jK7d7McQ](https://www.yuque.com/yayu/blog/grow))
+1. [如何让自己快速成长？来听听冴羽的这些分享！（音视频版）](https://mp.weixin.qq.com/s/3258P59o2egSA0jK7d7McQ](https://www.yuque.com/yayu/blog/grow)
 
 ## 冴羽答读者问
 
