@@ -12,6 +12,8 @@
 |mqyqingfeng|冴羽的 JavaScript 博客|
 |[加入低调务实优秀中国好青年社群](https://www.yuque.com/yayu/nice-people/xou8qr)|文章同步更新|
 
+本周日（9 月 10 日）晚上 8 点将举办社群第 18 期茶话会。21:00 - 24:00 我将和大家分享《如何高效学习？》，欢迎添加好友入群旁听
+
 ## 专栏
 
 * [掘金](https://juejin.im/user/58e4b9b261ff4b006b3227f4)
