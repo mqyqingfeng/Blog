@@ -12,7 +12,7 @@
 
 ## Solid.js 翻译
 
-正在翻译中……
+主要内容已翻译完毕，查看 [Solid 中文文档](https://solid.yayujs.com/)
 
 ## Next.js 系列
 
