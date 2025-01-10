@@ -12,11 +12,13 @@
 
 ## Svelte 官方文档翻译
 
-主要内容已翻译完毕，查看 [Svelte 官方文档中文](https://svelte.yayujs.com/)
+1. 主要内容已翻译完毕，查看站点： [Svelte 中文文档](https://svelte.yayujs.com/)
+2. 关于 Svelte 的介绍，查看 [《Svelte 开发指南》](https://s.juejin.cn/ds/iUurdrae/)
 
 ## Solid.js 官方文档翻译
 
-主要内容已翻译完毕，查看 [Solid.js 官方文档中文](https://solid.yayujs.com/)
+1. 主要内容已翻译完毕，查看站点： [Solid.js 中文文档](https://solid.yayujs.com/)
+2. 关于 Solid.js 的介绍，查看[《这个比 React 更 react 的框架 —— Solid.js 最新中文文档来了！》](https://juejin.cn/post/7457857802088890387)
 
 ## Next.js 系列
 
