@@ -52,7 +52,11 @@
 20. [过程比结果重要吗？](https://github.com/mqyqingfeng/Blog/issues/309)
 21. [冴羽，你为什么写起了鸡汤？](https://github.com/mqyqingfeng/Blog/issues/310)
 
-## TypeScript4 官方文档翻译，收录在 [ts.yayujs.com](http://ts.yayujs.com/)
+## TypeScript 官方文档翻译
+
+1. 主要内容已翻译完毕，查看站点： [TypeScript 中文文档](https://ts.yayujs.com/)
+
+系列目录：
 
 1. [TypeScript之基础入门](https://github.com/mqyqingfeng/Blog/issues/227)
 2. [TypeScript之常见类型（上）](https://github.com/mqyqingfeng/Blog/issues/228)
