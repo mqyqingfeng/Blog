@@ -8,7 +8,6 @@
 * 小册：[《Next.js 开发指南》](https://s.juejin.cn/ds/i8kJo2o8/)、[《Svelte 开发指南》](https://s.juejin.cn/ds/iUurdrae/)
 * 翻译：[TypeScript 中文文档](http://ts.yayujs.com/)、[Solid.js 中文文档](https://solid.yayujs.com/)、[Svelte 中文文档](https://svelte.yayujs.com/)
 * 专栏：[掘金](https://juejin.cn/user/712139234359182/columns)、[思否](https://segmentfault.com/u/yayu)、[语雀](https://www.yuque.com/yayu)、公众号：[冴羽（#yayujs）](https://cdn.jsdelivr.net/gh/mqyqingfeng/picture/qrcode_for_gh_bd1a3dc9eafd_258.jpg)
-* 微信：[mqyqingfeng](https://cdn.jsdelivr.net/gh/mqyqingfeng/picture/IMG_3516.JPG)
 
 ## Svelte 官方文档翻译
 
