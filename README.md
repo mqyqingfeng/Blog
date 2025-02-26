@@ -9,6 +9,22 @@
 * 翻译：[TypeScript 中文文档](http://ts.yayujs.com/)、[Solid.js 中文文档](https://solid.yayujs.com/)、[Svelte 中文文档](https://svelte.yayujs.com/)
 * 专栏：[掘金](https://juejin.cn/user/712139234359182/columns)、[思否](https://segmentfault.com/u/yayu)、[语雀](https://www.yuque.com/yayu)、公众号：[冴羽（#yayujs）](https://cdn.jsdelivr.net/gh/mqyqingfeng/picture/qrcode_for_gh_bd1a3dc9eafd_258.jpg)
 
+## 冴羽·前端大佬成长之路
+
+2025 年，我会在知识星球更新一套“前端大佬成长之路”的课程。
+
+包含目标规划篇、学习方法篇、前端学习篇、个人管理篇、职场发展篇、面试技巧篇、健康养生篇共 7 大篇章、40 节文章。
+
+总结了我近十年的工作生活经验，让大家少走一些弯路，节省一些时间。
+
+目前星球预售 199，3 月 1 日，涨价到 249，随着课程更新，涨回 399 元。
+
+为了感谢大家的关注，分享给大家一个 50 元的新人优惠券，现在只需要 149 元即可加入，名额 100 个，先到先得：
+
+<img width="30%" src="https://github.com/user-attachments/assets/83c26166-3180-4c96-89b9-0d5ad8c637ae" />
+
+> 请在微信中扫码打开，查看具体介绍
+
 ## Svelte 官方文档翻译
 
 1. 主要内容已翻译完毕，查看站点： [Svelte 中文文档](https://svelte.yayujs.com/)
