@@ -4,24 +4,33 @@
 
 * 博客：[https://yayujs.com/](https://yayujs.com/)
 * 社群：[“低调务实优秀中国好青年”前端社群](https://www.yuque.com/yayu/nice-people/xou8qr)
-* 成长：[茶话会](https://www.yuque.com/yayu/blog/grow)、[微信读书](https://yayujs.com/grow)
-* 小册：[《Next.js 开发指南》](https://s.juejin.cn/ds/i8kJo2o8/)、[《Svelte 开发指南》](https://s.juejin.cn/ds/iUurdrae/)
-* 翻译：[TypeScript 中文文档](http://ts.yayujs.com/)、[Solid.js 中文文档](https://solid.yayujs.com/)、[Svelte 中文文档](https://svelte.yayujs.com/)
+* 成长：[社群茶话会](https://www.yuque.com/yayu/nice-people/shares)、[我的茶话会](https://www.yuque.com/yayu/blog/grow)、[微信读书](https://yayujs.com/grow)
+* 翻译：[TypeScript 中文文档](http://ts.yayujs.com/)、[Svelte 中文文档](https://svelte.yayujs.com/)、[Solid 中文文档](https://solid.yayujs.com/)
+* 小册：[《Next.js 开发指南》](https://s.juejin.cn/ds/i8kJo2o8/)、[《Svelte 开发指南》](https://s.juejin.cn/ds/iUurdrae/)、[《Astro 开发指南》](https://juejin.cn/book/7452253924608147467)
 * 专栏：[掘金](https://juejin.cn/user/712139234359182/columns)、[思否](https://segmentfault.com/u/yayu)、[语雀](https://www.yuque.com/yayu)、公众号：[冴羽（#yayujs）](https://cdn.jsdelivr.net/gh/mqyqingfeng/picture/qrcode_for_gh_bd1a3dc9eafd_258.jpg)
+* 星球：[冴羽·前端大佬成长之路](https://t.zsxq.com/tn3PW)，一套帮助你全面成长的课程 + 一个陪伴你终身成长的前端社群，涵盖一个技术人所需的方方面面
 
 ## 冴羽·前端大佬成长之路
 
-2025 年，我会在知识星球更新一套“前端大佬成长之路”的课程。
+2025 年，我在知识星球更新了一套名为“前端大佬成长之路”的课程。
 
-包含目标规划篇、学习方法篇、前端学习篇、个人管理篇、职场发展篇、面试技巧篇、健康养生篇共 7 大篇章、40 节文章。
+课程一共分为：
 
-总结了我近十年的工作生活经验，让大家少走一些弯路，节省一些时间。
+1. 认知升级篇
+2. 技术成长篇
+3. 高效学习篇
+4. 习惯养成篇
+5. 职场工作篇
+6. 精力管理篇
+7. 前端面试篇
+   
+共 7 大篇章，60 节大课。课程不再拘泥于技术，而是总结了我这 10 年来的工作生活经验，讲解技术人成长的道法术器，旨在让你少走一些弯路，节省一些时间，以最小的努力撬动最大的成长。
 
-目前星球预售 249，4 月 1 日，涨价到 289，随着课程更新，涨回 399 元。
+为了感谢大家的关注，分享给大家一个 50 元的新人优惠券，名额 100 个，先到先得：
 
-为了感谢大家的关注，分享给大家一个 50 元的新人优惠券，现在只需要 199 元即可加入，名额 100 个，先到先得：
+<img width="15%" src="https://github.com/user-attachments/assets/16fdb296-36c8-42dc-a0eb-645f6bd59660" />
 
-<img width="30%" src="https://github.com/user-attachments/assets/83c26166-3180-4c96-89b9-0d5ad8c637ae" />
+<p></p>
 
 > 请在微信中扫码打开，查看具体介绍
 
