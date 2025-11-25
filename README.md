@@ -10,47 +10,38 @@
 * 专栏：[掘金](https://juejin.cn/user/712139234359182/columns)、[思否](https://segmentfault.com/u/yayu)、[语雀](https://www.yuque.com/yayu)、公众号：[冴羽（#yayujs）](https://cdn.jsdelivr.net/gh/mqyqingfeng/picture/qrcode_for_gh_bd1a3dc9eafd_258.jpg)
 * 星球：[冴羽·前端大佬成长之路](https://t.zsxq.com/tn3PW)，一套帮助你全面成长的课程 + 一个陪伴你终身成长的前端社群，涵盖一个技术人所需的方方面面
 
+## JavaScript 系列
+
+1. [10 个被严重低估的 JS 特性，直接少写 500 行代码](https://github.com/mqyqingfeng/Blog/issues/376)
+2. [JavaScript 异步循环踩坑指南](https://github.com/mqyqingfeng/Blog/issues/376)
+3. [为什么在 JavaScript 中 NaN !== NaN？背后藏着 40 年的技术故事](https://github.com/mqyqingfeng/Blog/issues/378)
+4. [从 useState 到 URLState：为什么大佬们都在删状态管理代码？](https://github.com/mqyqingfeng/Blog/issues/379)
+5. [涨见识了，Error.cause 让 JavaScript 错误调试更轻松](https://github.com/mqyqingfeng/Blog/issues/380)
+
 ## 冴羽 · 前端大佬成长之路
 
-2025 年，我在知识星球更新了一套名为“前端大佬成长之路”的课程。
-
-课程一共分为：
-
-1. 认知升级篇
-2. 技术成长篇
-3. 高效学习篇
-4. 习惯养成篇
-5. 职场工作篇
-6. 精力管理篇
-7. 前端面试篇
-   
-共 7 大篇章，60 节大课。课程不再拘泥于技术，而是总结了我这 10 年来的工作生活经验，讲解技术人成长的道法术器，旨在让你少走一些弯路，节省一些时间，实现快速成长。
-
-为了感谢大家的关注，分享给大家一个 50 元的新人优惠券，名额 100 个，先到先得：
+2025 年，我在知识星球更新了一套名为“前端大佬成长之路”的课程。课程不再拘泥于技术，而是总结了我这 10 年来的工作生活经验，讲解技术人成长的方方面面，帮助你实现快速成长。
 
 <img width="15%" src="https://github.com/user-attachments/assets/16fdb296-36c8-42dc-a0eb-645f6bd59660" />
 
-<p></p>
+## Svelte 系列
 
-> 请在微信中扫码打开，查看具体介绍
+1. 翻译了官方文档： [Svelte 中文文档](https://svelte.yayujs.com/)
+2. 写了一本小册： [《Svelte 开发指南》](https://s.juejin.cn/ds/iUurdrae/)
 
-## Svelte 官方文档翻译
+## Solid.js 系列
 
-1. 主要内容已翻译完毕，查看站点： [Svelte 中文文档](https://svelte.yayujs.com/)
-2. 关于 Svelte 的介绍，查看 [《Svelte 开发指南》](https://s.juejin.cn/ds/iUurdrae/)
-
-## Solid.js 官方文档翻译
-
-1. 主要内容已翻译完毕，查看站点： [Solid.js 中文文档](https://solid.yayujs.com/)
-2. 关于 Solid.js 的介绍，查看[《这个比 React 更 react 的框架 —— Solid.js 最新中文文档来了！》](https://juejin.cn/post/7457857802088890387)
+1. 翻译了官方文档： [Solid.js 中文文档](https://solid.yayujs.com/)
+2. [《这个比 React 更 react 的框架 —— Solid.js 最新中文文档来了！》](https://juejin.cn/post/7457857802088890387)
 
 ## Next.js 系列
 
-因为签约原因，首发在掘金，一共 24 篇，专栏地址：[Next.js 开发指北](https://juejin.cn/column/7343569488744611849)
+1. 因为签约原因，首发在掘金，一共 24 篇，专栏地址：[Next.js 开发指北](https://juejin.cn/column/7343569488744611849)
+2. 写了一本小册：[《Next.js 开发指南》](https://s.juejin.cn/ds/i8kJo2o8/)
 
 ## React 系列
 
-因为签约原因，首发在掘金，一共 16 篇，专栏地址：[React 基础与进阶](https://juejin.cn/column/7142674773930147853)
+1. 因为签约原因，首发在掘金，一共 16 篇，专栏地址：[React 基础与进阶](https://juejin.cn/column/7142674773930147853)
 
 ## 冴羽答读者问
 
