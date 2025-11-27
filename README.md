@@ -18,7 +18,11 @@
 4. [从 useState 到 URLState：为什么大佬们都在删状态管理代码？](https://github.com/mqyqingfeng/Blog/issues/379)
 5. [涨见识了，Error.cause 让 JavaScript 错误调试更轻松](https://github.com/mqyqingfeng/Blog/issues/380)
 
-## 冴羽 · 前端大佬成长之路
+## AI 系列
+
+1. [6 个白嫖 Nano Banana Pro 的网站](https://github.com/mqyqingfeng/Blog/issues/381)
+
+## 前端工程师成长系列
 
 2025 年，我在知识星球更新了一套名为“前端大佬成长之路”的课程。课程不再拘泥于技术，而是总结了我这 10 年来的工作生活经验，讲解技术人成长的方方面面，帮助你实现快速成长。
 
