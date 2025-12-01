@@ -10,10 +10,11 @@
 * 专栏：[掘金](https://juejin.cn/user/712139234359182/columns)、[思否](https://segmentfault.com/u/yayu)、[语雀](https://www.yuque.com/yayu)、公众号：[冴羽（#yayujs）](https://cdn.jsdelivr.net/gh/mqyqingfeng/picture/qrcode_for_gh_bd1a3dc9eafd_258.jpg)
 * 星球：[冴羽·前端大佬成长之路](https://t.zsxq.com/tn3PW)，一套帮助你全面成长的课程 + 一个陪伴你终身成长的前端社群，涵盖一个技术人所需的方方面面
 
-## AI 系列
+## Nano Banana Pro 系列
 
 1. [6 个白嫖 Nano Banana Pro 的网站](https://github.com/mqyqingfeng/Blog/issues/381)
 2. [一次找齐！1000 个 Nano Banana Pro 提示词](https://github.com/mqyqingfeng/Blog/issues/382)
+3. [Nano Banana Pro 很强，但你要学会写提示词才能为所欲为](https://github.com/mqyqingfeng/Blog/issues/383)
 
 ## JavaScript 系列
 
