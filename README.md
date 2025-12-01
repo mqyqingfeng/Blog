@@ -75,11 +75,6 @@
 * 冴羽：Signals 快速上手指南
 * 冴羽：Prisma 快速上手指南
 * 冴羽：设置网站图标的最佳实践
-* 冴羽：聊聊 npm 的语义化版本（Semver）
-* 冴羽：一篇从购买服务器到部署代码的详细教程
-* 冴羽：一篇域名从购买到备案到解析的详细教程
-* 冴羽：一份简单够用的 Nginx Location 配置讲解
-* 冴羽：一份前端够用的 Linux 命令
 * 冴羽：Docker 快速上手指南
 * 张渔歌：3 个月刷穿 900 道算法
   
@@ -141,24 +136,83 @@
 * 冴羽：Next.js 面试题及解析（一）
 * 冴羽：Next.js 面试题及解析（二）
 
+## Astro 系列
+
+### 第 3 本小册（21 篇）
+
+1. [《Astro 实战指南》](https://juejin.cn/book/7452253924608147467)
+
 ## Svelte 系列
 
-1. 翻译了官方文档： [Svelte 中文文档](https://svelte.yayujs.com/)
-2. 写了一本小册： [《Svelte 开发指南》](https://s.juejin.cn/ds/iUurdrae/)
+### 翻译
+
+1. 翻译并搭建了中文站点：[Svelte 中文文档](https://svelte.yayujs.com/)
+
+### 第 2 本小册（44 篇）
+
+1. [《Svelte 开发指南》](https://s.juejin.cn/ds/iUurdrae/)
 
 ## Solid.js 系列
 
-1. 翻译了官方文档： [Solid.js 中文文档](https://solid.yayujs.com/)
-2. [《这个比 React 更 react 的框架 —— Solid.js 最新中文文档来了！》](https://juejin.cn/post/7457857802088890387)
+### 翻译
+
+1. 翻译并搭建了中文站点： [Solid.js 中文文档](https://solid.yayujs.com/)
+
+### 专栏
+
+1. [《这个比 React 更 react 的框架 —— Solid.js 最新中文文档来了！》](https://juejin.cn/post/7457857802088890387)
 
 ## Next.js 系列
 
-1. 因为签约原因，首发在掘金，一共 24 篇，专栏地址：[Next.js 开发指北](https://juejin.cn/column/7343569488744611849)
-2. 写了一本小册：[《Next.js 开发指南》](https://s.juejin.cn/ds/i8kJo2o8/)
+### 第 1 本小册（82 篇）
+
+1. [《Next.js 开发指南》](https://s.juejin.cn/ds/i8kJo2o8/)
+
+### 专栏
+
+1. [理解 Next.js 的 CSR、SSR、SSG、ISR、RSC、SPA、Streaming SSR 等概念](https://juejin.cn/post/7407259722430201867)
+2. [Next.js 写 Server Actions 的利器 —— next-safe-action](https://juejin.cn/post/7405542470946652214)
+3. [Next.js Server Actions 如何进行错误处理？](https://juejin.cn/post/7400585120284311593)
+4. [Next.js 写什么 useState，放 URL 里！](https://juejin.cn/post/7399708179397787687)
+5. [分享一个好用的 AI 聚合平台，快速接入国内外主流 AI 模型](https://juejin.cn/post/7396933058728607784)
+6. [Next.js 如何实现导航时的过渡动画？（使用 Framer Motion）](https://juejin.cn/post/7394993393125310464)
+7. [Next.js 如何处理表单？（TS + Tailwind CSS + Shadcn UI + RHF + Zod + useOptimistic）](https://juejin.cn/post/7394004613015601186)
+8. [Next.js 项目写 Tailwind CSS 基本都会遇到的两个问题](https://juejin.cn/post/7387611028988002314)
+9. [React 19 新 hook —— useActionState 与 Next.js Server Actions 绝佳搭配](https://juejin.cn/post/7386693876052164658)
+10. [Next.js 极简实现 Authentication](https://juejin.cn/post/7383934765370621961)
+11. [Next.js 实现下载 m3u8 视频](https://juejin.cn/post/7382966707060703268)
+12. [Next.js 项目接入 AI 的利器 —— Vercel AI SDK](https://juejin.cn/post/7376622203301969959)
+13. [Next.js v15 要来了，有哪些更新？附升级指南](https://juejin.cn/post/7375858343179255862)
+14. [Next.js v14 如何实现 SSE、接入 ChatGPT Stream?](https://juejin.cn/post/7372020457124659234)
+15. [Next.js App Router + Socket.IO 实现简易聊天室](https://juejin.cn/post/7371423076662493224)
+16. [Next.js 跨域问题的各种解法](https://juejin.cn/post/7366177423775531008)
+17. [Next.js 常见错误 Hydration Failed 该如何解决？](https://juejin.cn/post/7365793739892228096)
+18. [使用 Next.js App Router 常犯的 10 个错误](https://juejin.cn/post/7361204571828731956)
+19. [Next.js v14 的 cookies()、header() 函数实现原理 ——  AsyncLocalStorage](https://juejin.cn/post/7360737180392996899)
+20. [Next.js v14 报 document is not defined 这种错怎么办？基本都会遇到，深入解析，收藏备用](https://juejin.cn/post/7352342892785352755)
+21. [Next.js v14 如何为多个根布局自定义不同的 404 页面？竟然还有些麻烦！欢迎探讨](https://juejin.cn/post/7351321244125265930)
+22. [（技巧）当 Next.js 遇到频繁重复的数据库操作时，记住使用 React 的 cache 函数](https://juejin.cn/post/7348643498117038099)
+23. [Next.js v14 实现乐观更新，面向未来的 UI 更新方式，你可以不去做，但你不应该不了解](https://juejin.cn/post/7347957960884355113)
+24. [如何用 Next.js v14 实现一个 Streaming 接口？](https://juejin.cn/post/7344089411983802394)
+25. [Next.js v14 的模板（template.js）到底有啥用？](https://juejin.cn/post/7343569488744300553)
 
 ## React 系列
 
-1. 因为签约原因，首发在掘金，一共 16 篇，专栏地址：[React 基础与进阶](https://juejin.cn/column/7142674773930147853)
+1. [React 之元素与组件的区别](https://juejin.cn/post/7161320926728945701)
+2. [React 之 Refs 的使用和 forwardRef 的源码解读](https://juejin.cn/post/7161719602652086308)
+3. [React 之 Context 的变迁与背后实现](https://juejin.cn/post/7162002168529027079)
+4. [React 之 Race Condition](https://juejin.cn/post/7163202327594139679)
+5. [React 之 Suspense](https://juejin.cn/post/7163934860694781989)
+6. [React 之从视觉暂留到 FPS、刷新率再到显卡、垂直同步再到16ms的故事](https://juejin.cn/post/7164394153848078350)
+7. [React 之 requestAnimationFrame 执行机制探索](https://juejin.cn/post/7165780929439334437)
+8. [React 之 requestIdleCallback 来了解一下](https://juejin.cn/post/7166547963517337614)
+9. [React 之从 requestIdleCallback 到时间切片](https://juejin.cn/post/7167335700424196127)
+10. [React 之最小堆（min heap）](https://juejin.cn/post/7168283003037155359)
+11. [React 之如何调试源码](https://juejin.cn/post/7168821587251036167)
+12. [React 之 Scheduler 源码解读（上）](https://juejin.cn/post/7171000978278187038)
+13. [React 之 Scheduler 源码解读（下）](https://juejin.cn/post/7171319288849137694)
+14. [React 之 Scheduler 源码中的三个小知识点，看看你知不知道？](https://juejin.cn/post/7171633315336683528)
+15. [300 行代码实现 React 的调度器 Scheduler](https://juejin.cn/post/7171728961473347614)
 
 ## 冴羽答读者问
 
@@ -184,11 +238,13 @@
 20. [过程比结果重要吗？](https://github.com/mqyqingfeng/Blog/issues/309)
 21. [冴羽，你为什么写起了鸡汤？](https://github.com/mqyqingfeng/Blog/issues/310)
 
-## TypeScript 官方文档翻译
+## TypeScript 系列
 
-1. 我搭建的中文站点：[TypeScript 中文文档](https://ts.yayujs.com/)
+### 翻译
 
-系列目录：
+1. 翻译并搭建了中文站点：[TypeScript 中文文档](https://ts.yayujs.com/)
+
+### 专栏
 
 1. [TypeScript之基础入门](https://github.com/mqyqingfeng/Blog/issues/227)
 2. [TypeScript之常见类型（上）](https://github.com/mqyqingfeng/Blog/issues/228)
