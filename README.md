@@ -8,7 +8,7 @@
 * 翻译：[TypeScript 中文文档](http://ts.yayujs.com/)、[Svelte 中文文档](https://svelte.yayujs.com/)、[Solid 中文文档](https://solid.yayujs.com/)
 * 小册：[《Next.js 开发指南》](https://s.juejin.cn/ds/i8kJo2o8/)、[《Svelte 开发指南》](https://s.juejin.cn/ds/iUurdrae/)、[《Astro 开发指南》](https://juejin.cn/book/7452253924608147467)
 * 专栏：[掘金](https://juejin.cn/user/712139234359182/columns)、[思否](https://segmentfault.com/u/yayu)、[语雀](https://www.yuque.com/yayu)、公众号：[冴羽（#yayujs）](https://cdn.jsdelivr.net/gh/mqyqingfeng/picture/qrcode_for_gh_bd1a3dc9eafd_258.jpg)
-* 星球：[冴羽·前端大佬成长之路](https://t.zsxq.com/tn3PW)，一套帮助你全面成长的课程 + 一个陪伴你终身成长的前端社群，涵盖一个技术人所需的方方面面
+* 星球：[冴羽·前端大佬成长之路](https://t.zsxq.com/tn3PW)，一年时间，十倍成长，一鸣惊人
 
 ## Nano Banana Pro 系列
 
