@@ -15,6 +15,7 @@
 1. [6 个白嫖 Nano Banana Pro 的网站](https://github.com/mqyqingfeng/Blog/issues/381)
 2. [一次找齐！1000 个 Nano Banana Pro 提示词](https://github.com/mqyqingfeng/Blog/issues/382)
 3. [Nano Banana Pro 很强，但你要学会写提示词才能为所欲为](https://github.com/mqyqingfeng/Blog/issues/383)
+4. [10 个 Nano Banana Pro 专业级生图技巧](https://github.com/mqyqingfeng/Blog/issues/384)
 
 ## JavaScript 系列
 
