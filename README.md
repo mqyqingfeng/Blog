@@ -10,12 +10,19 @@
 * 专栏：[掘金](https://juejin.cn/user/712139234359182/columns)、[思否](https://segmentfault.com/u/yayu)、[语雀](https://www.yuque.com/yayu)、公众号：[冴羽（#yayujs）](https://cdn.jsdelivr.net/gh/mqyqingfeng/picture/qrcode_for_gh_bd1a3dc9eafd_258.jpg)
 * 星球：[冴羽·前端大佬成长之路](https://t.zsxq.com/tn3PW)，一年时间，十倍成长，一鸣惊人
 
+## 公众号
+
+<img width="15%" src="https://github.com/user-attachments/assets/000b8b3c-a617-4982-8f3d-abdf31b52b88" />
+
+最新资讯、前端知识、AI 干货，还在更新维护中
+
 ## Nano Banana Pro 系列
 
 1. [6 个白嫖 Nano Banana Pro 的网站](https://github.com/mqyqingfeng/Blog/issues/381)
 2. [一次找齐！1000 个 Nano Banana Pro 提示词](https://github.com/mqyqingfeng/Blog/issues/382)
 3. [Nano Banana Pro 很强，但你要学会写提示词才能为所欲为](https://github.com/mqyqingfeng/Blog/issues/383)
 4. [10 个 Nano Banana Pro 专业级生图技巧](https://github.com/mqyqingfeng/Blog/issues/384)
+5. [疯传的 Nano Banana Pro 像素级拆解提示词](https://github.com/mqyqingfeng/Blog/issues/385)
 
 ## JavaScript 系列
 
