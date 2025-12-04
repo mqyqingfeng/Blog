@@ -23,6 +23,7 @@
 3. [Nano Banana Pro 很强，但你要学会写提示词才能为所欲为](https://github.com/mqyqingfeng/Blog/issues/383)
 4. [10 个 Nano Banana Pro 专业级生图技巧](https://github.com/mqyqingfeng/Blog/issues/384)
 5. [疯传的 Nano Banana Pro 像素级拆解提示词](https://github.com/mqyqingfeng/Blog/issues/385)
+6. [不知道怎么写 Nano Banana Pro 提示词？分享你一个结构化示例，复刻任意图片](https://github.com/mqyqingfeng/Blog/issues/386)
 
 ## JavaScript 系列
 
