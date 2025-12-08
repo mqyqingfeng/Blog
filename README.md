@@ -25,6 +25,7 @@
 5. [疯传的 Nano Banana Pro 像素级拆解提示词](https://github.com/mqyqingfeng/Blog/issues/385)
 6. [不知道怎么写 Nano Banana Pro 提示词？分享你一个结构化示例，复刻任意图片](https://github.com/mqyqingfeng/Blog/issues/386)
 7. [太好看了！3 个动漫变真人 Nano Banana Pro 提示词](https://github.com/mqyqingfeng/Blog/issues/387)
+8. [Nano Banana Pro 零基础快速上手](https://github.com/mqyqingfeng/Blog/issues/388)
 
 ## JavaScript 系列
 
