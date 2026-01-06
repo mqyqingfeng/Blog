@@ -14,7 +14,7 @@
 
 <img width="15%" src="https://github.com/user-attachments/assets/000b8b3c-a617-4982-8f3d-abdf31b52b88" />
 
-最新资讯、前端知识、AI 干货，还在更新维护中
+作为准前端开发专家的你，第一时间获取前端资讯、技术干货、AI 课程，那不得关注下我的公众号「冴羽」？
 
 ## Nano Banana Pro 系列
 
@@ -34,6 +34,7 @@
 3. [为什么在 JavaScript 中 NaN !== NaN？背后藏着 40 年的技术故事](https://github.com/mqyqingfeng/Blog/issues/378)
 4. [从 useState 到 URLState：为什么大佬们都在删状态管理代码？](https://github.com/mqyqingfeng/Blog/issues/379)
 5. [涨见识了，Error.cause 让 JavaScript 错误调试更轻松](https://github.com/mqyqingfeng/Blog/issues/380)
+6. [前端性能革命：200 行 JavaScript 代码实现 Streaming JSON](https://github.com/mqyqingfeng/Blog/issues/390)
 
 ## 前端工程师成长系列
 
@@ -41,7 +42,7 @@
 
 <img width="15%" src="https://github.com/user-attachments/assets/16fdb296-36c8-42dc-a0eb-645f6bd59660" />
 
-还在持续更新中……
+星球文章目录如下：
 
 ### 成长之路·服务指引
 
@@ -122,6 +123,8 @@
 ### 冴羽·职场工作篇·提升表达力（3）
 
 * 冴羽：你累死累活做业务，绩效还不怎么样，我只能帮你到这了……
+* 冴羽：如何面对他人的否定、打压、指责、批评？
+* 冴羽：在职场如何做好“向上管理”？
 * 冴羽：如何在工作中打造影响力，带动同事？
 * 冴羽：怎么平衡工作与生活？
   
