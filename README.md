@@ -35,6 +35,7 @@
 4. [从 useState 到 URLState：为什么大佬们都在删状态管理代码？](https://github.com/mqyqingfeng/Blog/issues/379)
 5. [涨见识了，Error.cause 让 JavaScript 错误调试更轻松](https://github.com/mqyqingfeng/Blog/issues/380)
 6. [前端性能革命：200 行 JavaScript 代码实现 Streaming JSON](https://github.com/mqyqingfeng/Blog/issues/390)
+7. [2025 年最火的前端项目出炉，No.1 易主！](https://github.com/mqyqingfeng/Blog/issues/391)
 
 ## 前端工程师成长系列
 
