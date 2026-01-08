@@ -16,6 +16,10 @@
 
 作为准前端开发专家的你，第一时间获取前端资讯、技术干货、AI 课程，那不得关注下我的公众号「冴羽」？
 
+## CSS 系列
+
+1. [CSS 新特性！瀑布流布局的终极解决方案](https://github.com/mqyqingfeng/Blog/issues/392)
+
 ## Nano Banana Pro 系列
 
 1. [6 个白嫖 Nano Banana Pro 的网站](https://github.com/mqyqingfeng/Blog/issues/381)
