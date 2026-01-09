@@ -16,6 +16,17 @@
 
 作为准前端开发专家的你，第一时间获取前端资讯、技术干货、AI 课程，那不得关注下我的公众号「冴羽」？
 
+## JavaScript 系列
+
+1. [10 个被严重低估的 JS 特性，直接少写 500 行代码](https://github.com/mqyqingfeng/Blog/issues/376)
+2. [JavaScript 异步循环踩坑指南](https://github.com/mqyqingfeng/Blog/issues/376)
+3. [为什么在 JavaScript 中 NaN !== NaN？背后藏着 40 年的技术故事](https://github.com/mqyqingfeng/Blog/issues/378)
+4. [从 useState 到 URLState：为什么大佬们都在删状态管理代码？](https://github.com/mqyqingfeng/Blog/issues/379)
+5. [涨见识了，Error.cause 让 JavaScript 错误调试更轻松](https://github.com/mqyqingfeng/Blog/issues/380)
+6. [前端性能革命：200 行 JavaScript 代码实现 Streaming JSON](https://github.com/mqyqingfeng/Blog/issues/390)
+7. [2025 年最火的前端项目出炉，No.1 易主！](https://github.com/mqyqingfeng/Blog/issues/391)
+8. [JavaScript Date 语法要过时了！以后用这个替代！](https://github.com/mqyqingfeng/Blog/issues/393)
+
 ## CSS 系列
 
 1. [CSS 新特性！瀑布流布局的终极解决方案](https://github.com/mqyqingfeng/Blog/issues/392)
@@ -31,17 +42,7 @@
 7. [太好看了！3 个动漫变真人 Nano Banana Pro 提示词](https://github.com/mqyqingfeng/Blog/issues/387)
 8. [Nano Banana Pro 零基础快速上手](https://github.com/mqyqingfeng/Blog/issues/388)
 
-## JavaScript 系列
-
-1. [10 个被严重低估的 JS 特性，直接少写 500 行代码](https://github.com/mqyqingfeng/Blog/issues/376)
-2. [JavaScript 异步循环踩坑指南](https://github.com/mqyqingfeng/Blog/issues/376)
-3. [为什么在 JavaScript 中 NaN !== NaN？背后藏着 40 年的技术故事](https://github.com/mqyqingfeng/Blog/issues/378)
-4. [从 useState 到 URLState：为什么大佬们都在删状态管理代码？](https://github.com/mqyqingfeng/Blog/issues/379)
-5. [涨见识了，Error.cause 让 JavaScript 错误调试更轻松](https://github.com/mqyqingfeng/Blog/issues/380)
-6. [前端性能革命：200 行 JavaScript 代码实现 Streaming JSON](https://github.com/mqyqingfeng/Blog/issues/390)
-7. [2025 年最火的前端项目出炉，No.1 易主！](https://github.com/mqyqingfeng/Blog/issues/391)
-
-## 前端工程师成长系列
+## 前端工程师系统成长系列
 
 2025 年，我在知识星球更新了一套名为“前端大佬成长之路”的课程。课程不再拘泥于技术，而是总结了我这 10 年来的工作生活经验，讲解技术人成长的方方面面，帮助你实现快速成长。
 
