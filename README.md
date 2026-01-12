@@ -25,7 +25,8 @@
 5. [涨见识了，Error.cause 让 JavaScript 错误调试更轻松](https://github.com/mqyqingfeng/Blog/issues/380)
 6. [前端性能革命：200 行 JavaScript 代码实现 Streaming JSON](https://github.com/mqyqingfeng/Blog/issues/390)
 7. [2025 年最火的前端项目出炉，No.1 易主！](https://github.com/mqyqingfeng/Blog/issues/391)
-8. [JavaScript Date 语法要过时了！以后用这个替代！](https://github.com/mqyqingfeng/Blog/issues/393)
+8. [JavaScript Date 语法要过时了！以后用这个替代！](https://github.com/mqyqingfeng/Blog/issues/393)]
+9. [2026 年 Web 前端开发的 8 个趋势！](https://github.com/mqyqingfeng/Blog/issues/394)
 
 ## CSS 系列
 
