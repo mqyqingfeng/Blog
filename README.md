@@ -28,6 +28,7 @@
 8. [JavaScript Date 语法要过时了！以后用这个替代！](https://github.com/mqyqingfeng/Blog/issues/393)]
 9. [2026 年 Web 前端开发的 8 个趋势！](https://github.com/mqyqingfeng/Blog/issues/394)
 10. [2025 年 HTML 年度调查报告公布！好多不知道！](https://github.com/mqyqingfeng/Blog/issues/396)
+11. [2025 年 HTML 年度调查报告亮点速览！](https://github.com/mqyqingfeng/Blog/issues/397)
 
 ## CSS 系列
 
