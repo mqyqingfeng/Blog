@@ -30,6 +30,7 @@
 10. [2025 年 HTML 年度调查报告公布！好多不知道！](https://github.com/mqyqingfeng/Blog/issues/396)
 11. [2025 年 HTML 年度调查报告亮点速览！](https://github.com/mqyqingfeng/Blog/issues/397)
 12. [现代 CSS 颜色使用指南](https://github.com/mqyqingfeng/Blog/issues/398)
+13. [现代 CSS 颜色使用指南进阶篇](https://github.com/mqyqingfeng/Blog/issues/399)
 
 ## CSS 系列
 
