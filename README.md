@@ -31,6 +31,7 @@
 11. [2025 年 HTML 年度调查报告亮点速览！](https://github.com/mqyqingfeng/Blog/issues/397)
 12. [现代 CSS 颜色使用指南](https://github.com/mqyqingfeng/Blog/issues/398)
 13. [现代 CSS 颜色使用指南进阶篇](https://github.com/mqyqingfeng/Blog/issues/399)
+14. [20 周年之际！jQuery 4.0 正式发布！轻装上阵](https://github.com/mqyqingfeng/Blog/issues/400)
 
 ## CSS 系列
 
