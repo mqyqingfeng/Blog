@@ -35,6 +35,7 @@
 15. [现代 CSS 颜色使用指南进阶篇](https://github.com/mqyqingfeng/Blog/issues/399)
 16. [20 周年之际！jQuery 4.0 正式发布！轻装上阵](https://github.com/mqyqingfeng/Blog/issues/400)
 17. [2025 年 CSS 年度调查报告亮点速览](https://github.com/mqyqingfeng/Blog/issues/401)
+18. [回首 jQuery 20 年：从辉煌到没落](https://github.com/mqyqingfeng/Blog/issues/402)
 
 ## Nano Banana Pro 系列
 
