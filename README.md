@@ -16,7 +16,7 @@
 
 作为准前端开发专家的你，第一时间获取前端资讯、技术干货、AI 课程，那不得关注下我的公众号「冴羽」？
 
-## JavaScript 系列
+## 最新单篇
 
 1. [10 个被严重低估的 JS 特性，直接少写 500 行代码](https://github.com/mqyqingfeng/Blog/issues/376)
 2. [JavaScript 异步循环踩坑指南](https://github.com/mqyqingfeng/Blog/issues/376)
@@ -25,18 +25,16 @@
 5. [涨见识了，Error.cause 让 JavaScript 错误调试更轻松](https://github.com/mqyqingfeng/Blog/issues/380)
 6. [前端性能革命：200 行 JavaScript 代码实现 Streaming JSON](https://github.com/mqyqingfeng/Blog/issues/390)
 7. [2025 年最火的前端项目出炉，No.1 易主！](https://github.com/mqyqingfeng/Blog/issues/391)
-8. [JavaScript Date 语法要过时了！以后用这个替代！](https://github.com/mqyqingfeng/Blog/issues/393)]
-9. [2026 年 Web 前端开发的 8 个趋势！](https://github.com/mqyqingfeng/Blog/issues/394)
-10. [2025 年 HTML 年度调查报告公布！好多不知道！](https://github.com/mqyqingfeng/Blog/issues/396)
-11. [2025 年 HTML 年度调查报告亮点速览！](https://github.com/mqyqingfeng/Blog/issues/397)
-12. [现代 CSS 颜色使用指南](https://github.com/mqyqingfeng/Blog/issues/398)
-13. [现代 CSS 颜色使用指南进阶篇](https://github.com/mqyqingfeng/Blog/issues/399)
-14. [20 周年之际！jQuery 4.0 正式发布！轻装上阵](https://github.com/mqyqingfeng/Blog/issues/400)
-
-## CSS 系列
-
-1. [CSS 新特性！瀑布流布局的终极解决方案](https://github.com/mqyqingfeng/Blog/issues/392)
-2. [2026 年前端必须掌握的 4 个 CSS 新特性！](https://github.com/mqyqingfeng/Blog/issues/395)
+8. [CSS 新特性！瀑布流布局的终极解决方案](https://github.com/mqyqingfeng/Blog/issues/392)
+9. [JavaScript Date 语法要过时了！以后用这个替代！](https://github.com/mqyqingfeng/Blog/issues/393)]
+10. [2026 年 Web 前端开发的 8 个趋势！](https://github.com/mqyqingfeng/Blog/issues/394)
+11. [2026 年前端必须掌握的 4 个 CSS 新特性！](https://github.com/mqyqingfeng/Blog/issues/395)
+12. [2025 年 HTML 年度调查报告公布！好多不知道！](https://github.com/mqyqingfeng/Blog/issues/396)
+13. [2025 年 HTML 年度调查报告亮点速览！](https://github.com/mqyqingfeng/Blog/issues/397)
+14. [现代 CSS 颜色使用指南](https://github.com/mqyqingfeng/Blog/issues/398)
+15. [现代 CSS 颜色使用指南进阶篇](https://github.com/mqyqingfeng/Blog/issues/399)
+16. [20 周年之际！jQuery 4.0 正式发布！轻装上阵](https://github.com/mqyqingfeng/Blog/issues/400)
+17. [2025 年 CSS 年度调查报告亮点速览](https://github.com/mqyqingfeng/Blog/issues/401)
 
 ## Nano Banana Pro 系列
 
