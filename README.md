@@ -44,6 +44,7 @@
 24. [我没想到 CSS if 函数这么强](https://github.com/mqyqingfeng/Blog/issues/409)
 25. [2026 年 JavaScript 框架 3 大趋势](https://github.com/mqyqingfeng/Blog/issues/410)
 26. [100s 带你了解 Bun 为什么这么火](https://github.com/mqyqingfeng/Blog/issues/411)
+27. [写给自学前端同学的编程法则](https://github.com/mqyqingfeng/Blog/issues/412)
 
 ## Nano Banana Pro 系列
 
