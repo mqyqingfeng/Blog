@@ -8,13 +8,13 @@
 * 翻译：[TypeScript 中文文档](http://ts.yayujs.com/)、[Svelte 中文文档](https://svelte.yayujs.com/)、[Solid 中文文档](https://solid.yayujs.com/)
 * 小册：[《Next.js 开发指南》](https://s.juejin.cn/ds/i8kJo2o8/)、[《Svelte 开发指南》](https://s.juejin.cn/ds/iUurdrae/)、[《Astro 开发指南》](https://juejin.cn/book/7452253924608147467)
 * 专栏：[掘金](https://juejin.cn/user/712139234359182/columns)、[思否](https://segmentfault.com/u/yayu)、[语雀](https://www.yuque.com/yayu)、公众号：[冴羽（#yayujs）](https://cdn.jsdelivr.net/gh/mqyqingfeng/picture/qrcode_for_gh_bd1a3dc9eafd_258.jpg)
-* 星球：[冴羽·前端大佬成长之路](https://t.zsxq.com/tn3PW)，用一年时间，十倍成长，一鸣惊人
+* 星球：[冴羽·前端开发者的破局之路](https://t.zsxq.com/tn3PW)，10 年经验总结、100+ 深度长文，70W 字内容
 
 ## 公众号
 
 <img width="15%" src="https://github.com/user-attachments/assets/000b8b3c-a617-4982-8f3d-abdf31b52b88" />
 
-作为准前端开发专家的你，第一时间获取前端资讯、技术干货、AI 课程，那不得关注下我的公众号「冴羽」？
+第一时间获取前端资讯、技术干货、AI 课程，那不得关注下我的公众号「冴羽」？
 
 ## 最新单篇
 
@@ -45,6 +45,7 @@
 25. [2026 年 JavaScript 框架 3 大趋势](https://github.com/mqyqingfeng/Blog/issues/410)
 26. [100s 带你了解 Bun 为什么这么火](https://github.com/mqyqingfeng/Blog/issues/411)
 27. [写给自学前端同学的编程法则](https://github.com/mqyqingfeng/Blog/issues/412)
+28. [2026 年前端开发工程师应该学什么？](https://github.com/mqyqingfeng/Blog/issues/413)
 
 ## Nano Banana Pro 系列
 
