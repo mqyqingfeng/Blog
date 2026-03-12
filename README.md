@@ -48,6 +48,7 @@
 28. [2026 年前端开发工程师应该学什么？](https://github.com/mqyqingfeng/Blog/issues/413)
 29. [来自顶级大佬 TypeScript 之父的 7 个启示](https://github.com/mqyqingfeng/Blog/issues/414)
 30. [AI 时代前端开发不变的 3 个原则](https://github.com/mqyqingfeng/Blog/issues/415)
+31. [资深前端都在用的 9 个调试偏方](https://github.com/mqyqingfeng/Blog/issues/416)
 
 ## Nano Banana Pro 系列
 
