@@ -49,6 +49,7 @@
 29. [来自顶级大佬 TypeScript 之父的 7 个启示](https://github.com/mqyqingfeng/Blog/issues/414)
 30. [AI 时代前端开发不变的 3 个原则](https://github.com/mqyqingfeng/Blog/issues/415)
 31. [资深前端都在用的 9 个调试偏方](https://github.com/mqyqingfeng/Blog/issues/416)
+32. [前端开发者的迷茫，其实是认知跃迁的前夜](https://github.com/mqyqingfeng/Blog/issues/417)
 
 ## Nano Banana Pro 系列
 
