@@ -12,9 +12,16 @@
 
 ## 公众号
 
-<img width="15%" src="https://github.com/user-attachments/assets/000b8b3c-a617-4982-8f3d-abdf31b52b88" />
-
-第一时间获取前端资讯、技术干货、AI 课程，那不得关注下我的公众号「冴羽」？
+<table>
+<tr>                
+  <th>冴羽</th>     
+  <th>冴羽 AI</th>
+</tr>
+<tr>               
+  <td align="center"><img width="30%"  src="https://github.com/user-attachments/assets/000b8b3c-a617-4982-8f3d-abdf31b52b88" /></td>     
+  <td align="center"><img width="30%" src="https://github.com/user-attachments/assets/1b4b734c-e1bb-44b2-9910-79295a40fb01" /></td>
+</tr>
+</table>
 
 ## 最新单篇
 
