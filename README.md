@@ -57,6 +57,7 @@
 30. [AI 时代前端开发不变的 3 个原则](https://github.com/mqyqingfeng/Blog/issues/415)
 31. [资深前端都在用的 9 个调试偏方](https://github.com/mqyqingfeng/Blog/issues/416)
 32. [前端开发者的迷茫，其实是认知跃迁的前夜](https://github.com/mqyqingfeng/Blog/issues/417)
+33. [在浏览器控制台调试的 6 个秘密技巧](https://github.com/mqyqingfeng/Blog/issues/418)
 
 ## Nano Banana Pro 系列
 
