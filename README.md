@@ -75,6 +75,7 @@
 32. [前端开发者的迷茫，其实是认知跃迁的前夜](https://github.com/mqyqingfeng/Blog/issues/417)
 33. [在浏览器控制台调试的 6 个秘密技巧](https://github.com/mqyqingfeng/Blog/issues/418)
 34. [先收藏！3000 个网站设计案例供你参考！](https://github.com/mqyqingfeng/Blog/issues/419)
+35. [等等，浏览器竟然有这功能？！10 个被低估的 Web API](https://github.com/mqyqingfeng/Blog/issues/420)
 
 ## Nano Banana Pro 系列
 
