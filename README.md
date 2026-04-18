@@ -77,6 +77,7 @@
 34. [先收藏！3000 个网站设计案例供你参考！](https://github.com/mqyqingfeng/Blog/issues/419)
 35. [等等，浏览器竟然有这功能？！10 个被低估的 Web API](https://github.com/mqyqingfeng/Blog/issues/420)
 36. [请愿书：Node.js 核心代码不应该包含 AI 代码！](https://github.com/mqyqingfeng/Blog/issues/427)
+37. [2026 年的 JavaScript 已经不是你认识的 JavaScript 了](https://github.com/mqyqingfeng/Blog/issues/428)
 
 ## Nano Banana Pro 系列
 
