@@ -80,6 +80,7 @@
 37. [2026 年的 JavaScript 已经不是你认识的 JavaScript 了](https://github.com/mqyqingfeng/Blog/issues/428)
 38. [最大的 React 性能杀手不就是你？](https://github.com/mqyqingfeng/Blog/issues/429)
 39. [一个 70 行的文件，6 万 Star：Karpathy 的 AI 编程守则](https://github.com/mqyqingfeng/Blog/issues/430)
+40. [写了 10 年代码，我才发现最该学的其实是…](https://github.com/mqyqingfeng/Blog/issues/431)
 
 ## Nano Banana Pro 系列
 
