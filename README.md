@@ -92,6 +92,7 @@
 ## 前端周报
 
 1. [前端周报：TypeScript 7.0 重写、Vercel 安全事件、第二次 API 开放浪潮](https://github.com/mqyqingfeng/Blog/issues/433)
+2. [前端周报：Rolldown 1.0 正式发布、TanStack 遭遇史诗级供应链攻击、Bun 全面迁移至 Rust](https://github.com/mqyqingfeng/Blog/issues/442)
 
 ## Nano Banana Pro 系列
 
