@@ -88,6 +88,7 @@
 41. [AI 需要学，你更需要学的 56 条软件工程定律](https://github.com/mqyqingfeng/Blog/issues/434)
 42. [3 招让你的 Shadcn 出海应用性能提升 40 倍](https://github.com/mqyqingfeng/Blog/issues/435)
 43. [超越Vibe Coding —— AI 辅助编程指南](https://github.com/mqyqingfeng/Blog/issues/436)
+44. [快速夯实 JavaScrilpt 基础的 33 个概念](https://github.com/mqyqingfeng/Blog/issues/444)
 
 ## 前端周报
 
