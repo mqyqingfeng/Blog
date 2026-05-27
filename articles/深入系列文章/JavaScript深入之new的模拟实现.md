@@ -199,7 +199,7 @@ function objectFactory() {
 
     var ret = Constructor.apply(obj, arguments);
 
-    return typeof ret === 'object' ? ret : obj;
+    return ret && (typeof ret === 'object' || typeof ret === 'function') ? ret : obj;
 
 };
 ```
