@@ -41,6 +41,7 @@
 
 ## 最新活动
 
+1。 [从副业五位数到独立创业，本周五晚 8 点我们邀请了一人公司掌舵人流年为大家带来一场……](https://github.com/mqyqingfeng/Blog/issues/447)
 1. [这个活动我们办了 4 年了!](https://github.com/mqyqingfeng/Blog/issues/441)
 
 ## 我的思考
